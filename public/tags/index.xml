@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Colin Spear</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>addiction</title>
+      <link>http://example.org/tags/addiction/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/addiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anonymity</title>
+      <link>http://example.org/tags/anonymity/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/anonymity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>http://example.org/tags/books/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>creator economy</title>
+      <link>http://example.org/tags/creator-economy/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/creator-economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identity</title>
+      <link>http://example.org/tags/identity/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>http://example.org/tags/notes/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>http://example.org/tags/reading/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reputation</title>
+      <link>http://example.org/tags/reputation/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/reputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>people</title>
+      <link>http://example.org/tags/people/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>http://example.org/tags/podcasts/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quotes</title>
+      <link>http://example.org/tags/quotes/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/quotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>funny</title>
+      <link>http://example.org/tags/funny/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/funny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>http://example.org/tags/productivity/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>http://example.org/tags/twitter/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>causal inference</title>
+      <link>http://example.org/tags/causal-inference/</link>
+      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      
+      <guid>http://example.org/tags/causal-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>http://example.org/tags/statistics/</link>
+      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      
+      <guid>http://example.org/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

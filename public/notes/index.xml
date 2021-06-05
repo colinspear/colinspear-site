@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Colin Spear</title>
+    <link>http://example.org/notes/</link>
+    <description>Recent content in Notes on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-05-19</title>
+      <link>http://example.org/notes/2021-05-19/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-19/</guid>
+      <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
+ There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
+    </item>
+    
+    <item>
+      <title>2021-05-18</title>
+      <link>http://example.org/notes/2021-05-18/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-18/</guid>
+      <description>Books:
+Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
+Articles:
+ Acceptance Parenting by Agnes Callard Why are non-alcoholic drinks so expensive? Vancouver is the anti-asian hate crime capital of the world. It&amp;rsquo;s also nearly 30% asian.</description>
+    </item>
+    
+    <item>
+      <title>2021-05-11</title>
+      <link>http://example.org/notes/2021-05-11/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-11/</guid>
+      <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
+ There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
+Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
+    </item>
+    
+    <item>
+      <title>2021-05-10</title>
+      <link>http://example.org/notes/2021-05-10/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-10/</guid>
+      <description>David Perell&amp;rsquo;s podcast North Star Podcast An interview podcast of a certain set of tech or tech adjacent writers / public intellectual types that is familiar to anyone plugged into that scene on Twitter. Perell is a recipient of the Emergent Ventures Fellowship from the Mercatus Center (of Tyler Cowen fame) and seems to be on a mission to interview just about every Twitter famous tech (adjacent) star out there. I listened to his interview with Michael Nielsen, a Y Combinator research fellow focusing on how we learn and how to learn better.</description>
+    </item>
+    
+    <item>
+      <title>2021-05-03</title>
+      <link>http://example.org/notes/2021-05-03/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-03/</guid>
+      <description>What to write?
+What I have been reading / listening to:
+ Robert Buchholz - Western Civilization 2 Noah Smith - Why Politically Guided Science is Bad Judith Grisel - Never Enough Ted Gioia - Music: A Subversive History Philosophize this podcast: episodes on Locke and Hobbes  </description>
+    </item>
+    
+  </channel>
+</rss>

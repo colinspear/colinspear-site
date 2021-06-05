@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Colin Spear</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Tue, 18 May 2021 20:23:04 -0700</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/posts/stoicism-vs-sentimentalism/</link>
+      <pubDate>Tue, 18 May 2021 20:23:04 -0700</pubDate>
+      
+      <guid>http://example.org/posts/stoicism-vs-sentimentalism/</guid>
+      <description>Stoicism vs Sentimentalism Use Agnes Callard&amp;rsquo;s On Anger as an argument against rationality. In this view the truly rational thing is to hold a grudge and exact revenge forever and ever, amen. It is the irrational dissolution of anger that allows for peace and resolution</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/performance-ambivalence/</link>
+      <pubDate>Mon, 17 May 2021 20:41:00 -0700</pubDate>
+      
+      <guid>http://example.org/posts/performance-ambivalence/</guid>
+      <description># Craft or crap? The tension between striving and embracing who we are Links  Nietsche vs Kierkegaard Tim Ferris and Brene Brown  When I was much younger, after dropping out of high school in a THC-drenched haze, I spent a lot of time meditating and reading about meditation and buddhist flavored self improvement. I loved it and took it seriously, had a regular practice, attended a regular group meditation, went on retreat and diligently studied the modern western buddhist canon.</description>
+    </item>
+    
+    <item>
+      <title>How to Focus</title>
+      <link>http://example.org/posts/focus/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/focus/</guid>
+      <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
+Canonical answers:
+ Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy</description>
+    </item>
+    
+    <item>
+      <title>My comparative advantage (the craft of being nice 🤮🤢)</title>
+      <link>http://example.org/posts/my-comparative-advantage-the-craft-of-being-nice-/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/my-comparative-advantage-the-craft-of-being-nice-/</guid>
+      <description>My comparative advantage (the craft of being nice :face_with_open_mouth_vomiting::nauseated_face:) It&amp;rsquo;s not often you see your CFO holding back tears. It&amp;rsquo;s even rarer when the reason he&amp;rsquo;s doing so is because you&amp;rsquo;re being fired.
+No, I wasn&amp;rsquo;t part of a mass layoff or a restructuring or a merger or anything like that. I just wasn&amp;rsquo;t very good at my job. We all knew it and I had already been interviewing at other places.</description>
+    </item>
+    
+    <item>
+      <title>Ideas</title>
+      <link>http://example.org/posts/ideas/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/ideas/</guid>
+      <description>Ideas  Persistence. How I&amp;rsquo;m bad at it and how important it seems to be. Persistence vs. novelty or curiosity. The way that doing small things over a long time accumulate Rationality and science vs. Narrative and feeling What is my comparative advantage? **The insularity of the tech world **(the brouhaha around Basecamp, a company of less than 60 people that was the only thing that people talked about in tech for a week) a podcast that interviews high performers on the sacrifices they&amp;rsquo;ve had to make.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/randomization-inference/</link>
+      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      
+      <guid>http://example.org/posts/randomization-inference/</guid>
+      <description>References
+ Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
+It is an alternative, experiment inspired framework for thinking about and performing causal inference
+ Cunningham treats it mostly like a robustness test (from what I can tell) outside of limited contexts, and still maybe in the most appropriate contexts as it&amp;rsquo;s not super mainstream for example, they say that it&amp;rsquo;s especially useful for situations in which, instead of working with a random sample of a population, there is good reason to believe you are working with the entire population itself what does this mean for external validity?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>people on Colin Spear</title>
+    <link>http://example.org/tags/people/</link>
+    <description>Recent content in people on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-05-18</title>
+      <link>http://example.org/notes/2021-05-18/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/2021-05-18/</guid>
+      <description>Books:
+Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
+Articles:
+ Acceptance Parenting by Agnes Callard Why are non-alcoholic drinks so expensive? Vancouver is the anti-asian hate crime capital of the world. It&amp;rsquo;s also nearly 30% asian.</description>
+    </item>
+    
+  </channel>
+</rss>
