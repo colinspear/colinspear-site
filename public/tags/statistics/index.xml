@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>statistics on Colin Spear</title>
-    <link>http://example.org/tags/statistics/</link>
+    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/statistics/</link>
     <description>Recent content in statistics on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 21:32:19 -0700</lastBuildDate><atom:link href="http://example.org/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 21:32:19 -0700</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/posts/randomization-inference/</link>
+      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
       <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
       
-      <guid>http://example.org/posts/randomization-inference/</guid>
+      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
       <description>References
  Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
 It is an alternative, experiment inspired framework for thinking about and performing causal inference
