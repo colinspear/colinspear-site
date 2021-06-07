@@ -143,8 +143,38 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/funny/</loc>
+    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/focus/</loc>
+    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/productivity/</loc>
+    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/twitter/</loc>
+    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/my-comparative-advantage-the-craft-of-being-nice-/</loc>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/notes/2021-05-03/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/ideas/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
