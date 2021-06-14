@@ -1,1 +1,0 @@
-[Learn Python the right way](https://learnpythontherightway.com/#read)
