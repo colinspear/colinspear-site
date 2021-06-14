@@ -2,31 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>books on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/books/</link>
+    <link>main.d1zllkef03p41t.amplifyapp.com/tags/books/</link>
     <description>Recent content in books on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021-05-19</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-19/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>Links</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-19/</guid>
-      <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
- There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</guid>
+      <description>Books
+Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
+Articles
+ Acceptance Parenting by Agnes Callard Why are non-alcoholic drinks so expensive? Vancouver is the anti-asian hate crime capital of the world. It&amp;rsquo;s also nearly 30% asian.</description>
     </item>
     
     <item>
-      <title>2021-05-11</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</link>
+      <title>Associative and non-associative learning</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</guid>
       <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
  There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
 Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
+    </item>
+    
+    <item>
+      <title>Facebook: The Inside Story</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
+      <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
+    </item>
+    
+    <item>
+      <title>Klara and the Sun</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</guid>
+      <description>Klara and the sun  If Klara is super intelligent, why doesn&amp;rsquo;t she know basic facts about the sum, solar system, planetary motion, etc? There is clearly some sort of some theology. Is it because the sun is all important to their existence that their creators programmed this strange theology in place of basic science? I realize now after having finished the book what an anthropocentric viewpoint the above comment takes.</description>
     </item>
     
   </channel>

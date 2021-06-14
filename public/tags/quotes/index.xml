@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>quotes on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/quotes/</link>
+    <link>main.d1zllkef03p41t.amplifyapp.com/tags/quotes/</link>
     <description>Recent content in quotes on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021-05-18</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <title>Quotes</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/people/quotes/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</guid>
-      <description>Books:
-Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
-Articles:
- Acceptance Parenting by Agnes Callard Why are non-alcoholic drinks so expensive? Vancouver is the anti-asian hate crime capital of the world. It&amp;rsquo;s also nearly 30% asian.</description>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/people/quotes/</guid>
+      <description>Quotes Devon Zuegel on the North Star Podcast:
+ Everything is interesting of you build a mental model for it
+ Agnes Callard on the Ezra Klein Show, minute 40:
+ I think we&amp;rsquo;re way too quick to identify ourselves with the long term goals, especially when we are not in the moment of being tempted. So we can say, look I know how I should really live. I know that I should really read those books, and I should not not eat the cookies and I should be less stressed about these things; I should spend more time with my family.</description>
+    </item>
+    
+    <item>
+      <title>Music: A Subversive History</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</guid>
+      <description>Krause describes a memorable encounter with an elder of the Nez Perce tribe named Angus Wilson, who chided him one day: “You white people know nothing about music. But I’ll teach you something about it if you want.” The next morning, Krause found himself led to the bank of a stream in northeastern Oregon, where he was motioned to sit quietly on the ground. After a chilly wait, a breeze picked up, and suddenly his surroundings were filled with the sound of a pipe organ chord—a remarkable occurrence, since no instrument was in sight.</description>
     </item>
     
   </channel>

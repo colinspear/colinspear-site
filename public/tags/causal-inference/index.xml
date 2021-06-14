@@ -2,20 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>causal inference on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</link>
+    <link>main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</link>
     <description>Recent content in causal inference on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 21:32:19 -0700</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
-      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      <title>Causal inference</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/learning/causal-inference/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
-      <description>References
- Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
+      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/causal-inference/</guid>
+      <description>Causal inference  Causal Inference: The Mixtape  Similar to Mostly Harmless Econometrics, perhaps a bit more accessible plus a chapter on DAGs   The Effect  I&amp;rsquo;m mostly interested in reading Part I on Research Design   Cyrus Samii course  Recommended by Sean Taylor via Twitter    </description>
+    </item>
+    
+    <item>
+      <title>Randomization inference</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
+      <description>Randomization inference Links  Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
 It is an alternative, experiment inspired framework for thinking about and performing causal inference
  Cunningham treats it mostly like a robustness test (from what I can tell) outside of limited contexts, and still maybe in the most appropriate contexts as it&amp;rsquo;s not super mainstream for example, they say that it&amp;rsquo;s especially useful for situations in which, instead of working with a random sample of a population, there is good reason to believe you are working with the entire population itself what does this mean for external validity?</description>
     </item>
