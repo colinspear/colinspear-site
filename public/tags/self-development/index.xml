@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>self development on Colin Spear</title>
-    <link>main.d1zllkef03p41t.amplifyapp.com/tags/self-development/</link>
+    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/self-development/</link>
     <description>Recent content in self development on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/self-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/self-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identity goals</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
+      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
+      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
       <description>Identity goals This is inspired by Atomic Habits. I wrote them when I read the book then forgot about them for some time. After a while I returned to reread them and found it to be a useful recentering device. So I&amp;rsquo;m keeping them for now.
 Goals:
  I want to be the type of person who is competent at statistics, machine learning, causal inference and software engineering I don&amp;rsquo;t drink more often than I do drink.</description>
@@ -21,10 +21,10 @@ Goals:
     
     <item>
       <title>Implementation intentions</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</link>
+      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</link>
       <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</guid>
+      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</guid>
       <description>Implementation intentions Template:  I will {BEHAVIOR} at {TIME} in {LOCATION}  Implementation Intentions: Daily   Every day before I sit down at my desk, I will do two Sun salutations
   I will start work when I first sit down at my desk on Monday, Wednesday and Friday.
   I will work on a personal coding project for at least fifteen minutes and no more than an hour when I first sit down at my desk on Tuesday and Thursday.</description>

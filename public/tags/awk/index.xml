@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>awk on Colin Spear</title>
-    <link>main.d1zllkef03p41t.amplifyapp.com/tags/awk/</link>
+    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/awk/</link>
     <description>Recent content in awk on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/awk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/awk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Count files by type and directory</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
+      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
