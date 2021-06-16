@@ -9,6 +9,8 @@ copyright = "Colin Spear" # cactus theme will use site title if copyright is not
 # googleAnalytics = "UA-123-45"
 # googleAnalyticsAsync = true # not required
 
+ignoreFiles = ["learning", "google-docs", "scrap"]
+
 [params]
   colortheme = "white" # dark, light, white, or classic
   description = "Hi! I'm Colin. This is my playground. I share my writing, my notes and my intellectual wanderings here. I hope you can find something of interest amongst the many things that interest me. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at [@colinspear](https://twitter.com/colinspear). If you would like to know a bit more about me, head over to the about page."
@@ -37,13 +39,13 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Notes"
-url = "/notes"
+name = "Links"
+url = "/links"
 weight = 2
 
 [[menu.main]]
-name = "Learning"
-url = "/learning"
+name = "Notes"
+url = "/notes"
 weight = 2
 
 [[menu.main]]

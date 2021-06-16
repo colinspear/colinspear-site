@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>causal inference</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <title>links</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/tags/links/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/links/</guid>
       <description></description>
     </item>
     
@@ -50,6 +50,15 @@
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>main.d1zllkef03p41t.amplifyapp.com/tags/niceness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/notes/</guid>
       <description></description>
     </item>
     
@@ -99,15 +108,6 @@
     </item>
     
     <item>
-      <title>links</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/links/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/links/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>drafts</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/tags/drafts/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
@@ -144,15 +144,6 @@
     </item>
     
     <item>
-      <title>ideas</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/ideas/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/ideas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>internet economics</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/tags/internet-economics/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
@@ -180,29 +171,11 @@
     </item>
     
     <item>
-      <title>notes</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>place</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/tags/place/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>main.d1zllkef03p41t.amplifyapp.com/tags/place/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>projects</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/projects/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/projects/</guid>
       <description></description>
     </item>
     
@@ -234,11 +207,11 @@
     </item>
     
     <item>
-      <title>housing</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/housing/</link>
-      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <title>causal inference</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/housing/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</guid>
       <description></description>
     </item>
     
@@ -360,15 +333,6 @@
     </item>
     
     <item>
-      <title>addiction</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/tags/addiction/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/addiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>joke</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/tags/joke/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
@@ -392,6 +356,15 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>main.d1zllkef03p41t.amplifyapp.com/tags/tweets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>addiction</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/tags/addiction/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/tags/addiction/</guid>
       <description></description>
     </item>
     

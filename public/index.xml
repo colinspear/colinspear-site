@@ -7,14 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="main.d1zllkef03p41t.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Causal inference</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/learning/causal-inference/</link>
+      <title>2021-06-15</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</guid>
+      <description>2021-06-15 Books
+ A Mind at Play: How Claude Shannon Invented the Information Age. I started this book some time ago, but didn&amp;rsquo;t really get into it. This time, I think I&amp;rsquo;ll finish it. The first part is a mostly personal history, which is interesting, but part two is really where it starts to get good. As someone completely unfamiliar with information theory, the basic concepts are presented very well and clearly.</description>
+    </item>
+    
+    <item>
+      <title>Physical vs digital innovation</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/physical-vs-digital-innovation/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/physical-vs-digital-innovation/</guid>
+      <description>I&amp;rsquo;m interested in the difference between innovation and technology that manipulated the physical world versus that which is primarily digital.
+Questions
+ Is there some sort of natural cap on the returns to digital technologies? Will more software, including most AI really impact our lives and the economy in world changing ways? Software may be eating the world, but what are the limits on how much it can change the world?</description>
+    </item>
+    
+    <item>
+      <title>2021-06-13</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/causal-inference/</guid>
-      <description>Causal inference  Causal Inference: The Mixtape  Similar to Mostly Harmless Econometrics, perhaps a bit more accessible plus a chapter on DAGs   The Effect  I&amp;rsquo;m mostly interested in reading Part I on Research Design   Cyrus Samii course  Recommended by Sean Taylor via Twitter    </description>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</guid>
+      <description>2021-06-22   This article on Patrick Collison, Tyler Cowen and Patrick Jay&amp;rsquo;s reflections on the Fast Grants program they started to fund COVID related research during the pandemic. This quote stands out:
+ Scientists are in the paradoxical position of being deemed the very best people to fund in order to make important discoveries but not so trustworthy that they should be able to decide what work would actually make the most sense!</description>
     </item>
     
     <item>
@@ -56,21 +78,11 @@ No, I wasn&amp;rsquo;t part of a mass layoff or a restructuring or a merger or a
     </item>
     
     <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/roundtable/</link>
-      <pubDate>Tue, 08 Jun 2021 20:42:44 -0700</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/roundtable/</guid>
-      <description>Roundtable  A couple ad hoc requests fac staff documentation IAA documentation GES administration and automation Faculty enrolment survey NSSE data prep enrolments by day and time  NSSE
-two options, how to request UVic data if desired</description>
-    </item>
-    
-    <item>
       <title>2021-06-08</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-06-08/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-06-08/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</guid>
       <description> Simone Biles. What a beast.  </description>
     </item>
     
@@ -99,32 +111,23 @@ Why might big projects take longer now than in the past?
     
     <item>
       <title>2021-06-01</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-06-01/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-06-01/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</guid>
       <description>2021-06-01 Reading
  The Honest Broker by Ted Gioia. And they do this for a very simple reason: their prestige is enhanced by making these connections. [&amp;hellip;] the Honest Broker plays the long-term game, mate. He&amp;rsquo;s taking about getting things done as an outsider in China in the nineties, but reputation economies tend to be a vital and underestimated resource in the West too. Thorstein Veblen&amp;rsquo;s Theory of the leisure class - an update This is Rob Henderson&amp;rsquo;s idea that Ellie status is conveyed by displaying a certain set of beliefs in the same way that one might wear a certain hat or handbag or sports car.</description>
     </item>
     
     <item>
       <title>Agglomeration economies and the internet</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economies-and-the-internet/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economy-internet/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economies-and-the-internet/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economy-internet/</guid>
       <description>Agglomeration economies and the internet Links
  https://ideas.repec.org/a/eee/juecon/v73y2013i1p94-110.html  Motivating questions
  What is the effect of the internet on agglomeration economies? How much of the benefits of colocation are ameliorated by the internet? What are the contours of the Internet&amp;rsquo;s effect on the benefits of colocation? Obviously, being in the same place is still important. In what ways can the internet allow people to capture these benefits and in what ways is it still limited?</description>
-    </item>
-    
-    <item>
-      <title>Project ideas</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/learning/ideas/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/ideas/</guid>
-      <description>Writing  Persistence. How I&amp;rsquo;m bad at it and how important it seems to be. Persistence vs. novelty or curiosity. The way that doing small things over a long time accumulate Rationality and science vs. Narrative and feeling What is my comparative advantage? The insularity of the tech world (thinking of the brouhaha around Basecamp, a company of less than 60 people that was the only thing that people talked about in tech for a week) Vocation and the meaning of work Addiction On being a late bloomer How I&amp;rsquo;ve changed since becoming a parent Reading about fishing as a kid  Other  A podcast that interviews high performers on the sacrifices they&amp;rsquo;ve had to make.</description>
     </item>
     
     <item>
@@ -149,25 +152,6 @@ Why might big projects take longer now than in the past?
     </item>
     
     <item>
-      <title>Housing costs</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/learning/cost-of-housing/</link>
-      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/cost-of-housing/</guid>
-      <description>Booming real estate prices Questions  Why are prices going up all across the country / continent? How is Vancouver both typical and atypical in this dynamic?  Links  https://marginalrevolution.com/marginalrevolution/2021/05/deregulate-the-market-for-land.html https://www.policynote.ca/build-non-profit/#.YFDQV5fcRgI.twitter https://www.policyalternatives.ca/publications/reports/planning-build-out-affordable-rental-housing-metro-vancouver https://twitter.com/GRIDSVancouver/status/1399115931511529472?s=19 https://twitter.com/GRIDSVancouver/status/640544192045826049?s=19  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/2021-05-27-19-55-26/</link>
-      <pubDate>Thu, 27 May 2021 20:17:52 -0700</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/2021-05-27-19-55-26/</guid>
-      <description>Trying to keep up the habit. Hannah and Roan are upstairs, I am down on the ball with Else on my chest.
-I got my first dose of the vaccine today. It was surreal and moving. It was administered in the lobby of the UBC Pharmaceutical building, a big, airy space with stairwells and architectural elements protruding from the walls out into space. Temporary dividers were set up so that the line snaked between check in stations where I was given hand sanitizer numerous times along with a mask and a vaccination card.</description>
-    </item>
-    
-    <item>
       <title>Is it immoral to be rich?</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/posts/morality-wealth/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
@@ -188,11 +172,11 @@ It is an alternative, experiment inspired framework for thinking about and perfo
     </item>
     
     <item>
-      <title>Links</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-25/</link>
+      <title>2021-05-25</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-25/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</guid>
       <description>Music
  Remember 01 by The Halluci Nation (formerly A Tribe Called Red), an indigenous Canadian hip-hop group based in Ottawa. Another indigenous Canadian musician, Willie Dunn wrote incredble folk songs about native history, culture and western civilization and politics. He has a great voice and his lyrics are 👌. Ballad of Crowfoot is a good place to start and one of his best known songs Mabe Fratti. Moving. A Guatemalan cellist making minimalist electronic cello music in Mexico City.</description>
     </item>
@@ -208,16 +192,6 @@ Links  unbuilders The cost of running a restaurant  Motivating questions  What a
     </item>
     
     <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/friday-three-beers-in/</link>
-      <pubDate>Fri, 21 May 2021 20:18:58 -0700</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/friday-three-beers-in/</guid>
-      <description>Friday, three beers in Don&amp;rsquo;t worry, they&amp;rsquo;re not strong beers.
-Tonight I am tired. I have a tired baby on my chest, fisting about being constrained by her carrier. I have a moderate amount of alcohol in my bloodstream which has certainly already begun to metabolize (give me more! says the goblin). I configured a remote server for my new website today and spent two hours on a phone call learning the convoluted, manually adjusted ETL process for one of our reporting tables at work.</description>
-    </item>
-    
-    <item>
       <title>Confusion</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
@@ -228,20 +202,20 @@ Tonight I am tired. I have a tired baby on my chest, fisting about being constra
     
     <item>
       <title>Economics of anonymity in the creator economy</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-19/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-19/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</guid>
       <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
  There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
     </item>
     
     <item>
-      <title>Links</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</link>
+      <title>2021-05-18</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</guid>
       <description>Books
 Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
 Articles
@@ -259,15 +233,6 @@ Not exactly support for my gotta be irrational to be ethical thesis, but rather 
     </item>
     
     <item>
-      <title>Addiction</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/learning/addiction/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/addiction/</guid>
-      <description>Questions  What is addiction? Is it measures by our actions? Our desires How is it thought of differently in different cultures? What sorts of things are addictive? What are the consequences of addiction? Who gets addicted? Do we all have addictions to something? What do we do about addiction? How do we engage and interact with it both within ourselves and in our families, communities, countries and the world What is the purpose of addiction?</description>
-    </item>
-    
-    <item>
       <title>Focus</title>
       <link>main.d1zllkef03p41t.amplifyapp.com/notes/focus/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
@@ -280,13 +245,24 @@ Canonical answers:
     
     <item>
       <title>Associative and non-associative learning</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</guid>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</guid>
       <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
  There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
 Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
+    </item>
+    
+    <item>
+      <title>2021-05-10</title>
+      <link>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>main.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</guid>
+      <description>Articles
+ This Bloomberg article on anti-Asian discrimination in Vancouver The table on the timeline of the Women&amp;rsquo;s Suffrage page on Wikipedia. It&amp;rsquo;s mind-boggling how recently women gained the right to vote. This awesome newsletter entry by Ted Gioia on The Deadliest Song in History. Taking Sex Differences in Personality Seriously  Music
+ My Analog Journal. A great YouTube channel that &amp;ldquo;explore rare grooves around the world on vinyl&amp;rdquo;. It&amp;rsquo;s a bunch of hour long sets, filmed looking straight down at the turntable while he spins.</description>
     </item>
     
     <item>
@@ -296,17 +272,6 @@ Habituation is when repeated exposure to a stimulus decreases an organism&amp;rs
       
       <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
       <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
-    </item>
-    
-    <item>
-      <title>Links</title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-10/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/notes/2021-05-10/</guid>
-      <description>Articles
- This Bloomberg article on anti-Asian discrimination in Vancouver The table on the timeline of the Women&amp;rsquo;s Suffrage page on Wikipedia. It&amp;rsquo;s mind-boggling how recently women gained the right to vote. This awesome newsletter entry by Ted Gioia on The Deadliest Song in History. Taking Sex Differences in Personality Seriously  Music
- My Analog Journal. A great YouTube channel that &amp;ldquo;explore rare grooves around the world on vinyl&amp;rdquo;. It&amp;rsquo;s a bunch of hour long sets, filmed looking straight down at the turntable while he spins.</description>
     </item>
     
     <item>
@@ -353,16 +318,6 @@ Goals:
       
       <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</guid>
       <description>Krause describes a memorable encounter with an elder of the Nez Perce tribe named Angus Wilson, who chided him one day: “You white people know nothing about music. But I’ll teach you something about it if you want.” The next morning, Krause found himself led to the bank of a stream in northeastern Oregon, where he was motioned to sit quietly on the ground. After a chilly wait, a breeze picked up, and suddenly his surroundings were filled with the sound of a pipe organ chord—a remarkable occurrence, since no instrument was in sight.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/vaccine-confirmation/</link>
-      <pubDate>Tue, 20 Apr 2021 19:25:41 -0700</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/vaccine-confirmation/</guid>
-      <description>Vaccine registration confirmation R - E Y S 9 H 3 8 J
-Booking confirmation R-EYS9H38J</description>
     </item>
     
     <item>
@@ -453,8 +408,7 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
       <guid>main.d1zllkef03p41t.amplifyapp.com/about/</guid>
       <description>Hello!
 My name is Colin. This is my playground. I share my writing, my notes and my intellectual wanderings here. I hope you can find something of interest amongst the many things that grab my attention. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at @colinspear.
-Purpose of this website:
- To be my digital home.</description>
+By training, I am an economist, a baker, an artist and a student of the Spanish language.</description>
     </item>
     
     <item>
@@ -504,29 +458,11 @@ Purpose of this website:
     
     <item>
       <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/learning/cs-programming/</link>
+      <link>main.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>main.d1zllkef03p41t.amplifyapp.com/learning/cs-programming/</guid>
-      <description>Resources Learn Python the right way</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/20210613-groceries/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/20210613-groceries/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>main.d1zllkef03p41t.amplifyapp.com/scrap/new-file/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>main.d1zllkef03p41t.amplifyapp.com/scrap/new-file/</guid>
-      <description></description>
+      <guid>main.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</guid>
+      <description>A Mind at Play Information is divorced from content. This was one of the fundamental insights leading up to Shannon&amp;rsquo;s work. Information is not about what you send, it&amp;rsquo;s simply about what you can send, or the set of things you can send. This is kind of amazing to me: developing the technologies that have given us so many platforms for expressing our weirdness and individuality was only possible by ignoring all of that stuff in the first place.</description>
     </item>
     
     <item>
