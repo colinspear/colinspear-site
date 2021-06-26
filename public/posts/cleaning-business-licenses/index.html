@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Cleaning Vancouver&#39;s open business license data | Colin Spear</title>
+  <meta name="description" content="Hi! I&#39;m Colin. This is my playground. I share my writing, my notes and my intellectual wanderings here. I hope you can find something of interest amongst the many things that interest me. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at [@colinspear](https://twitter.com/colinspear). If you would like to know a bit more about me, head over to the about page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Cleaning Vancouver&#39;s open business license data" />
+<meta property="og:description" content="This is the first post in a series on building an end to end machine learning tool using Vancouver Businesses License data from Vancouver&rsquo;s Open Data Portal. V0 will be a trained model, served up to a website with a simple front end where aspiring Vancouver business owners can plug in some information about their business and get back a success likelihood score1 that can help them decide if opening their business is a good idea." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cleaning-business-licenses/" />
+<meta property="article:published_time" content="2021-03-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-03T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cleaning Vancouver&#39;s open business license data"/>
+<meta name="twitter:description" content="This is the first post in a series on building an end to end machine learning tool using Vancouver Businesses License data from Vancouver&rsquo;s Open Data Portal. V0 will be a trained model, served up to a website with a simple front end where aspiring Vancouver business owners can plug in some information about their business and get back a success likelihood score1 that can help them decide if opening their business is a good idea."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="notes-submodule.d1zllkef03p41t.amplifyapp.com/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="notes-submodule.d1zllkef03p41t.amplifyapp.com/images/favicon.ico" />
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/links">Links</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/notes">Notes</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people">People</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts">Posts</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags">Tags</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&text=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&is_video=false&description=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Cleaning%20Vancouver%27s%20open%20business%20license%20data&body=Check out this article: notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&name=Cleaning%20Vancouver%27s%20open%20business%20license%20data&description=This%20is%20the%20first%20post%20in%20a%20series%20on%20building%20an%20end%20to%20end%20machine%20learning%20tool%20using%20Vancouver%20Businesses%20License%20data%20from%20Vancouver%26rsquo%3bs%20Open%20Data%20Portal.%20V0%20will%20be%20a%20trained%20model%2c%20served%20up%20to%20a%20website%20with%20a%20simple%20front%20end%20where%20aspiring%20Vancouver%20business%20owners%20can%20plug%20in%20some%20information%20about%20their%20business%20and%20get%20back%20a%20success%20likelihood%20score1%20that%20can%20help%20them%20decide%20if%20opening%20their%20business%20is%20a%20good%20idea." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&t=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#identify-businesses-through-time">Identify businesses through time</a>
+      <ul>
+        <li><a href="#cleanup-status-and-calculate-lifespan-of-business">Cleanup <code>Status</code> and calculate lifespan of business</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Cleaning Vancouver&#39;s open business license data
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2021-03-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-03</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/data-munging" rel="tag">data munging</a>
+            
+             ,  
+            <a class="tag-link" href="/notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/pandas" rel="tag">pandas</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>This is the first post in a series on building an end to end machine learning tool using <a href="https://opendata.vancouver.ca/explore/dataset/business-licences">Vancouver Businesses License data</a> from Vancouver&rsquo;s <a href="https://opendata.vancouver.ca/pages/home/">Open Data Portal</a>. V0 will be a trained model, served up to a website with a simple front end where aspiring Vancouver business owners can plug in some information about their business and get back a success likelihood score<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> that can help them decide if opening their business is a good idea.</p>
+<p>Data cleaning has been getting some attention lately (e.g. <a href="http://veekaybee.github.io/2021/03/26/data-ghosts/">here</a>, <a href="https://twitter.com/beeonaposy/status/1353735905962577920">here</a> and <a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/0d556e45afc54afeb2eb6b51a9bc1827b9961ff4.pdf">here</a>), so while cleaning the data sure doesn&rsquo;t sound very sexy, it is a very real and important part of the process as anybody who has worked with real word data can attest. Our model is only as good as our data, so it&rsquo;s vital that we get it nice and shiny.</p>
+<p>One other quick note about this before we bust out the elbow grease. In this case, the exercise became mostly about two things: 1) identifying unique businesses and 2) capturing when businesses shuttered without reporting it to the city. The first is important because if we can&rsquo;t identify businesses, we can&rsquo;t well say much about them. The second is what we&rsquo;re going to build our target from, so it&rsquo;s really the most important bit of information we&rsquo;ve got. Other than this, the data starts out pretty clean (consistent formats, not so many missing values, decent documentation, etc.), so let&rsquo;s count our blessings :)</p>
+<p>The first thing I will do<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> is load our data and take a cursory look at what&rsquo;s in it:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;../data/2020.11.15-business-licences.csv&#39;</span>, sep<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;;&#39;</span>)
+df<span style="color:#f92672">.</span>info()
+</code></pre></div><pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 509444 entries, 0 to 509443
+Data columns (total 24 columns):
+ #   Column                 Non-Null Count   Dtype  
+---  ------                 --------------   -----  
+ 0   FOLDERYEAR             509444 non-null  int64  
+ 1   LicenceRSN             509444 non-null  int64  
+ 2   LicenceNumber          509444 non-null  object 
+ 3   LicenceRevisionNumber  509444 non-null  int64  
+ 4   BusinessName           493514 non-null  object 
+ 5   BusinessTradeName      207726 non-null  object 
+ 6   Status                 509444 non-null  object 
+ 7   IssuedDate             424090 non-null  object 
+ 8   ExpiredDate            423765 non-null  object 
+ 9   BusinessType           509444 non-null  object 
+ 10  BusinessSubType        277373 non-null  object 
+ 11  Unit                   136789 non-null  object 
+ 12  UnitType               136748 non-null  object 
+ 13  House                  286350 non-null  object 
+ 14  Street                 286363 non-null  object 
+ 15  City                   508645 non-null  object 
+ 16  Province               508503 non-null  object 
+ 17  Country                494312 non-null  object 
+ 18  PostalCode             282009 non-null  object 
+ 19  LocalArea              447491 non-null  object 
+ 20  NumberofEmployees      509444 non-null  float64
+ 21  FeePaid                429680 non-null  float64
+ 22  ExtractDate            509444 non-null  object 
+ 23  Geom                   276450 non-null  object 
+dtypes: float64(2), int64(3), object(19)
+memory usage: 93.3+ MB
+</code></pre>
+<p>So we&rsquo;ve got 24 columns and about 500k observations. We have information about when a business licence was issued, its status, when it expired, its location, size and type. Looks fairly promising so far.</p>
+<h2 id="identify-businesses-through-time">Identify businesses through time</h2>
+<p>According to the <a href="https://opendata.vancouver.ca/explore/dataset/business-licences/information/?disjunctive.status&amp;disjunctive.businesssubtype">documentation</a>, <code>LicenceRSN</code> is the <em>unique identifier for each business licence generated by the system</em>.</p>
+<p>I started this project knowing nothing about how the Vancouver Business Licencing process works, so when I first glanced at the data I assumed that businesses retain the same license throughout their existence and simply update the same license on a periodic basis (this must happen yearly in Vancouver). This would be great, because then we could just use <code>LicenceRSN</code> to identify our business.</p>
+<p>Unfortunately, each time a business renews their license, they get a brand new <code>LicenceRSN</code>. Ideally there would be a <code>BusinessID</code> column that would provide a unique identifier for each business. After some email correspondence (Data Science!) with someone on Vancouver&rsquo;s Open Data team, I learned that&rsquo;s not how it works. So, I will have to figure out how to ID businesses myself using the information that&rsquo;s here.</p>
+<p>We can use any business information we have that doesn&rsquo;t change over time as an identifying element. If we are generous with our assumptions, that would include all location data, business name and business type. Of course it is entirely possible that all of these things <em>can</em> change (the most common of these would likely be that a business changes location) and it is almost certain that there is at least one instance of each changing somewhere in our data.</p>
+<p>In the interest of standing up a complete pipeline as quickly as possible, I&rsquo;m going to assume that most businesses stay put and do not change their name or type for the duration of their existence. I&rsquo;m also only going to include businesses located in BC that have registered names. We can revisit these assumptions when we are refining our model at a later stage.</p>
+<p>Since there are potentially quite a few identifying columns, I&rsquo;ll start with those that give the name and type of business and slowly expand my set to see how this changes the number of businesses we identify:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Only want named BC businesses</span>
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;Province&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;BC&#39;</span>]
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;BusinessName&#39;</span>]<span style="color:#f92672">.</span>notnull()]
+<span style="color:#75715e"># Base set of ID columns</span>
+id_cols <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;BusinessName&#39;</span>, <span style="color:#e6db74">&#39;BusinessTradeName&#39;</span>, <span style="color:#e6db74">&#39;BusinessType&#39;</span>, <span style="color:#e6db74">&#39;BusinessSubType&#39;</span>]
+
+<span style="color:#75715e"># Any row with a NaN will be dropped when making id</span>
+<span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;House&#39;</span>, <span style="color:#e6db74">&#39;Street&#39;</span>, <span style="color:#e6db74">&#39;City&#39;</span>, <span style="color:#e6db74">&#39;PostalCode&#39;</span>, <span style="color:#e6db74">&#39;LocalArea&#39;</span>]:
+    df[col] <span style="color:#f92672">=</span> df[col]<span style="color:#f92672">.</span>replace(np<span style="color:#f92672">.</span>nan, <span style="color:#e6db74">&#39;&#39;</span>)
+    df[col] <span style="color:#f92672">=</span> df[col]<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#39;NaN&#39;</span>, <span style="color:#e6db74">&#39;&#39;</span>)
+
+<span style="color:#75715e"># Generate potential IDs</span>
+df[<span style="color:#e6db74">&#39;name_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols)<span style="color:#f92672">.</span>ngroup()
+df[<span style="color:#e6db74">&#39;name_year_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>])<span style="color:#f92672">.</span>ngroup()
+df[<span style="color:#e6db74">&#39;name_code_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;PostalCode&#39;</span>])<span style="color:#f92672">.</span>ngroup()
+df[<span style="color:#e6db74">&#39;name_code_year_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>, <span style="color:#e6db74">&#39;PostalCode&#39;</span>])<span style="color:#f92672">.</span>ngroup()
+df[<span style="color:#e6db74">&#39;name_address_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;House&#39;</span>, <span style="color:#e6db74">&#39;Street&#39;</span>, <span style="color:#e6db74">&#39;City&#39;</span>, <span style="color:#e6db74">&#39;PostalCode&#39;</span>, <span style="color:#e6db74">&#39;LocalArea&#39;</span>])<span style="color:#f92672">.</span>ngroup()
+df[<span style="color:#e6db74">&#39;name_address_year_id&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(id_cols <span style="color:#f92672">+</span> [<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>, <span style="color:#e6db74">&#39;House&#39;</span>, <span style="color:#e6db74">&#39;Street&#39;</span>, <span style="color:#e6db74">&#39;City&#39;</span>, <span style="color:#e6db74">&#39;PostalCode&#39;</span>, <span style="color:#e6db74">&#39;LocalArea&#39;</span>])<span style="color:#f92672">.</span>ngroup()
+
+<span style="color:#66d9ef">for</span> var <span style="color:#f92672">in</span> [
+  <span style="color:#e6db74">&#39;name_id&#39;</span>, <span style="color:#e6db74">&#39;name_code_id&#39;</span>, <span style="color:#e6db74">&#39;name_address_id&#39;</span>, <span style="color:#e6db74">&#39;name_year_id&#39;</span>, 
+  <span style="color:#e6db74">&#39;name_code_year_id&#39;</span>, <span style="color:#e6db74">&#39;name_address_year_id&#39;</span>
+  ]:
+    <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#39;Unique rows, {var}: &#39;</span>, len(df[var]<span style="color:#f92672">.</span>unique()))
+</code></pre></div><pre><code>Unique rows, name_id:  105776
+Unique rows, name_code_id:  114492
+Unique rows, name_address_id:  161396
+Unique rows, name_year_id:  461196
+Unique rows, name_code_year_id:  477565
+Unique rows, name_address_year_id:  483174
+</code></pre>
+<p>The first three values give us the number of businesses throughout the seven years covered in the data. Rows four to six include the year in the identification, so that&rsquo;s the number of unique business-year combinations. Not surprisingly, when we add the business address to our identification, we get more unique values. The tradeoff here is that without the address we get to keep more data for our analysis, but we incorrectly consider any business that changes their address to be a new business. For now, I am going to choose to go with the id that gives us the most unique values (<code>name_address_id</code>). The name only IDs will be useful when we come back to find the business movers.</p>
+<p>There are 7,641 licences that are not unique by year (after dropping non-BC and nameless businesses). This is a bit less than 1.5% of the total which doesn&rsquo;t sound too bad. Using name alone would throw out about 6%. We&rsquo;ll be able to recoup some of these, but we will undoubtedly have to throw some out that whose uniqueness can&rsquo;t be distinguished<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>To uniquely identify some of those 7,641 businesses, we are going to use the <code>LicenceRevisionNumber</code> column. This is a year specific value that is recorded when some aspect of the licence changes (this could perhaps be useful when we come back to our businesses that changed address).</p>
+<p>Firstly, let&rsquo;s have a look at our duplicates:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Rename IDs and drop ones we aren&#39;t going to use</span>
+df[<span style="color:#e6db74">&#39;id&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;name_address_id&#39;</span>]
+df[<span style="color:#e6db74">&#39;year_id&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;name_address_year_id&#39;</span>]
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>drop([
+  <span style="color:#e6db74">&#39;name_id&#39;</span>, <span style="color:#e6db74">&#39;name_year_id&#39;</span>, <span style="color:#e6db74">&#39;name_code_id&#39;</span>, <span style="color:#e6db74">&#39;name_code_year_id&#39;</span>, 
+  <span style="color:#e6db74">&#39;name_address_id&#39;</span>, <span style="color:#e6db74">&#39;name_address_year_id&#39;</span>
+  ], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+
+<span style="color:#75715e"># Select within year duplicates and have a look</span>
+year_duplicates <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;year_id&#39;</span>]<span style="color:#f92672">.</span>duplicated(keep<span style="color:#f92672">=</span>False)]
+
+year_duplicates<span style="color:#f92672">.</span>sort_values([<span style="color:#e6db74">&#39;id&#39;</span>, <span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>, <span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>])[:<span style="color:#ae81ff">20</span>]
+</code></pre></div><p>I am saving you the output of that last command because it doesn&rsquo;t translate well to a blog post (wayyy too many columns). I will tell you however, that after looking at a number of chunks of this dataframe (i.e. moving those <code>[:20]</code> indices around a bit), I can see that we have both licence revisions as well as other cases in there. Let&rsquo;s just look at the licence revisions.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lic_revisions <span style="color:#f92672">=</span> year_duplicates<span style="color:#f92672">.</span>loc[<span style="color:#f92672">~</span>year_duplicates<span style="color:#f92672">.</span>duplicated(subset<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;year_id&#39;</span>, <span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>], keep<span style="color:#f92672">=</span>False)]
+
+lic_revisions<span style="color:#f92672">.</span>sort_values([<span style="color:#e6db74">&#39;id&#39;</span>, <span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>, <span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>])[:<span style="color:#ae81ff">10</span>]
+</code></pre></div><p>In the interest of time and actually getting something working, I am going to restrict myself to 1) finding address change cases<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and 2) finding licence revisions for uniquely identified companies. I&rsquo;m sure there will still be duplicates after this. If I want to be super careful, I can compare features (<code>Status</code>, <code>NumberofEmployees</code>, etc.) of the licences I am throwing out to the licences I am keeping to see if they differ in any substantial way. Let&rsquo;s start with 2).</p>
+<p>This looks pretty good! All of these went from an initial status of <code>Inactive</code> to <code>Issued</code>. My guess is that these are folks who didn&rsquo;t submit their renewal application by the end of the year so their licence lapsed (the <a href="https://opendata.vancouver.ca/explore/dataset/business-licences/information/?disjunctive.status&amp;disjunctive.businesssubtype">documentation</a> defines <code>Inactive</code> as <em>Licence is no longer active</em>). As it turns out, close to 90% of these licences take on one of these values. So what do the others look like?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lic_revisions[<span style="color:#e6db74">&#39;max_rev&#39;</span>] <span style="color:#f92672">=</span> lic_revisions<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;year_id&#39;</span>)[<span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>]<span style="color:#f92672">.</span>transform(<span style="color:#e6db74">&#39;max&#39;</span>)
+
+<span style="color:#75715e"># lic_revisions.loc[lic_revisions[&#39;max_rev&#39;]&gt;1].sort_values([&#39;id&#39;, &#39;FOLDERYEAR&#39;, &#39;LicenceRevisionNumber&#39;])[:10]</span>
+</code></pre></div><pre><code>&lt;ipython-input-12-0536b9767fc4&gt;:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  lic_revisions['max_rev'] = lic_revisions.groupby('year_id')['LicenceRevisionNumber'].transform('max')
+</code></pre>
+<p>Hmm. Strange. <code>LicenceRevisionNumber</code> doesn&rsquo;t always start with <code>0</code> and seems to sometimes skip values. However, it still looks like the highest <code>LicenceRevisionNumber</code> is the most recent license status. If I look at all the observations for a particular business it looks like this isn&rsquo;t unusual - lots of transitions from <code>Inactive</code> to <code>Issued</code><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. What happens if we just take the latest lecence revision for each company?</p>
+<p>I also noticed after rereading the documentation of Status and poking around the city&rsquo;s business licence website that a status of <code>Cancelled</code> most likely means a cancelled application. I don&rsquo;t think these will be relevant for us, so they will need to be dropped at some point. Also, as far as going out of business goes, the city says this:</p>
+<blockquote>
+<p>Please tell us if you close your business. It helps us keep our records up-to-date so we don&rsquo;t send you licence renewal notices in the future.</p>
+</blockquote>
+<p>I seriously doubt that everybody does the city this courtesy, so we will have to look for businesses that drop out of the data from one year to the next.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lic_revisions<span style="color:#f92672">.</span>loc[lic_revisions[<span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>]<span style="color:#f92672">==</span>lic_revisions[<span style="color:#e6db74">&#39;max_rev&#39;</span>], <span style="color:#e6db74">&#39;Status&#39;</span>]<span style="color:#f92672">.</span>value_counts()
+</code></pre></div><pre><code>Issued                  1199
+Pending                  148
+Cancelled                 95
+Inactive                  37
+Gone Out of Business      17
+Name: Status, dtype: int64
+</code></pre>
+<p>Looks pretty good. I&rsquo;m going to go ahead and go with this. I will have to figure out what to do with the <code>Pending</code> and <code>Inactive</code> cases, but that will apply to the rest of the data as well, so I will do that all together. Now to see about the year duplicates that are not because of licence revisions.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Full disclosure, after making the <code>other_duplicates</code> dataframe below, I had a quick look at the data, grabbing some random chunks of rows just to see what they looked like. That led to the following <em>Major Discovery</em>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">lic_revisions_final <span style="color:#f92672">=</span> lic_revisions<span style="color:#f92672">.</span>loc[lic_revisions[<span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>]<span style="color:#f92672">==</span>lic_revisions[<span style="color:#e6db74">&#39;max_rev&#39;</span>]]
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># other_duplicates.shape</span>
+
+<span style="color:#75715e"># drop_cols = [&#39;LicenceRSN&#39;, &#39;LicenceRevisionNumber&#39;, &#39;BusinessTradeName&#39;, &#39;BusinessSubType&#39;, &#39;Unit&#39;, &#39;UnitType&#39;]</span>
+<span style="color:#75715e"># df.loc[df[&#39;id&#39;].isin(other_duplicates[&#39;id&#39;]) &amp; (df[&#39;BusinessType&#39;]==&#39;One-Family Dwelling&#39;)].drop(drop_cols, axis=1).sort_values([&#39;id&#39;, &#39;FOLDERYEAR&#39;])[200:220]</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">other_duplicates <span style="color:#f92672">=</span> year_duplicates<span style="color:#f92672">.</span>loc[year_duplicates<span style="color:#f92672">.</span>duplicated(subset<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;year_id&#39;</span>, <span style="color:#e6db74">&#39;LicenceRevisionNumber&#39;</span>], keep<span style="color:#f92672">=</span>False)]
+
+df1 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>concat([other_duplicates[<span style="color:#e6db74">&#39;BusinessType&#39;</span>]<span style="color:#f92672">.</span>value_counts(), 
+           other_duplicates[<span style="color:#e6db74">&#39;BusinessType&#39;</span>]<span style="color:#f92672">.</span>value_counts() <span style="color:#f92672">/</span> other_duplicates<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]
+          ], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)[:<span style="color:#ae81ff">10</span>]
+df1<span style="color:#f92672">.</span>columns <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;BusinessCount&#39;</span>, <span style="color:#e6db74">&#39;ShareofTotal&#39;</span>]
+df1 <span style="color:#f92672">=</span> df1<span style="color:#f92672">.</span>join(
+    pd<span style="color:#f92672">.</span>concat([df[<span style="color:#e6db74">&#39;BusinessType&#39;</span>]<span style="color:#f92672">.</span>value_counts(), 
+               df[<span style="color:#e6db74">&#39;BusinessType&#39;</span>]<span style="color:#f92672">.</span>value_counts() <span style="color:#f92672">/</span> df<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]], 
+              axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+)
+
+df1<span style="color:#f92672">.</span>columns <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;BusinessCount_dup&#39;</span>, <span style="color:#e6db74">&#39;ShareofTotal_dup&#39;</span>, <span style="color:#e6db74">&#39;BusinessCount_full&#39;</span>, <span style="color:#e6db74">&#39;ShareofTotal_full&#39;</span>]
+
+df1
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Owning a rental property is overrepresented in the duplicated data (about 12% of the total), especially a one-family dwelling. This makes sense as pretty much all of these do not have any location information, presumably due to privacy concerns:</p>
+<blockquote>
+<p>BusinessType</p>
+<p>Description of the business activity, usually in accordance with the definition in the Licence By-Law No. 4450. Note: Business type names that have a notation of <em>Historic</em> at the end signify retired business licence types. These are business licence types that were once active but have since been retired. <strong>Due to privacy concern, some business types do not have address data.</strong></p>
+</blockquote>
+<p>So any person (business) who owns and rents out more than one property in the same year will be duplicated. I wasn&rsquo;t able to find confirmation that a licence is required for <em>every</em> rental property<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>, but based on what I can see here it seems likely. A quick email to the City would probably be able to confirm.</p>
+<p><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> After five minutes of searching :D&hellip; 80-20 rule, etc&hellip;</p>
+<p>Now we have a choice. Are these duplicates important to save? Can we just throw them out? Whatever we decide to do, it&rsquo;s important to think about the implications of the decision from both a technical and business perspective. How does our decision impact our data and further downstream, our modeling? What are our business goals and how does our decision impact these?</p>
+<p>To help guide the decision, I would think about what our ultimate goal (who our ultimate end user) is. In this case, I would like to have a simple tool that someone who is thinking of starting a business can use to give them some idea of how previous businesses with similar characteristics fared. How likely is it, given some basic characteristics, that my taqueria in Yaletown will survive?</p>
+<p>If I am someone who already a number of rental properties, I already probably have a pretty good idea of the market. It&rsquo;s unlikely that my lowly machine learning model is going to add a tremendous amount of value. As the data scientist building this model, I also care more about providing insight to folks who have the least amount of information to begin with. That&rsquo;s a personal preference (or a business decision if I were doing this for an employer or a client) rather than a technical decision.</p>
+<p>From a technical perspective, we are likely introducing some bias. If we throw out the duplicates we will almost certainly be introducing some bias into our model: it&rsquo;s unlikely that the survival rate of a one property rental company (the ones we will be saving) will be the same as that of a multiple property rental company (who we will be throwing out).</p>
+<p>For the sake of time (and actually getting to the model-building part of this project), I am going to throw out the duplicates. If we need to, we can always come back and revisit these samples. It will be more important to try and identify the companies that have gone out of business and <em>not</em> notified the City. This is what I will turn my attention to now.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># drop the initial subset of data and add back in the licencse revisions</span>
+
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[<span style="color:#f92672">~</span>df[<span style="color:#e6db74">&#39;year_id&#39;</span>]<span style="color:#f92672">.</span>isin(year_duplicates[<span style="color:#e6db74">&#39;year_id&#39;</span>])]
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>append(lic_revisions_final<span style="color:#f92672">.</span>drop(<span style="color:#e6db74">&#39;max_rev&#39;</span>, axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>), verify_integrity<span style="color:#f92672">=</span>True)
+
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>columns
+</code></pre></div><pre><code>Index(['FOLDERYEAR', 'LicenceRSN', 'LicenceNumber', 'LicenceRevisionNumber',
+       'BusinessName', 'BusinessTradeName', 'Status', 'IssuedDate',
+       'ExpiredDate', 'BusinessType', 'BusinessSubType', 'Unit', 'UnitType',
+       'House', 'Street', 'City', 'Province', 'Country', 'PostalCode',
+       'LocalArea', 'NumberofEmployees', 'FeePaid', 'ExtractDate', 'Geom',
+       'id', 'year_id'],
+      dtype='object')
+</code></pre>
+<h3 id="cleanup-status-and-calculate-lifespan-of-business">Cleanup <code>Status</code> and calculate lifespan of business</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># drop businesses that don&#39;t appear in more than one year</span>
+df[<span style="color:#e6db74">&#39;max_year&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;id&#39;</span>)[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">.</span>transform(<span style="color:#e6db74">&#39;max&#39;</span>)
+df[<span style="color:#e6db74">&#39;min_year&#39;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;id&#39;</span>)[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">.</span>transform(<span style="color:#e6db74">&#39;min&#39;</span>)
+df[<span style="color:#e6db74">&#39;years_active&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>] <span style="color:#f92672">-</span> df[<span style="color:#e6db74">&#39;min_year&#39;</span>]
+df[<span style="color:#e6db74">&#39;lifespan&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;max_year&#39;</span>] <span style="color:#f92672">-</span> df[<span style="color:#e6db74">&#39;min_year&#39;</span>]
+<span style="color:#75715e"># drops all businesses without records before 2020</span>
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;lifespan&#39;</span>]<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>]
+</code></pre></div><p>It&rsquo;s worth noting here that I am dropping all businesses established in the latest year. Since we are building a model to predict business survival, these aren&rsquo;t very useful to us as they haven&rsquo;t been around long enough to tell us anything<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. At some point we will have to define what it means to survive, but for now I will just keep track of how long a business has been around and worry about what survival means during analysis.</p>
+<p>I had originally planned on also dropping businesses that never took on an <code>Issued</code> status. I had a look at them (see commented code below) and most of them show a value of <code>Pending</code> for one or more years before switching to <code>Gone Out of Business</code>. It&rsquo;s hard to know exactly what is going on with these. It could be an error or it could be that these businesses never finished their application, paid their fees, or didn&rsquo;t get their application approved for some other reason. Either way, it seems they were mostly operating so I think I will keep them in the data and assume they were operating until the final year they appear.</p>
+<p>Now let&rsquo;s ID the businesses that went out of business but never notified the city.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;&#39;&#39;
+</span><span style="color:#e6db74">never_issued = df.groupby(&#39;id&#39;)[&#39;Status&#39;].apply(lambda x: &#39;Issued&#39; not in x.unique())
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74"># never_issued.name = &#39;never_issued&#39;
+</span><span style="color:#e6db74">never_issued = never_issued[never_issued==True].index
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">df.loc[
+</span><span style="color:#e6db74">    (df[&#39;id&#39;].isin(never_issued)), 
+</span><span style="color:#e6db74">    disp_cols+[&#39;IssuedDate&#39;]
+</span><span style="color:#e6db74">].sort_values([&#39;id&#39;, &#39;FOLDERYEAR&#39;])[200:250]
+</span><span style="color:#e6db74">&#39;&#39;&#39;</span>
+</code></pre></div><pre><code>&quot;\nnever_issued = df.groupby('id')['Status'].apply(lambda x: 'Issued' not in x.unique())\n\n# never_issued.name = 'never_issued'\nnever_issued = never_issued[never_issued==True].index\n\ndf.loc[\n    (df['id'].isin(never_issued)), \n    disp_cols+['IssuedDate']\n].sort_values(['id', 'FOLDERYEAR'])[200:250]\n&quot;
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># businesses that drop out of data without ever recording a value of Gone Out of Business</span>
+df[<span style="color:#e6db74">&#39;new_status&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;Status&#39;</span>]
+
+c <span style="color:#f92672">=</span> ((df[<span style="color:#e6db74">&#39;max_year&#39;</span>]<span style="color:#f92672">==</span>df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]) <span style="color:#f92672">&amp;</span> (df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">!=</span><span style="color:#ae81ff">20</span>))
+df<span style="color:#f92672">.</span>loc[c, <span style="color:#e6db74">&#39;new_status&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;GOB&#39;</span>
+
+df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>)[<span style="color:#e6db74">&#39;new_status&#39;</span>]<span style="color:#f92672">.</span>value_counts()<span style="color:#f92672">.</span>unstack(level<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Not surprisingly, most businesses that don&rsquo;t survive don&rsquo;t bother letting the city know. Now there shouldn&rsquo;t be any <code>Gone Out of Business</code> values left in the data, but there clearly are. Let&rsquo;s see if we can figure out why.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">anomalies <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[(df[<span style="color:#e6db74">&#39;new_status&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;Gone Out of Business&#39;</span>) <span style="color:#f92672">&amp;</span> (df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">!=</span><span style="color:#ae81ff">20</span>), <span style="color:#e6db74">&#39;id&#39;</span>]<span style="color:#f92672">.</span>unique()
+
+disp_cols <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>, <span style="color:#e6db74">&#39;BusinessName&#39;</span>, <span style="color:#e6db74">&#39;BusinessType&#39;</span>, <span style="color:#e6db74">&#39;Status&#39;</span>, <span style="color:#e6db74">&#39;id&#39;</span>, <span style="color:#e6db74">&#39;year_id&#39;</span>, <span style="color:#e6db74">&#39;max_year&#39;</span>, <span style="color:#e6db74">&#39;min_year&#39;</span>]
+
+anomalies <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;id&#39;</span>]<span style="color:#f92672">.</span>isin(anomalies), disp_cols]<span style="color:#f92672">.</span>sort_values([<span style="color:#e6db74">&#39;id&#39;</span>, <span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>])
+
+anomalies[<span style="color:#ae81ff">40</span>:<span style="color:#ae81ff">60</span>]
+
+<span style="color:#75715e"># anomalies.groupby(&#39;BusinessType&#39;)[&#39;id&#39;].nunique().sort_values(ascending=False)</span>
+
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>This is strange. It looks like a lot of these have gone in and out of business more than once under the same name. Most of them are contractors or other businesses that are likely owned and operated by a single person. I&rsquo;m not really sure what I can do with these, so I will leave them out for now. There are about 1200 businesses and 5500 rows that will be dropped. The rest of these all appear in more than one year. I am going to count anything that is in the data without a <code>Gone Out of Business</code> status as operational.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">anomalies<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">==</span>df[<span style="color:#e6db74">&#39;max_year&#39;</span>], <span style="color:#e6db74">&#39;BusinessType&#39;</span>]<span style="color:#f92672">.</span>value_counts()[:<span style="color:#ae81ff">10</span>]
+</code></pre></div><pre><code>Contractor                        204
+Office                            104
+Electrical Contractor              87
+Retail Dealer                      85
+Restaurant Class 1                 58
+Ltd Service Food Establishment     57
+Contractor - Special Trades        49
+One-Family Dwelling                31
+Health Services                    28
+Secondary Suite - Permanent        28
+Name: BusinessType, dtype: int64
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[<span style="color:#f92672">~</span>df[<span style="color:#e6db74">&#39;id&#39;</span>]<span style="color:#f92672">.</span>isin(anomalies[<span style="color:#e6db74">&#39;id&#39;</span>])]
+</code></pre></div><p>Since I didn&rsquo;t reclassify the status of any businesses in 2020, we still need to do some cleanup there as well. Let&rsquo;s see what statuses we have.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">==</span><span style="color:#ae81ff">20</span>, <span style="color:#e6db74">&#39;new_status&#39;</span>]<span style="color:#f92672">.</span>value_counts()
+</code></pre></div><pre><code>Issued                  40159
+Pending                  4595
+Gone Out of Business     3036
+Cancelled                2143
+Inactive                  851
+Name: new_status, dtype: int64
+</code></pre>
+<p><code>Issued</code> and <code>Gone Out of Business</code> are pretty straight forward. <code>Pending</code> I will go ahead and give them the benefit of the doubt and say they are still in business (remember these are all businesses that were established before 2020, so it&rsquo;s possible their paperwork just hasn&rsquo;t gone through). So what do we do with the <code>Cancelled</code> and <code>Inactive</code> ones? Well let&rsquo;s have a look at these.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>loc[
+    df[<span style="color:#e6db74">&#39;id&#39;</span>]<span style="color:#f92672">.</span>isin(df<span style="color:#f92672">.</span>loc[(df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">==</span><span style="color:#ae81ff">20</span>) <span style="color:#f92672">&amp;</span> (df[<span style="color:#e6db74">&#39;Status&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;Inactive&#39;</span>), <span style="color:#e6db74">&#39;id&#39;</span>]),
+    disp_cols
+]<span style="color:#f92672">.</span>sort_values([<span style="color:#e6db74">&#39;id&#39;</span>, <span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>])[<span style="color:#ae81ff">200</span>:<span style="color:#ae81ff">220</span>]
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>A quick look makes it seem that a lot of long standing businesses either cancelled or their license or made it <code>Inactive</code> in 2020. This makes sense given the global pandemic and all. I looked at a bunch of chunks for both <code>Cancelled</code> and <code>Inactive</code> licenses using the code above and in almost every case, a business had a long stretch of <code>Issued</code> licences, ending with <code>Cancelled</code> or <code>Inactive</code>. If they were sort of going back and forth between these statuses, I would be less sure that this is what is going on, but this is a good indication that these folks don&rsquo;t have the intention of carrying on with their business.</p>
+<p>I am going to go ahead and reclassify all of these as going out of business.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df20 <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">==</span><span style="color:#ae81ff">20</span>]
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;FOLDERYEAR&#39;</span>]<span style="color:#f92672">!=</span><span style="color:#ae81ff">20</span>]
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df20<span style="color:#f92672">.</span>loc[df20[<span style="color:#e6db74">&#39;Status&#39;</span>]<span style="color:#f92672">.</span>isin([<span style="color:#e6db74">&#39;Gone Out of Business&#39;</span>, <span style="color:#e6db74">&#39;Cancelled&#39;</span>, <span style="color:#e6db74">&#39;Inactive&#39;</span>]), <span style="color:#e6db74">&#39;new_status&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;GOB&#39;</span>
+</code></pre></div><p>Let&rsquo;s do a quick check that that worked as expected:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df20<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;Status&#39;</span>)[<span style="color:#e6db74">&#39;new_status&#39;</span>]<span style="color:#f92672">.</span>value_counts()<span style="color:#f92672">.</span>unstack()
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>Great. Now we&rsquo;ll put the 2020 data back into the main dataframe and we should have a well-identified, reasonably clean dataset to start modeling</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>append(df20, verify_integrity<span style="color:#f92672">=</span>True)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;id&#39;</span>)[<span style="color:#e6db74">&#39;lifespan&#39;</span>]<span style="color:#f92672">.</span>mean()<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>hist(bins<span style="color:#f92672">=</span><span style="color:#ae81ff">7</span>, title<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Lifespan of Vancouver businesses, 2013-2020&#39;</span>)
+</code></pre></div><p><img src="../../static/images/van_biz_lifespan_hist.png" alt="image"></p>
+<p>So there we have it, the longer you are in business, the more likely you are to stay in business. Remember that tall bin at 7 years is just everything that is at least 7 years old - that bar is more properly read as <em>7 or more</em> years.</p>
+<p>And now we have a target variable! Or at least something we can easily make our target from. Now we can work on building our model and standing it up to a public facing portal so anybody interested in starting a business can use our model to see how long a business like theirs is likely to last. It&rsquo;s worth remembering that we&rsquo;ve made a lot of assumptions here that are likely to affect our final results. We&rsquo;ll want to make a note of these and anything else we think might be worth experimenting with in the future to improve our model.</p>
+<p>After all of this, we have useable data, but we&rsquo;ve made a whole bunch of assumptions along the way which will likely impact our results down the line. The following will go into our backlog to check / modify for a later version:</p>
+<ol>
+<li><strong>Insert list of assumptions here</strong></li>
+<li>Businesses that change name or address are currently treated as different businesses. This means any such business' lifespan will be artificially short. If this is systematically associated with a business surviving, it&rsquo;s going to bias our results.</li>
+<li>We only care about BC based businesses. If your business is based elsewhere, you&rsquo;re not in our trianing data.</li>
+<li>You have a business name! This and the BC assumption cost us about 20k rows, so if we want to get some of those back, we&rsquo;ll have to revise this for V1.</li>
+</ol>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This is a term I just made up off the top of my head - should probably trademark it. I&rsquo;m leaving it intentionally vague at this point because I&rsquo;m not sure exactly what I will be showing them once this is done. Right now I&rsquo;m imagining my target will be an indicator for whether or not a business survives for two years, so this Success Likelihood Score™ will probably just be the probability that, with the information provided to the model, your business will still be operating after two years (with requisite caveats). <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>When I say first thing, what I really mean is <em>first thing in this blog post</em>. I did a fair amount of random poking around just to figure out what cleaning needed to be done. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>As with any analysis, there is always a trade-off between time and perfection. There are a lot of ways people refer to this (analysis paralysis, 80-20 rule, etc.) and it is an ever-present menace. There will always be little rabbit holes to go down, curiosities, inexplicable cases that &ldquo;maybe if I just dig a little deeper, I can explain!!!&rdquo;. It&rsquo;s up to you as the analyst (or me in this case) to decide what is a good use of your time. <strong>This. Is. Hard.</strong> Always. Personally I have the attention span of a two year old, so I am always having to drag myself back to ask myself if what I am doing is likely to have a material impact on the analysis or if I am simply chasing something shiny. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Turns out this one is going to wait for v1 as well. Between doing the dev work and writing these blog post, it seems like I am going to have to streamline as much as possible just to get something up and running. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+ <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<li id="fn:6" role="doc-endnote">
+ <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<li id="fn:7" role="doc-endnote">
+ <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<li id="fn:8" role="doc-endnote">
+ <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<li id="fn:9" role="doc-endnote">
+ <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
+<li id="fn:10" role="doc-endnote">
+<p>There is plenty of interesting analysis that you could do with these, including looking at the effect of Covid 19 on business creation, something that I would very much like to do at some point. But for now, prediction. <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/links">Links</a></li>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/notes">Notes</a></li>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people">People</a></li>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts">Posts</a></li>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags">Tags</a></li>
+         
+          <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#identify-businesses-through-time">Identify businesses through time</a>
+      <ul>
+        <li><a href="#cleanup-status-and-calculate-lifespan-of-business">Cleanup <code>Status</code> and calculate lifespan of business</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&text=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&is_video=false&description=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Cleaning%20Vancouver%27s%20open%20business%20license%20data&body=Check out this article: notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&title=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&name=Cleaning%20Vancouver%27s%20open%20business%20license%20data&description=This%20is%20the%20first%20post%20in%20a%20series%20on%20building%20an%20end%20to%20end%20machine%20learning%20tool%20using%20Vancouver%20Businesses%20License%20data%20from%20Vancouver%26rsquo%3bs%20Open%20Data%20Portal.%20V0%20will%20be%20a%20trained%20model%2c%20served%20up%20to%20a%20website%20with%20a%20simple%20front%20end%20where%20aspiring%20Vancouver%20business%20owners%20can%20plug%20in%20some%20information%20about%20their%20business%20and%20get%20back%20a%20success%20likelihood%20score1%20that%20can%20help%20them%20decide%20if%20opening%20their%20business%20is%20a%20good%20idea." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=notes-submodule.d1zllkef03p41t.amplifyapp.com%2fposts%2fcleaning-business-licenses%2f&t=Cleaning%20Vancouver%27s%20open%20business%20license%20data" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2021  Colin Spear 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/links">Links</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/notes">Notes</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people">People</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts">Posts</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags">Tags</a></li>
+         
+        <li><a href="notes-submodule.d1zllkef03p41t.amplifyapp.com/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/notes-submodule.d1zllkef03p41t.amplifyapp.com/lib/font-awesome/css/all.min.css>
+<script src=/notes-submodule.d1zllkef03p41t.amplifyapp.com/lib/jquery/jquery.min.js></script>
+<script src=/notes-submodule.d1zllkef03p41t.amplifyapp.com/js/main.js></script>
+
+
+
+</html>

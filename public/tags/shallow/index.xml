@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shallow on Colin Spear</title>
+    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/shallow/</link>
+    <description>Recent content in shallow on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/shallow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom sklearn transformer</title>
+      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</guid>
+      <description>For when your daily affirmations just aren&amp;rsquo;t cutting it</description>
+    </item>
+    
+  </channel>
+</rss>

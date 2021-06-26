@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/categories/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/categories/</link>
     <description>Recent content in Categories on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Colin Spear</copyright><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Colin Spear</copyright><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

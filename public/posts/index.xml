@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/</link>
     <description>Recent content in Posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Tue, 18 May 2021 20:23:04 -0700</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/stoicism-vs-sentimentalism/</link>
-      <pubDate>Tue, 18 May 2021 20:23:04 -0700</pubDate>
+      <title>Doing the work &gt; Preparing for the work</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/stoicism-vs-sentimentalism/</guid>
-      <description>Stoicism vs Sentimentalism Use Agnes Callard&amp;rsquo;s On Anger as an argument against rationality. In this view the truly rational thing is to hold a grudge and exact revenge forever and ever, amen. It is the irrational dissolution of anger that allows for peace and resolution</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
+      <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
-      <pubDate>Mon, 17 May 2021 20:41:00 -0700</pubDate>
+      <title>Change git branch (master to main)</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
-      <description># Craft or crap? The tension between striving and embracing who we are Links  Nietsche vs Kierkegaard Tim Ferris and Brene Brown  When I was much younger, after dropping out of high school in a THC-drenched haze, I spent a lot of time meditating and reading about meditation and buddhist flavored self improvement. I loved it and took it seriously, had a regular practice, attended a regular group meditation, went on retreat and diligently studied the modern western buddhist canon.</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
+      <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
+First, rename your local branch:
+❯ git branch -m master main Then you can check that it worked:
+❯ git status On branch main Your branch is up to date with &#39;origin/master&#39;. nothing to commit, working tree clean If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
     </item>
     
     <item>
-      <title>How to Focus</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/focus/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <title>Flask wordcount app</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/focus/</guid>
-      <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
-Canonical answers:
- Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
+      <description>I made a simple flask app that takes a URL as input and returns a table and chart of the most used words on the site.
+Built with Flask using a Postgres backend. Uses beautiful soup to scrape and process html from given website. Implements a Redis task queue to handle requests. Uses Angular to poll the back end for completion and to display a word frequency chart using JavaScript and D3.</description>
     </item>
     
     <item>
-      <title>My comparative advantage (the craft of being nice 🤮🤢)</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/my-comparative-advantage-the-craft-of-being-nice-/</link>
-      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <title>Change your file permissions, baby!</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
+      <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/my-comparative-advantage-the-craft-of-being-nice-/</guid>
-      <description>My comparative advantage (the craft of being nice :face_with_open_mouth_vomiting::nauseated_face:) It&amp;rsquo;s not often you see your CFO holding back tears. It&amp;rsquo;s even rarer when the reason he&amp;rsquo;s doing so is because you&amp;rsquo;re being fired.
-No, I wasn&amp;rsquo;t part of a mass layoff or a restructuring or a merger or anything like that. I just wasn&amp;rsquo;t very good at my job. We all knew it and I had already been interviewing at other places.</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
+      <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
+The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
+chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
     </item>
     
     <item>
-      <title>Ideas</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/ideas/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <title>Move and rename all files in a folder</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
+      <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/ideas/</guid>
-      <description>Ideas  Persistence. How I&amp;rsquo;m bad at it and how important it seems to be. Persistence vs. novelty or curiosity. The way that doing small things over a long time accumulate Rationality and science vs. Narrative and feeling What is my comparative advantage? **The insularity of the tech world **(the brouhaha around Basecamp, a company of less than 60 people that was the only thing that people talked about in tech for a week) a podcast that interviews high performers on the sacrifices they&amp;rsquo;ve had to make.</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
+      <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
-      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      <title>Count files by type and directory</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
-      <description>References
- Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
-It is an alternative, experiment inspired framework for thinking about and performing causal inference
- Cunningham treats it mostly like a robustness test (from what I can tell) outside of limited contexts, and still maybe in the most appropriate contexts as it&amp;rsquo;s not super mainstream for example, they say that it&amp;rsquo;s especially useful for situations in which, instead of working with a random sample of a population, there is good reason to believe you are working with the entire population itself what does this mean for external validity?</description>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
+      <description>Using the command line to count stuff</description>
     </item>
     
   </channel>

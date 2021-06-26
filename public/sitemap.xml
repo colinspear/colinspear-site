@@ -3,222 +3,432 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/stoicism-vs-sentimentalism/</loc>
-    <lastmod>2021-05-18T20:23:04-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/book-list/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/</loc>
-    <lastmod>2021-05-18T20:23:04-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/</loc>
-    <lastmod>2021-05-18T20:23:04-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/books/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-19/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/journal/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/journal-magazine-list/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/list/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/magazine/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/</loc>
+    <lastmod>2021-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/links/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/habits/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/learning/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/people/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/philosophy/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/posts/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</loc>
+    <lastmod>2021-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/popper-conjectures-and-refutations/</loc>
+    <lastmod>2021-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anthropology/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/memoir/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/nonfiction/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/quotes/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/quotes/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-science/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/levi-claude-strauss/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/articles/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/music/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/confusion/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/work/</loc>
+    <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/addiction/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/books/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/identity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reputation/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/identity/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/notes/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reading/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reputation/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/</loc>
-    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</loc>
-    <lastmod>2021-05-17T20:41:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/people/quotes/</loc>
-    <lastmod>2021-05-17T19:28:04-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/people/</loc>
-    <lastmod>2021-05-17T19:28:04-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/cost-of-housing/</loc>
-    <lastmod>2021-05-17T17:48:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/</loc>
-    <lastmod>2021-05-17T17:48:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/tools-for-thought/</loc>
-    <lastmod>2021-05-17T17:48:25-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-18/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/people/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/art/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/quotes/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/joke/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/addiction/</loc>
-    <lastmod>2021-05-16T10:34:52-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/productivity/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/learning/</loc>
-    <lastmod>2021-05-13T04:32:34-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/tweets/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-11/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/addiction/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-10/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</loc>
+    <lastmod>2021-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/funny/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/focus/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reading/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/productivity/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-media/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/twitter/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/holzer-truisms/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/my-comparative-advantage-the-craft-of-being-nice-/</loc>
-    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/notes/2021-05-03/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/ideas/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/goals/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</loc>
-    <lastmod>2021-03-31T21:32:19-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</loc>
-    <lastmod>2021-03-31T21:32:19-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/statistics/</loc>
-    <lastmod>2021-03-31T21:32:19-07:00</lastmod>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/about/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/self-development/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/website/</loc>
+    <lastmod>2021-04-15T04:46:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/</loc>
+    <lastmod>2021-04-15T04:46:20-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/ai/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/fiction/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</loc>
+    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/git/</loc>
+    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/flask/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/web-dev/</loc>
+    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/bash/</loc>
+    <lastmod>2021-02-24T08:28:54-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</loc>
+    <lastmod>2021-02-24T08:28:54-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/command-line/</loc>
+    <lastmod>2021-02-24T08:28:54-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</loc>
+    <lastmod>2021-02-17T12:49:31-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/about/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/documents/holzer-truisms/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/awk/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/causal-inference/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/learning/cs-programming/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/grep/</loc>
+    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/categories/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</loc>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/documents/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</loc>
   </url>
   
   <url>
-    <loc>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/people/people/</loc>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/orchestration-and-demonstration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/2021-06/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/taxes2020/</loc>
+  </url>
+  
+  <url>
+    <loc>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/categories/</loc>
   </url>
   
 </urlset>

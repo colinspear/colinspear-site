@@ -2,153 +2,396 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Colin Spear</title>
-    <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/</link>
     <description>Recent content in Tags on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>addiction</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/addiction/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/addiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anonymity</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>books</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/books/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/books/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/books/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>creator economy</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>journal</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/journal/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/journal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>identity</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/identity/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>list</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/list/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/identity/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/list/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>notes</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>magazine</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/magazine/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/notes/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/magazine/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reading</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reading/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>links</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/links/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reading/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/links/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reputation</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reputation/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <title>habits</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/habits/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/reputation/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/learning/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>people</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/people/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/people/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/people/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/people/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>podcasts</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <title>philosophy</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/philosophy/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>posts</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/posts/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anthropology</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anthropology/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anthropology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memoir</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/memoir/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/memoir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nonfiction</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/nonfiction/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/nonfiction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>quotes</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/quotes/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/quotes/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/quotes/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/quotes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>funny</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/funny/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <title>social science</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-science/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/funny/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>articles</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/articles/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/music/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confusion</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/confusion/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/confusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/work/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anonymity</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/anonymity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>creator economy</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/creator-economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identity</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/identity/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reputation</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reputation/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/art/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joke</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/joke/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/joke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>productivity</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/productivity/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/productivity/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tweets</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/tweets/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/tweets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>addiction</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/addiction/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/addiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reading/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/productivity/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/reading/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>twitter</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/twitter/</link>
+      <title>social media</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-media/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/twitter/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/social-media/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>causal inference</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</link>
-      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      <title>goals</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/goals/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/causal-inference/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/goals/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>statistics</title>
-      <link>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/statistics/</link>
-      <pubDate>Wed, 31 Mar 2021 21:32:19 -0700</pubDate>
+      <title>self development</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/self-development/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://cactus-fork.d1zllkef03p41t.amplifyapp.com/tags/statistics/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/self-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/ai/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fiction</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/fiction/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/git/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/flask/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-dev</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/web-dev/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/web-dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/bash/</link>
+      <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command-line</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/command-line/</link>
+      <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awk</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/awk/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/grep/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/grep/</guid>
       <description></description>
     </item>
     

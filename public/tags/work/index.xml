@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Colin Spear</title>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/work/</link>
+    <description>Recent content in work on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Colin Spear</copyright>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confusion</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</guid>
+      <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
+    </item>
+    
+  </channel>
+</rss>

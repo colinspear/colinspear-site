@@ -1,4 +1,5 @@
-baseURL = "main.d1zllkef03p41t.amplifyapp.com"
+baseURL = "https://notes-submodule.d1zllkef03p41t.amplifyapp.com"
+
 languageCode = "en-us"
 title = "Colin Spear"
 
@@ -8,6 +9,8 @@ copyright = "Colin Spear" # cactus theme will use site title if copyright is not
 
 # googleAnalytics = "UA-123-45"
 # googleAnalyticsAsync = true # not required
+
+ignoreFiles = ["learning", "google-docs", "scrap", "todo.md"]
 
 [params]
   colortheme = "white" # dark, light, white, or classic
@@ -37,13 +40,13 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Notes"
-url = "/notes"
+name = "Links"
+url = "/links"
 weight = 2
 
 [[menu.main]]
-name = "Learning"
-url = "/learning"
+name = "Notes"
+url = "/notes"
 weight = 2
 
 [[menu.main]]
