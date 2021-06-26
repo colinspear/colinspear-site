@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Todos on Colin Spear</title>
-    <link>www.colinspear.com/todo/</link>
+    <link>https://www.colinspear.com/todo/</link>
     <description>Recent content in Todos on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 04:46:20 -0700</lastBuildDate><atom:link href="www.colinspear.com/todo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 04:46:20 -0700</lastBuildDate><atom:link href="https://www.colinspear.com/todo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>www.colinspear.com/todo/website/</link>
+      <link>https://www.colinspear.com/todo/website/</link>
       <pubDate>Thu, 15 Apr 2021 04:46:20 -0700</pubDate>
       
-      <guid>www.colinspear.com/todo/website/</guid>
+      <guid>https://www.colinspear.com/todo/website/</guid>
       <description>Website Blog posts  Work through backlog of unfinished - posts (reprioritize if necessary):  substantially complete:  business data cleaning artist network notebook (start data science mini project series?) task scheduling sci kit learn custom transformer   mostly ideas:  multi armed bandits in experiments (contextual bandits) design based inference causal survival analysis (business data potential application)      Website improvements  add website analytics (Plausible?</description>
     </item>
     
     <item>
       <title></title>
-      <link>www.colinspear.com/todo/2021-06/</link>
+      <link>https://www.colinspear.com/todo/2021-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>www.colinspear.com/todo/2021-06/</guid>
+      <guid>https://www.colinspear.com/todo/2021-06/</guid>
       <description>Todo June 2021
 Weekend 0619
  [] water plants inside [] change batteries in stair light [] buy window protection  Later
@@ -32,10 +32,10 @@ Weekend 0619
     
     <item>
       <title></title>
-      <link>www.colinspear.com/todo/taxes2020/</link>
+      <link>https://www.colinspear.com/todo/taxes2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>www.colinspear.com/todo/taxes2020/</guid>
+      <guid>https://www.colinspear.com/todo/taxes2020/</guid>
       <description>2020 taxes to do  Home office calculations Look back on emails from Heart payroll for information about how to deal with employer / payroll taxes US taxes  FBAR   Enter Else&amp;rsquo;s SIN into dependants section  </description>
     </item>
     

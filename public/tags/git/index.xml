@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Colin Spear</title>
-    <link>www.colinspear.com/tags/git/</link>
+    <link>https://www.colinspear.com/tags/git/</link>
     <description>Recent content in git on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="www.colinspear.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change git branch (master to main)</title>
-      <link>www.colinspear.com/posts/change-master-to-main/</link>
+      <link>https://www.colinspear.com/posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>www.colinspear.com/posts/change-master-to-main/</guid>
+      <guid>https://www.colinspear.com/posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:

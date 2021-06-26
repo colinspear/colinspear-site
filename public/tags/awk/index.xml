@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>awk on Colin Spear</title>
-    <link>www.colinspear.com/tags/awk/</link>
+    <link>https://www.colinspear.com/tags/awk/</link>
     <description>Recent content in awk on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="www.colinspear.com/tags/awk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/awk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Count files by type and directory</title>
-      <link>www.colinspear.com/posts/count-files-by-type-and-directory/</link>
+      <link>https://www.colinspear.com/posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>www.colinspear.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>https://www.colinspear.com/posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
