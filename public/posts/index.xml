@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Colin Spear</title>
-    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/</link>
+    <link>www.colinspear.com/posts/</link>
     <description>Recent content in Posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="www.colinspear.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doing the work &gt; Preparing for the work</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
+      <link>www.colinspear.com/posts/performance-ambivalence/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
+      <guid>www.colinspear.com/posts/performance-ambivalence/</guid>
       <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
     </item>
     
     <item>
       <title>Change git branch (master to main)</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
+      <link>www.colinspear.com/posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
+      <guid>www.colinspear.com/posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:
@@ -31,20 +31,20 @@ First, rename your local branch:
     
     <item>
       <title>Flask wordcount app</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
+      <link>www.colinspear.com/posts/simple_flask_app/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
+      <guid>www.colinspear.com/posts/simple_flask_app/</guid>
       <description>I made a simple flask app that takes a URL as input and returns a table and chart of the most used words on the site.
 Built with Flask using a Postgres backend. Uses beautiful soup to scrape and process html from given website. Implements a Redis task queue to handle requests. Uses Angular to poll the back end for completion and to display a word frequency chart using JavaScript and D3.</description>
     </item>
     
     <item>
       <title>Change your file permissions, baby!</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
+      <link>www.colinspear.com/posts/chmod_codes/</link>
       <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
+      <guid>www.colinspear.com/posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
 chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
@@ -52,19 +52,19 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
     
     <item>
       <title>Move and rename all files in a folder</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
+      <link>www.colinspear.com/posts/cl_move_and_rename_files/</link>
       <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
+      <guid>www.colinspear.com/posts/cl_move_and_rename_files/</guid>
       <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
     <item>
       <title>Count files by type and directory</title>
-      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
+      <link>www.colinspear.com/posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>www.colinspear.com/posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
