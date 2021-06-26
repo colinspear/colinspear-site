@@ -2,100 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Colin Spear</title>
-    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/</link>
     <description>Recent content in Posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doing the work &gt; Preparing for the work</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
       <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
     </item>
     
     <item>
-      <title>On being nice</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/being-nice/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/being-nice/</guid>
-      <description>My comparative advantage (the craft of being nice :face_with_open_mouth_vomiting::nauseated_face:) It&amp;rsquo;s not often you see your CFO holding back tears. It&amp;rsquo;s even rarer when the reason he&amp;rsquo;s doing so is because you&amp;rsquo;re being fired.
-No, I wasn&amp;rsquo;t part of a mass layoff or a restructuring or a merger or anything like that. I just wasn&amp;rsquo;t very good at my job. We all knew it and I had already been interviewing at other places.</description>
-    </item>
-    
-    <item>
-      <title>Testy testy</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/hypothesis-testing/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/hypothesis-testing/</guid>
-      <description>Hypothesize everything Links / Sources / inspirations  Karl Popper&amp;rsquo;s idea that the scientific method is about Conjectures and Refutations. We make a conjecture, then we gather evidence to test the conjecture.  Motivating questions  What is progress? Truth? How do we evaluate our lives? How do we understand our decisions, make sense of our past and make better decisions going forward?  Outline The formal hypothesis test Do a plain language overview, include some charts.</description>
-    </item>
-    
-    <item>
-      <title>Taking biproject slowdown seriously</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/slow-projects/</link>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/slow-projects/</guid>
-      <description>Taking big project slowdown seriously Links
- https://www.motherjones.com/kevin-drum/2012/07/why-does-it-take-so-long-build-stuff-these-days/ https://reason.com/2021/03/25/why-does-american-infrastructure-cost-more-and-take-longer-to-build-than-it-used-to/  An evaluation of one (or more) of Patrick Collison&amp;rsquo;s &amp;ldquo;Fast&amp;rdquo; projects compared to something similar today
-Why might big projects take longer now than in the past?
-  Regulation both good and bad
- health and safety environment    other
- more alternatives available now than in the past (even if the alternatives aren&amp;rsquo;t that great)    I feel like there&amp;rsquo;s been a major formalizing of economic, social and political life over the last century that is somehow related to this.</description>
-    </item>
-    
-    <item>
-      <title>Is it immoral to be rich?</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/morality-wealth/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/morality-wealth/</guid>
-      <description>Motivation The idea was something I was exposed to and sort of absorbed growing up. I remember having a conversation with some friends who clearly held this view. We were talking about Bill Gates and they seemed to be convinced that he was an evil person which just didn&amp;rsquo;t square with my ideas about the economic, intellectual and technological advances from home computing (not to mention the philanthropy of the Gates Foundation).</description>
-    </item>
-    
-    <item>
-      <title>Randomization inference</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
-      <description>Randomization inference Links  Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
-It is an alternative, experiment inspired framework for thinking about and performing causal inference
- Cunningham treats it mostly like a robustness test (from what I can tell) outside of limited contexts, and still maybe in the most appropriate contexts as it&amp;rsquo;s not super mainstream for example, they say that it&amp;rsquo;s especially useful for situations in which, instead of working with a random sample of a population, there is good reason to believe you are working with the entire population itself what does this mean for external validity?</description>
-    </item>
-    
-    <item>
-      <title>The value of activities with low economic return</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/divergent-returns/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/divergent-returns/</guid>
-      <description>Inspired by an exchange between Rob Henderson and David Perell about the importance of &amp;ldquo;being able to get rich&amp;rdquo; as an incentive to draw overeducated people into the internet content production machine1 economy.
-Links  unbuilders The cost of running a restaurant  Motivating questions  What are some high value add activities / businesses / sectors where economic returns don&amp;rsquo;t seem to match social benefits? Where is the economic return to business far lower than the social benefit?</description>
-    </item>
-    
-    <item>
-      <title>Stoicism vs Sentimentalism</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/stoicism-sentimentalism/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/stoicism-sentimentalism/</guid>
-      <description>Stoicism vs Sentimentalism Use Agnes Callard&amp;rsquo;s On Anger as an argument against rationality. In this view the truly rational thing is to hold a grudge and exact revenge forever and ever, amen. It is the irrational dissolution of anger that allows for peace and resolution
-Not exactly support for my gotta be irrational to be ethical thesis, but rather the opposite. Anyway, relevant. https://twitter.com/womenpostingws/status/1398786339785433092?s=19</description>
-    </item>
-    
-    <item>
       <title>Change git branch (master to main)</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:
@@ -104,29 +31,20 @@ First, rename your local branch:
     
     <item>
       <title>Flask wordcount app</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
       <description>I made a simple flask app that takes a URL as input and returns a table and chart of the most used words on the site.
 Built with Flask using a Postgres backend. Uses beautiful soup to scrape and process html from given website. Implements a Redis task queue to handle requests. Uses Angular to poll the back end for completion and to display a word frequency chart using JavaScript and D3.</description>
     </item>
     
     <item>
-      <title>Cleaning Vancouver&#39;s open business license data</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cleaning-business-licenses/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cleaning-business-licenses/</guid>
-      <description>This is the first post in a series on building an end to end machine learning tool using Vancouver Businesses License data from Vancouver&amp;rsquo;s Open Data Portal. V0 will be a trained model, served up to a website with a simple front end where aspiring Vancouver business owners can plug in some information about their business and get back a success likelihood score1 that can help them decide if opening their business is a good idea.</description>
-    </item>
-    
-    <item>
       <title>Change your file permissions, baby!</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
       <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
 chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
@@ -134,47 +52,20 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
     
     <item>
       <title>Move and rename all files in a folder</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
       <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
       <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
     <item>
       <title>Count files by type and directory</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
-    </item>
-    
-    <item>
-      <title>Local job scheduling</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/scheduling/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/scheduling/</guid>
-      <description>In which Colin learns to schedule a task</description>
-    </item>
-    
-    <item>
-      <title>Custom sklearn transformer</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</guid>
-      <description>For when your daily affirmations just aren&amp;rsquo;t cutting it</description>
-    </item>
-    
-    <item>
-      <title>Multi-armed bandits in experiments</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/adaptive-bandits/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/adaptive-bandits/</guid>
-      <description>Hold on to your purses, ladies and gentlemen</description>
     </item>
     
   </channel>

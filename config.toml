@@ -1,4 +1,5 @@
-baseURL = "notes-submodule.d1zllkef03p41t.amplifyapp.com"
+baseURL = "https://notes-submodule.d1zllkef03p41t.amplifyapp.com"
+
 languageCode = "en-us"
 title = "Colin Spear"
 

@@ -2,140 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colin Spear</title>
-    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/</link>
     <description>Recent content on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book list</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/book-list/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/book-list/</guid>
+      <description>Favorites 2021  Kazuo Ishiguro, Klara and the Sun Bill Bryson, The Body  To read  Claudia Goldin, Career and Family  </description>
+    </item>
+    
+    <item>
+      <title>Journals, magazines and other online aggregations</title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/journal-magazine-list/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/journal-magazine-list/</guid>
+      <description> Works in Progress The Public Domain Review  </description>
+    </item>
+    
     <item>
       <title>2021-06-15</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-15/</guid>
       <description>2021-06-15 Books
  A Mind at Play: How Claude Shannon Invented the Information Age. I started this book some time ago, but didn&amp;rsquo;t really get into it. This time, I think I&amp;rsquo;ll finish it. The first part is a mostly personal history, which is interesting, but part two is really where it starts to get good. As someone completely unfamiliar with information theory, the basic concepts are presented very well and clearly.</description>
     </item>
     
     <item>
-      <title>Physical vs digital innovation</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/physical-vs-digital-innovation/</link>
-      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/physical-vs-digital-innovation/</guid>
-      <description>I&amp;rsquo;m interested in the difference between innovation and technology that manipulated the physical world versus that which is primarily digital.
-Questions
- Is there some sort of natural cap on the returns to digital technologies? Will more software, including most AI really impact our lives and the economy in world changing ways? Software may be eating the world, but what are the limits on how much it can change the world?</description>
-    </item>
-    
-    <item>
-      <title>2021-06-13</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</guid>
-      <description>2021-06-22   This article on Patrick Collison, Tyler Cowen and Patrick Jay&amp;rsquo;s reflections on the Fast Grants program they started to fund COVID related research during the pandemic. This quote stands out:
- Scientists are in the paradoxical position of being deemed the very best people to fund in order to make important discoveries but not so trustworthy that they should be able to decide what work would actually make the most sense!</description>
-    </item>
-    
-    <item>
       <title>Doing the work &gt; Preparing for the work</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/performance-ambivalence/</guid>
       <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
     </item>
     
     <item>
-      <title>On being nice</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/being-nice/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/being-nice/</guid>
-      <description>My comparative advantage (the craft of being nice :face_with_open_mouth_vomiting::nauseated_face:) It&amp;rsquo;s not often you see your CFO holding back tears. It&amp;rsquo;s even rarer when the reason he&amp;rsquo;s doing so is because you&amp;rsquo;re being fired.
-No, I wasn&amp;rsquo;t part of a mass layoff or a restructuring or a merger or anything like that. I just wasn&amp;rsquo;t very good at my job. We all knew it and I had already been interviewing at other places.</description>
-    </item>
-    
-    <item>
       <title>People</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/people/</guid>
       <description>I&amp;rsquo;m still trying to figure out how to organize the People section of the website. If you have any ideas or suggestions about how to organize a heterogeneous set of complex, indivisible, objects (i.e. humans), please let me know!
  Weirdos and iconoclasts  Chuck Tingle Quentin Crisp Gwern  A freelance writer and tech guy. Super original and hard to describe briefly.   Dan Reeder  A musician who moved from California to Nuremberg and builds most of the instruments he uses, including recording equipment (computers, amplifiers, microphones and PAs).</description>
     </item>
     
     <item>
-      <title>Testy testy</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/hypothesis-testing/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/hypothesis-testing/</guid>
-      <description>Hypothesize everything Links / Sources / inspirations  Karl Popper&amp;rsquo;s idea that the scientific method is about Conjectures and Refutations. We make a conjecture, then we gather evidence to test the conjecture.  Motivating questions  What is progress? Truth? How do we evaluate our lives? How do we understand our decisions, make sense of our past and make better decisions going forward?  Outline The formal hypothesis test Do a plain language overview, include some charts.</description>
-    </item>
-    
-    <item>
       <title>2021-06-08</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-08/</guid>
       <description> Simone Biles. What a beast.  </description>
     </item>
     
     <item>
       <title>Conjectures and Refutations</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/popper-conjectures-and-refutations/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/popper-conjectures-and-refutations/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/popper-conjectures-and-refutations/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/popper-conjectures-and-refutations/</guid>
       <description>Popper - Conjectures and Refutations  Contrasts the Empiricists (the philosophers that saw truth as something stemming from natural observation) with the rationalists (those that believed truth is something to be found through intellectual intuition) His argument is that both of these camps are not really that different at all. They both believe truth to be something whole that can be obtained in full in one way or the other. &amp;ldquo;It is plain, just look at these facts!</description>
     </item>
     
     <item>
-      <title>Taking biproject slowdown seriously</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/slow-projects/</link>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/slow-projects/</guid>
-      <description>Taking big project slowdown seriously Links
- https://www.motherjones.com/kevin-drum/2012/07/why-does-it-take-so-long-build-stuff-these-days/ https://reason.com/2021/03/25/why-does-american-infrastructure-cost-more-and-take-longer-to-build-than-it-used-to/  An evaluation of one (or more) of Patrick Collison&amp;rsquo;s &amp;ldquo;Fast&amp;rdquo; projects compared to something similar today
-Why might big projects take longer now than in the past?
-  Regulation both good and bad
- health and safety environment    other
- more alternatives available now than in the past (even if the alternatives aren&amp;rsquo;t that great)    I feel like there&amp;rsquo;s been a major formalizing of economic, social and political life over the last century that is somehow related to this.</description>
-    </item>
-    
-    <item>
       <title>2021-06-01</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-01/</guid>
       <description>2021-06-01 Reading
  The Honest Broker by Ted Gioia. And they do this for a very simple reason: their prestige is enhanced by making these connections. [&amp;hellip;] the Honest Broker plays the long-term game, mate. He&amp;rsquo;s taking about getting things done as an outsider in China in the nineties, but reputation economies tend to be a vital and underestimated resource in the West too. Thorstein Veblen&amp;rsquo;s Theory of the leisure class - an update This is Rob Henderson&amp;rsquo;s idea that Ellie status is conveyed by displaying a certain set of beliefs in the same way that one might wear a certain hat or handbag or sports car.</description>
     </item>
     
     <item>
-      <title>Agglomeration economies and the internet</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economy-internet/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/agglomeration-economy-internet/</guid>
-      <description>Agglomeration economies and the internet Links
- https://ideas.repec.org/a/eee/juecon/v73y2013i1p94-110.html  Motivating questions
- What is the effect of the internet on agglomeration economies? How much of the benefits of colocation are ameliorated by the internet? What are the contours of the Internet&amp;rsquo;s effect on the benefits of colocation? Obviously, being in the same place is still important. In what ways can the internet allow people to capture these benefits and in what ways is it still limited?</description>
-    </item>
-    
-    <item>
       <title>Quotes</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/people/quotes/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/quotes/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/people/quotes/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/people/quotes/</guid>
       <description>Quotes Devon Zuegel on the North Star Podcast:
  Everything is interesting of you build a mental model for it
  Agnes Callard on the Ezra Klein Show, minute 40:
@@ -144,78 +97,48 @@ Why might big projects take longer now than in the past?
     
     <item>
       <title>Tristes Tropiques</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/levi-claude-strauss/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/levi-claude-strauss/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/levi-claude-strauss/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/levi-claude-strauss/</guid>
       <description>Levi Claude Strauss Mankind has opted for monoculture</description>
     </item>
     
     <item>
-      <title>Is it immoral to be rich?</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/morality-wealth/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/morality-wealth/</guid>
-      <description>Motivation The idea was something I was exposed to and sort of absorbed growing up. I remember having a conversation with some friends who clearly held this view. We were talking about Bill Gates and they seemed to be convinced that he was an evil person which just didn&amp;rsquo;t square with my ideas about the economic, intellectual and technological advances from home computing (not to mention the philanthropy of the Gates Foundation).</description>
-    </item>
-    
-    <item>
-      <title>Randomization inference</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</link>
-      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/randomization-inference/</guid>
-      <description>Randomization inference Links  Section in Causal Inference, the mixtape Abadie, Athey paper  Randomization inference Just want to think a bit about what I&amp;rsquo;ve been reading about randomization inference
-It is an alternative, experiment inspired framework for thinking about and performing causal inference
- Cunningham treats it mostly like a robustness test (from what I can tell) outside of limited contexts, and still maybe in the most appropriate contexts as it&amp;rsquo;s not super mainstream for example, they say that it&amp;rsquo;s especially useful for situations in which, instead of working with a random sample of a population, there is good reason to believe you are working with the entire population itself what does this mean for external validity?</description>
-    </item>
-    
-    <item>
       <title>2021-05-25</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-25/</guid>
       <description>Music
  Remember 01 by The Halluci Nation (formerly A Tribe Called Red), an indigenous Canadian hip-hop group based in Ottawa. Another indigenous Canadian musician, Willie Dunn wrote incredble folk songs about native history, culture and western civilization and politics. He has a great voice and his lyrics are 👌. Ballad of Crowfoot is a good place to start and one of his best known songs Mabe Fratti. Moving. A Guatemalan cellist making minimalist electronic cello music in Mexico City.</description>
     </item>
     
     <item>
-      <title>The value of activities with low economic return</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/divergent-returns/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/divergent-returns/</guid>
-      <description>Inspired by an exchange between Rob Henderson and David Perell about the importance of &amp;ldquo;being able to get rich&amp;rdquo; as an incentive to draw overeducated people into the internet content production machine1 economy.
-Links  unbuilders The cost of running a restaurant  Motivating questions  What are some high value add activities / businesses / sectors where economic returns don&amp;rsquo;t seem to match social benefits? Where is the economic return to business far lower than the social benefit?</description>
-    </item>
-    
-    <item>
       <title>Confusion</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</guid>
       <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
     </item>
     
     <item>
       <title>Economics of anonymity in the creator economy</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/anonymity/</guid>
       <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
  There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
     </item>
     
     <item>
       <title>2021-05-18</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-18/</guid>
       <description>Books
 Money: The True Story of a Made Up Thing by Jacob Goldstein. By one of the hosts of Planet Money. Short and interesting, made me want to learn more about the Chinese intellectual and scientific advances from around 600 AD to 1200 AD.
 Articles
@@ -223,21 +146,11 @@ Articles
     </item>
     
     <item>
-      <title>Stoicism vs Sentimentalism</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/stoicism-sentimentalism/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/stoicism-sentimentalism/</guid>
-      <description>Stoicism vs Sentimentalism Use Agnes Callard&amp;rsquo;s On Anger as an argument against rationality. In this view the truly rational thing is to hold a grudge and exact revenge forever and ever, amen. It is the irrational dissolution of anger that allows for peace and resolution
-Not exactly support for my gotta be irrational to be ethical thesis, but rather the opposite. Anyway, relevant. https://twitter.com/womenpostingws/status/1398786339785433092?s=19</description>
-    </item>
-    
-    <item>
       <title>Focus</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</guid>
       <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
 Canonical answers:
  Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>
@@ -245,10 +158,10 @@ Canonical answers:
     
     <item>
       <title>Associative and non-associative learning</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/associative-non-associative/</guid>
       <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
  There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
 Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
@@ -256,10 +169,10 @@ Habituation is when repeated exposure to a stimulus decreases an organism&amp;rs
     
     <item>
       <title>2021-05-10</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-05-10/</guid>
       <description>Articles
  This Bloomberg article on anti-Asian discrimination in Vancouver The table on the timeline of the Women&amp;rsquo;s Suffrage page on Wikipedia. It&amp;rsquo;s mind-boggling how recently women gained the right to vote. This awesome newsletter entry by Ted Gioia on The Deadliest Song in History. Taking Sex Differences in Personality Seriously  Music
  My Analog Journal. A great YouTube channel that &amp;ldquo;explore rare grooves around the world on vinyl&amp;rdquo;. It&amp;rsquo;s a bunch of hour long sets, filmed looking straight down at the turntable while he spins.</description>
@@ -267,19 +180,19 @@ Habituation is when repeated exposure to a stimulus decreases an organism&amp;rs
     
     <item>
       <title>Facebook: The Inside Story</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
       <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
     </item>
     
     <item>
       <title>Truisms (1978-1983)</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/holzer-truisms/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/holzer-truisms/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/holzer-truisms/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/holzer-truisms/</guid>
       <description>TRUISMS (1978-1983) JENNY HOLZER
 A LITTLE KNOWLEDGE CAN GO A LONG WAY
 A LOT OF PROFESSIONALS ARE CRACKPOTS
@@ -292,20 +205,11 @@ A SINCERE EFFORT IS ALL YOU CAN ASK</description>
     </item>
     
     <item>
-      <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/learning-list/</link>
-      <pubDate>Thu, 06 May 2021 20:36:15 -0700</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/learning-list/</guid>
-      <description>Learning list  addiction  applied math statistics causal inference  finish causal inference mixtape a solid, intuitive understanding of selection bias, selection on observables and selection on unobservables  machine learning deep learning  fast.ai course  computer science  program design a better understanding of how the internet works  programming  docker a deep learning framework  work &amp;ldquo;soft&amp;rdquo; skills  managing people   Baudrillard Keats</description>
-    </item>
-    
-    <item>
       <title>Identity goals</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
       <description>Identity goals This is inspired by Atomic Habits. I wrote them when I read the book then forgot about them for some time. After a while I returned to reread them and found it to be a useful recentering device. So I&amp;rsquo;m keeping them for now.
 Goals:
  I want to be the type of person who is competent at statistics, machine learning, causal inference and software engineering I don&amp;rsquo;t drink more often than I do drink.</description>
@@ -313,48 +217,37 @@ Goals:
     
     <item>
       <title>Music: A Subversive History</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/music-a-subversive-history/</guid>
       <description>Krause describes a memorable encounter with an elder of the Nez Perce tribe named Angus Wilson, who chided him one day: “You white people know nothing about music. But I’ll teach you something about it if you want.” The next morning, Krause found himself led to the bank of a stream in northeastern Oregon, where he was motioned to sit quietly on the ground. After a chilly wait, a breeze picked up, and suddenly his surroundings were filled with the sound of a pipe organ chord—a remarkable occurrence, since no instrument was in sight.</description>
     </item>
     
     <item>
       <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/website/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/website/</link>
       <pubDate>Thu, 15 Apr 2021 04:46:20 -0700</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/website/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/website/</guid>
       <description>Website Blog posts  Work through backlog of unfinished - posts (reprioritize if necessary):  substantially complete:  business data cleaning artist network notebook (start data science mini project series?) task scheduling sci kit learn custom transformer   mostly ideas:  multi armed bandits in experiments (contextual bandits) design based inference causal survival analysis (business data potential application)      Website improvements  add website analytics (Plausible?</description>
     </item>
     
     <item>
       <title>Klara and the Sun</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/klara-and-the-sun/</guid>
       <description>Klara and the sun  If Klara is super intelligent, why doesn&amp;rsquo;t she know basic facts about the sum, solar system, planetary motion, etc? There is clearly some sort of some theology. Is it because the sun is all important to their existence that their creators programmed this strange theology in place of basic science? I realize now after having finished the book what an anthropocentric viewpoint the above comment takes.</description>
     </item>
     
     <item>
-      <title>Implementation intentions</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</guid>
-      <description>Implementation intentions Template:  I will {BEHAVIOR} at {TIME} in {LOCATION}  Implementation Intentions: Daily   Every day before I sit down at my desk, I will do two Sun salutations
-  I will start work when I first sit down at my desk on Monday, Wednesday and Friday.
-  I will work on a personal coding project for at least fifteen minutes and no more than an hour when I first sit down at my desk on Tuesday and Thursday.</description>
-    </item>
-    
-    <item>
       <title>Change git branch (master to main)</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:
@@ -363,29 +256,20 @@ First, rename your local branch:
     
     <item>
       <title>Flask wordcount app</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/simple_flask_app/</guid>
       <description>I made a simple flask app that takes a URL as input and returns a table and chart of the most used words on the site.
 Built with Flask using a Postgres backend. Uses beautiful soup to scrape and process html from given website. Implements a Redis task queue to handle requests. Uses Angular to poll the back end for completion and to display a word frequency chart using JavaScript and D3.</description>
     </item>
     
     <item>
-      <title>Cleaning Vancouver&#39;s open business license data</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cleaning-business-licenses/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cleaning-business-licenses/</guid>
-      <description>This is the first post in a series on building an end to end machine learning tool using Vancouver Businesses License data from Vancouver&amp;rsquo;s Open Data Portal. V0 will be a trained model, served up to a website with a simple front end where aspiring Vancouver business owners can plug in some information about their business and get back a success likelihood score1 that can help them decide if opening their business is a good idea.</description>
-    </item>
-    
-    <item>
       <title>Change your file permissions, baby!</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</link>
       <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
 chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
@@ -393,19 +277,19 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
     
     <item>
       <title>Move and rename all files in a folder</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</link>
       <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/cl_move_and_rename_files/</guid>
       <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/about/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/about/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/about/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/about/</guid>
       <description>Hello!
 My name is Colin. This is my playground. I share my writing, my notes and my intellectual wanderings here. I hope you can find something of interest amongst the many things that grab my attention. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at @colinspear.
 By training, I am an economist, a baker, an artist and a student of the Spanish language.</description>
@@ -413,64 +297,62 @@ By training, I am an economist, a baker, an artist and a student of the Spanish 
     
     <item>
       <title>Count files by type and directory</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
     <item>
-      <title>Local job scheduling</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/scheduling/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/scheduling/</guid>
-      <description>In which Colin learns to schedule a task</description>
-    </item>
-    
-    <item>
-      <title>Custom sklearn transformer</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/sklearn-custom-transformer/</guid>
-      <description>For when your daily affirmations just aren&amp;rsquo;t cutting it</description>
-    </item>
-    
-    <item>
-      <title>Multi-armed bandits in experiments</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/adaptive-bandits/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/posts/adaptive-bandits/</guid>
-      <description>Hold on to your purses, ladies and gentlemen</description>
-    </item>
-    
-    <item>
       <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/base/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/base/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/a-mind-at-play/</guid>
       <description>A Mind at Play Information is divorced from content. This was one of the fundamental insights leading up to Shannon&amp;rsquo;s work. Information is not about what you send, it&amp;rsquo;s simply about what you can send, or the set of things you can send. This is kind of amazing to me: developing the technologies that have given us so many platforms for expressing our weirdness and individuality was only possible by ignoring all of that stuff in the first place.</description>
     </item>
     
     <item>
       <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/taxes2020/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/taxes2020/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</guid>
+      <description>#&amp;mdash; title: &amp;lsquo;2021-06-13&amp;rsquo; date: 2021-06-13 tags: [&amp;lsquo;notes&amp;rsquo;, &amp;lsquo;covid&amp;rsquo;, information&#39;, &amp;lsquo;science&amp;rsquo;, draft: false 2021-06-22
+  This article on Patrick Collison, Tyler Cowen and Patrick Jay&amp;rsquo;s reflections on the Fast Grants program they started to fund COVID related research during the pandemic. This quote stands out:
+ Scientists are in the paradoxical position of being deemed the very best people to fund in order to make important discoveries but not so trustworthy that they should be able to decide what work would actually make the most sense!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/orchestration-and-demonstration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/orchestration-and-demonstration/</guid>
+      <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
+I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/2021-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/2021-06/</guid>
+      <description>Todo June 2021
+Weekend 0619
+ [] water plants inside [] change batteries in stair light [] buy window protection  Later
+ [] thrift store [] recycling - soft plastics and batteries, maybe some cables/electronics, clothes  Done
+ hardware store (charcoal) Pharmacy (iron supplement) get Hannah iron (ferramax) Persia food run  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/taxes2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/todo/taxes2020/</guid>
       <description>2020 taxes to do  Home office calculations Look back on emails from Heart payroll for information about how to deal with employer / payroll taxes US taxes  FBAR   Enter Else&amp;rsquo;s SIN into dependants section  </description>
     </item>
     

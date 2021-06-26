@@ -2,37 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notes on Colin Spear</title>
-    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/</link>
     <description>Recent content in notes on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2021-06-13</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/links/2021-06-22/</guid>
-      <description>2021-06-22   This article on Patrick Collison, Tyler Cowen and Patrick Jay&amp;rsquo;s reflections on the Fast Grants program they started to fund COVID related research during the pandemic. This quote stands out:
- Scientists are in the paradoxical position of being deemed the very best people to fund in order to make important discoveries but not so trustworthy that they should be able to decide what work would actually make the most sense!</description>
-    </item>
-    
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Confusion</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/confusion/</guid>
       <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
     </item>
     
     <item>
       <title>Focus</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/notes/focus/</guid>
       <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
 Canonical answers:
  Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>
@@ -40,10 +30,10 @@ Canonical answers:
     
     <item>
       <title>Facebook: The Inside Story</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/book-notes/facebook/</guid>
       <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
     </item>
     

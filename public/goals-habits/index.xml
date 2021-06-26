@@ -2,41 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goals-habits on Colin Spear</title>
-    <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/</link>
+    <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/</link>
     <description>Recent content in Goals-habits on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 06 May 2021 20:36:15 -0700</lastBuildDate><atom:link href="notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/learning-list/</link>
-      <pubDate>Thu, 06 May 2021 20:36:15 -0700</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/learning-list/</guid>
-      <description>Learning list  addiction  applied math statistics causal inference  finish causal inference mixtape a solid, intuitive understanding of selection bias, selection on observables and selection on unobservables  machine learning deep learning  fast.ai course  computer science  program design a better understanding of how the internet works  programming  docker a deep learning framework  work &amp;ldquo;soft&amp;rdquo; skills  managing people   Baudrillard Keats</description>
-    </item>
-    
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identity goals</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
+      <link>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
+      <guid>https://notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/identity-goals/</guid>
       <description>Identity goals This is inspired by Atomic Habits. I wrote them when I read the book then forgot about them for some time. After a while I returned to reread them and found it to be a useful recentering device. So I&amp;rsquo;m keeping them for now.
 Goals:
  I want to be the type of person who is competent at statistics, machine learning, causal inference and software engineering I don&amp;rsquo;t drink more often than I do drink.</description>
-    </item>
-    
-    <item>
-      <title>Implementation intentions</title>
-      <link>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</link>
-      <pubDate>Sat, 03 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>notes-submodule.d1zllkef03p41t.amplifyapp.com/goals-habits/implementation-intentions/</guid>
-      <description>Implementation intentions Template:  I will {BEHAVIOR} at {TIME} in {LOCATION}  Implementation Intentions: Daily   Every day before I sit down at my desk, I will do two Sun salutations
-  I will start work when I first sit down at my desk on Monday, Wednesday and Friday.
-  I will work on a personal coding project for at least fifteen minutes and no more than an hour when I first sit down at my desk on Tuesday and Thursday.</description>
     </item>
     
   </channel>
