@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-07-11</title>
+      <link>https://www.colinspear.com/links/2021-07-11/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/links/2021-07-11/</guid>
+      <description>Articles  Nabeel Qureshi&amp;rsquo;s Notes on Popper Noah Smith on the Hispanic shift to the right. Come for the political drama, stay for the economic and social mobility charts. I hadn&amp;rsquo;t realized the degree to which Hispanics were moving up in the US. I want to send this other Noah Smith explainer newsletter on why economics isn&amp;rsquo;t just a way for rich folks to excuse themselves from social responsibility to everyone who has ever asked me what I think about stocks when they learn I studied economics.</description>
+    </item>
+    
     <item>
       <title>Links</title>
       <link>https://www.colinspear.com/links/2021-06-29/</link>
@@ -248,15 +257,6 @@ Goals:
     </item>
     
     <item>
-      <title></title>
-      <link>https://www.colinspear.com/todo/website/</link>
-      <pubDate>Thu, 15 Apr 2021 04:46:20 -0700</pubDate>
-      
-      <guid>https://www.colinspear.com/todo/website/</guid>
-      <description>Website Blog posts  Work through backlog of unfinished - posts (reprioritize if necessary):  substantially complete:  business data cleaning artist network notebook (start data science mini project series?) task scheduling sci kit learn custom transformer   mostly ideas:  multi armed bandits in experiments (contextual bandits) design based inference causal survival analysis (business data potential application)      Website improvements  add website analytics (Plausible?</description>
-    </item>
-    
-    <item>
       <title>Klara and the Sun</title>
       <link>https://www.colinspear.com/book-notes/klara-and-the-sun/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
@@ -354,28 +354,6 @@ By training, I am an economist, a baker, an artist and a student of the Spanish 
       <guid>https://www.colinspear.com/notes/orchestration-and-demonstration/</guid>
       <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
 I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.colinspear.com/todo/2021-06/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/todo/2021-06/</guid>
-      <description>Todo June 2021
-Short term
- [] change batteries in stair light call doc: allergies, vasectomy [] meat - liver or ground meat install window protection [] review spud order - peanut butter, tp  Less short term
- [] thrift store [] recycling - soft plastics and batteries, maybe some cables/electronics, clothes  Done
- [x ] laundry - diapers [ x] clean bathroom water plants inside hardware store (charcoal) Pharmacy (iron supplement) get Hannah iron (ferramax) Persia food run buy window protection  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.colinspear.com/todo/taxes2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/todo/taxes2020/</guid>
-      <description>2020 taxes to do  Home office calculations Look back on emails from Heart payroll for information about how to deal with employer / payroll taxes US taxes  FBAR   Enter Else&amp;rsquo;s SIN into dependants section  </description>
     </item>
     
   </channel>

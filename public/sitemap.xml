@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.colinspear.com/links/2021-07-11/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/links/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/links/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.colinspear.com/tags/aging/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.colinspear.com/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.colinspear.com/tags/commiment/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/links/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,11 +44,6 @@
   
   <url>
     <loc>https://www.colinspear.com/tags/music/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -109,11 +119,6 @@
   
   <url>
     <loc>https://www.colinspear.com/links/2021-06-15/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/links/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,16 +363,6 @@
   </url>
   
   <url>
-    <loc>https://www.colinspear.com/todo/website/</loc>
-    <lastmod>2021-04-15T04:46:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/todo/</loc>
-    <lastmod>2021-04-15T04:46:20-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.colinspear.com/tags/ai/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
@@ -457,14 +452,6 @@
   
   <url>
     <loc>https://www.colinspear.com/notes/orchestration-and-demonstration/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/todo/2021-06/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/todo/taxes2020/</loc>
   </url>
   
   <url>
