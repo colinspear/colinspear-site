@@ -10,7 +10,7 @@ copyright = "Colin Spear" # cactus theme will use site title if copyright is not
 # googleAnalytics = "UA-123-45"
 # googleAnalyticsAsync = true # not required
 
-ignoreFiles = ["learning", "google-docs", "scrap", "todo.md"]
+ignoreFiles = ["learning", "google-docs", "scrap", "todo"]
 
 [params]
   colortheme = "white" # dark, light, white, or classic
