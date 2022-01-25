@@ -10,7 +10,7 @@ copyright = "Colin Spear" # cactus theme will use site title if copyright is not
 # googleAnalytics = "UA-123-45"
 # googleAnalyticsAsync = true # not required
 
-ignoreFiles = ["learning", "google-docs", "scrap", "todo"]
+ignoreFiles = ["learning", "google-docs", "scrap", "todo", "notes", "goals-habits"]
 
 [params]
   colortheme = "white" # dark, light, white, or classic
@@ -36,28 +36,28 @@ ignoreFiles = ["learning", "google-docs", "scrap", "todo"]
 
 [[menu.main]]
 name = "Posts"
-url = "/posts"
+url = "/technical-posts"
 weight = 2
 
 [[menu.main]]
 name = "Links"
 url = "/links"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Notes"
-url = "/notes"
+url = "/thoughts-posts"
 weight = 2
 
 [[menu.main]]
 name = "People"
 url = "/people/people"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 5
 
 [[menu.main]]
 name = "About"
