@@ -7,3 +7,6 @@
 [submodule "content"]
 	path = content
 	url = git@github.com:colinspear/notes.git
+[submodule "themes/themes/PaperMod"]
+	path = themes/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

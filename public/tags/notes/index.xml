@@ -5,7 +5,6 @@
     <link>https://www.colinspear.com/tags/notes/</link>
     <description>Recent content in notes on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Colin Spear</copyright>
     <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,31 +19,32 @@
     
     <item>
       <title>Confusion</title>
-      <link>https://www.colinspear.com/notes/confusion/</link>
+      <link>https://www.colinspear.com/thoughts-posts/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/confusion/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/confusion/</guid>
       <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
     </item>
     
     <item>
-      <title>Focus</title>
-      <link>https://www.colinspear.com/notes/focus/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      <title>Orchestration and Demonstration or How to not be an Awkward Host</title>
+      <link>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/focus/</guid>
-      <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
-Canonical answers:
- Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>
+      <guid>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</guid>
+      <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
+I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
     </item>
     
     <item>
-      <title>Facebook: The Inside Story</title>
-      <link>https://www.colinspear.com/book-notes/facebook/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <title>Focus</title>
+      <link>https://www.colinspear.com/thoughts-posts/focus/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/book-notes/facebook/</guid>
-      <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
+      <guid>https://www.colinspear.com/thoughts-posts/focus/</guid>
+      <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
+Canonical answers:
+ Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>
     </item>
     
   </channel>

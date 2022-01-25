@@ -5,35 +5,34 @@
     <link>https://www.colinspear.com/tags/bash/</link>
     <description>Recent content in bash on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Colin Spear</copyright>
     <lastBuildDate>Wed, 24 Feb 2021 08:28:54 -0800</lastBuildDate><atom:link href="https://www.colinspear.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change your file permissions, baby!</title>
-      <link>https://www.colinspear.com/posts/chmod_codes/</link>
+      <link>https://www.colinspear.com/technical-posts/chmod_codes/</link>
       <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>https://www.colinspear.com/posts/chmod_codes/</guid>
+      <guid>https://www.colinspear.com/technical-posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
-chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
+1  chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename   Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
     </item>
     
     <item>
       <title>Move and rename all files in a folder</title>
-      <link>https://www.colinspear.com/posts/cl_move_and_rename_files/</link>
+      <link>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</link>
       <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>https://www.colinspear.com/posts/cl_move_and_rename_files/</guid>
+      <guid>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</guid>
       <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
     <item>
       <title>Count files by type and directory</title>
-      <link>https://www.colinspear.com/posts/count-files-by-type-and-directory/</link>
+      <link>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
