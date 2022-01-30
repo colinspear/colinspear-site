@@ -7,7 +7,7 @@
 <meta name=keywords content="bash,command-line">
 <meta name=description content="Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
-1  chmod <owner><group><others> filename   Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
+chmod <owner><group><others> filename Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
 <meta name=author content="Me">
 <link rel=canonical href=https://www.colinspear.com/technical-posts/chmod_codes/>
 <meta name=google-site-verification content="XYZabc">
@@ -30,7 +30,7 @@ The easiest (shortest) way to change permissions is using octal syntax. Octal sy
 </noscript><meta property="og:title" content="Change your file permissions, baby!">
 <meta property="og:description" content="Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
-1  chmod <owner><group><others> filename   Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
+chmod <owner><group><others> filename Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.colinspear.com/technical-posts/chmod_codes/"><meta property="article:section" content="technical-posts">
 <meta property="article:published_time" content="2021-02-24T08:28:54-08:00">
@@ -39,9 +39,9 @@ The easiest (shortest) way to change permissions is using octal syntax. Octal sy
 <meta name=twitter:title content="Change your file permissions, baby!">
 <meta name=twitter:description content="Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
-1  chmod <owner><group><others> filename   Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
+chmod <owner><group><others> filename Where <owner>, <group> and <others> stand for the octal numeral pertaining to that user or group.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Technical-posts","item":"https://www.colinspear.com/technical-posts/"},{"@type":"ListItem","position":3,"name":"Change your file permissions, baby!","item":"https://www.colinspear.com/technical-posts/chmod_codes/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Change your file permissions, baby!","name":"Change your file permissions, baby!","description":"Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here\u0026rsquo;s how you do it!\nThe easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:\n1  chmod \u0026lt;owner\u0026gt;\u0026lt;group\u0026gt;\u0026lt;others\u0026gt; filename   Where \u0026lt;owner\u0026gt;, \u0026lt;group\u0026gt; and \u0026lt;others\u0026gt; stand for the octal numeral pertaining to that user or group.","keywords":["bash","command-line"],"articleBody":"Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here’s how you do it!\nThe easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:\n1  chmod  filename   Where ,  and  stand for the octal numeral pertaining to that user or group. Conveniently, there are eight values these codes can take. Coincidence? I think not!\n   Code Permissions granted     0 No permissions   1 Execute only   2 Write only   3 Write and execute   4 Read only   5 Read and execute   6 Read and write   7 Read, write, and execute (full permissions)    For example, this lets anyone do anything they want to the file,\n1  chmod 777 file.txt   this only lets the owner read and write to the file,\n1  chmod 700 file.txt   And this gives the owner full permissions, other users in the same group as the owner read and execute permissions and everyone else only execute permissions:\n1  chmod 751 file.txt   Now go ye forth and modify permissions.\n","wordCount":"199","inLanguage":"en","datePublished":"2021-02-24T08:28:54-08:00","dateModified":"2021-02-24T08:28:54-08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.colinspear.com/technical-posts/chmod_codes/"},"publisher":{"@type":"Organization","name":"Colin Spear","logo":{"@type":"ImageObject","url":"https://www.colinspear.com/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Change your file permissions, baby!","name":"Change your file permissions, baby!","description":"Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here\u0026rsquo;s how you do it!\nThe easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:\nchmod \u0026lt;owner\u0026gt;\u0026lt;group\u0026gt;\u0026lt;others\u0026gt; filename Where \u0026lt;owner\u0026gt;, \u0026lt;group\u0026gt; and \u0026lt;others\u0026gt; stand for the octal numeral pertaining to that user or group.","keywords":["bash","command-line"],"articleBody":"Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here’s how you do it!\nThe easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:\nchmod  filename Where ,  and  stand for the octal numeral pertaining to that user or group. Conveniently, there are eight values these codes can take. Coincidence? I think not!\n   Code Permissions granted     0 No permissions   1 Execute only   2 Write only   3 Write and execute   4 Read only   5 Read and execute   6 Read and write   7 Read, write, and execute (full permissions)    For example, this lets anyone do anything they want to the file,\nchmod 777 file.txt this only lets the owner read and write to the file,\nchmod 700 file.txt And this gives the owner full permissions, other users in the same group as the owner read and execute permissions and everyone else only execute permissions:\nchmod 751 file.txt Now go ye forth and modify permissions.\n","wordCount":"195","inLanguage":"en","datePublished":"2021-02-24T08:28:54-08:00","dateModified":"2021-02-24T08:28:54-08:00","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.colinspear.com/technical-posts/chmod_codes/"},"publisher":{"@type":"Organization","name":"Colin Spear","logo":{"@type":"ImageObject","url":"https://www.colinspear.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -96,20 +96,13 @@ The easiest (shortest) way to change permissions is using octal syntax. Octal sy
 <h1 class=post-title>
 Change your file permissions, baby!
 </h1>
-<div class=post-meta><span title="2021-02-24 08:28:54 -0800 PST">February 24, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/%3cpath_to_repo%3e/content/technical-posts/chmod_codes.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+<div class=post-meta><span title="2021-02-24 08:28:54 -0800 PST">February 24, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me
 </div>
 </header>
 <div class=post-content><p>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see <a href=https://docs.nersc.gov/filesystems/unix-file-permissions/>this article</a>). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&rsquo;s how you do it!</p>
 <p>The easiest (shortest) way to change permissions is using <a href=https://en.wikipedia.org/wiki/Octal>octal</a> syntax. Octal syntax goes like this:</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod &lt;owner&gt;&lt;group&gt;&lt;others&gt; filename
-</code></pre></td></tr></table>
-</div>
-</div><p>Where <code>&lt;owner></code>, <code>&lt;group></code> and <code>&lt;others></code> stand for the octal numeral pertaining to that user or group. Conveniently, there are eight values these codes can take. Coincidence? I think not!</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod &lt;owner&gt;&lt;group&gt;&lt;others&gt; filename
+</code></pre></div><p>Where <code>&lt;owner></code>, <code>&lt;group></code> and <code>&lt;others></code> stand for the octal numeral pertaining to that user or group. Conveniently, there are eight values these codes can take. Coincidence? I think not!</p>
 <table>
 <thead>
 <tr>
@@ -153,33 +146,12 @@ Change your file permissions, baby!
 </tbody>
 </table>
 <p>For example, this lets anyone do anything they want to the file,</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 777 file.txt
-</code></pre></td></tr></table>
-</div>
-</div><p>this only lets the owner read and write to the file,</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 700 file.txt
-</code></pre></td></tr></table>
-</div>
-</div><p>And this gives the owner full permissions, other users in the same group as the owner read and execute permissions and everyone else only execute permissions:</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 751 file.txt
-</code></pre></td></tr></table>
-</div>
-</div><p>Now go ye forth and modify permissions.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 777 file.txt
+</code></pre></div><p>this only lets the owner read and write to the file,</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 700 file.txt
+</code></pre></div><p>And this gives the owner full permissions, other users in the same group as the owner read and execute permissions and everyone else only execute permissions:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>chmod 751 file.txt
+</code></pre></div><p>Now go ye forth and modify permissions.</p>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>

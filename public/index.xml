@@ -248,8 +248,8 @@ Habituation is when repeated exposure to a stimulus decreases an organism&amp;rs
       <guid>https://www.colinspear.com/technical-posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
-1  ❯ git branch -m master main   Then you can check that it worked:
-1 2 3 4 5  ❯ git status On branch main Your branch is up to date with &amp;#39;origin/master&amp;#39;. nothing to commit, working tree clean   If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
+❯ git branch -m master main Then you can check that it worked:
+❯ git status On branch main Your branch is up to date with &amp;#39;origin/master&amp;#39;. nothing to commit, working tree clean If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
     </item>
     
     <item>
@@ -270,7 +270,7 @@ Built with Flask using a Postgres backend. Uses beautiful soup to scrape and pro
       <guid>https://www.colinspear.com/technical-posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
-1  chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename   Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
+chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
     </item>
     
     <item>
@@ -301,6 +301,16 @@ By training, I am an economist, a baker, a sculptor and a student of the Spanish
       <guid>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.colinspear.com/thoughts-posts/listening-vs-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/thoughts-posts/listening-vs-reading/</guid>
+      <description>I mostly listen to books these days. With a full time job and two toddlers, there just isn&amp;rsquo;t a lot of time to sit down. For a while I listened as fast as I could. I was in a real consume as much as possible sort of phase, wanting to be well read. Smart. Lately I&amp;rsquo;ve slowed down. I abandon lots of books too, looking for the one that really grabs me.</description>
+    </item>
+    
     
   </channel>
 </rss>
