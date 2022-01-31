@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>habits on Colin Spear</title>
     <link>https://www.colinspear.com/tags/habits/</link>
     <description>Recent content in habits on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Colin Spear</copyright>
     <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/habits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doing the work &gt; Preparing for the work</title>
-      <link>https://www.colinspear.com/posts/performance-ambivalence/</link>
+      <link>https://www.colinspear.com/thoughts-posts/performance-ambivalence/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/performance-ambivalence/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/performance-ambivalence/</guid>
       <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
-    </item>
-    
-    <item>
-      <title>Identity goals</title>
-      <link>https://www.colinspear.com/goals-habits/identity-goals/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/goals-habits/identity-goals/</guid>
-      <description>Identity goals This is inspired by Atomic Habits. I wrote them when I read the book then forgot about them for some time. After a while I returned to reread them and found it to be a useful recentering device. So I&amp;rsquo;m keeping them for now.
-Goals:
- I want to be the type of person who is competent at statistics, machine learning, causal inference and software engineering I don&amp;rsquo;t drink more often than I do drink.</description>
     </item>
     
   </channel>

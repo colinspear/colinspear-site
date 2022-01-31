@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Colin Spear</title>
     <link>https://www.colinspear.com/</link>
     <description>Recent content on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-01-03</title>
+      <link>https://www.colinspear.com/links/2022-01-03/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/links/2022-01-03/</guid>
+      <description>I stopped updating this when I started a new job in October. I think I&amp;rsquo;m settling in a bit and hope to get back to providing weekly or near weekly updates to what I&amp;rsquo;m consuming. I also want to do some best of lists - books, albums, etc. Stay posted.
+2022-01-03 Music  Bunny is a Rider by Caroline Polachek. Try not to groove. Acclaimed Music&amp;rsquo;s 10,000 best songs of all-time Spotify playlist.</description>
+    </item>
+    
+    <item>
+      <title>2021-09-28</title>
+      <link>https://www.colinspear.com/links/2021-09-28/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/links/2021-09-28/</guid>
+      <description>2021-09-28 Tweets GOP sliding into authoritarianism. How is the trend reversed? Or is this a misguided take - is the GOP not actually getting more authoritarian?
+Podcasts Amia Srinavasan on Conversations with Tyler. This was an amazing view of how disciplines can talk right past one another. The particularities of what you focus on when thinking about an issue shape how you think abou that issue so much. Very awkward, very good.</description>
+    </item>
+    
+    <item>
+      <title>2021-09-12</title>
+      <link>https://www.colinspear.com/links/2021-09-12/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/links/2021-09-12/</guid>
+      <description>2021-09-12 Podcasts China talk
+I originally came across this podcast as an Adam Tooze fanboy. He&amp;rsquo;s been on as a guest a number of times and his episodes are as insightful and rich as you might imagine, but I listened to a trio of non-Tooze episodes on U.S.-China relations as part of my self-education on China&amp;rsquo;s shifting role in the global economic and political order. I am woefully undereducated in this realm and this podcast is an amazing resource.</description>
+    </item>
+    
     <item>
       <title>2021-07-18</title>
       <link>https://www.colinspear.com/links/2021-07-18/</link>
@@ -37,24 +66,6 @@
     </item>
     
     <item>
-      <title>Book list</title>
-      <link>https://www.colinspear.com/book-notes/media-list/</link>
-      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/media-list/</guid>
-      <description>Books Favorites 2021  Kazuo Ishiguro, Klara and the Sun Bill Bryson, The Body  To read  Claudia Goldin, Career and Family Richard Florida, Rise of the Creative Class  Finished  Data Detective by Tim Harford  Movies  Syndrome and a Century  </description>
-    </item>
-    
-    <item>
-      <title>Journals, magazines and other online aggregations</title>
-      <link>https://www.colinspear.com/book-notes/journal-magazine-list/</link>
-      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/journal-magazine-list/</guid>
-      <description> Works in Progress The Public Domain Review Gapminder (Dollarstreet) Our World in Data Cochrane Library - summaries of state of knowledge based on RCTs  </description>
-    </item>
-    
-    <item>
       <title>2021-06-22</title>
       <link>https://www.colinspear.com/links/2021-06-22/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
@@ -76,10 +87,10 @@
     
     <item>
       <title>Doing the work &gt; Preparing for the work</title>
-      <link>https://www.colinspear.com/posts/performance-ambivalence/</link>
+      <link>https://www.colinspear.com/thoughts-posts/performance-ambivalence/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/performance-ambivalence/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/performance-ambivalence/</guid>
       <description>Links  Tyler Cowen and David Perell Anna Gat Music: A Subversive History Agnes Callard on the Ezra Klein Show Me, being oh so witty  Motivating questions  How do we know when to push and when to rest, both at the micro level (e.g. in daily/weekly subproject level) and at the macro level (e.g. what projects to take on, when to quit a project)? What is the relationship between striving and acceptance?</description>
     </item>
     
@@ -103,15 +114,6 @@
     </item>
     
     <item>
-      <title>Conjectures and Refutations</title>
-      <link>https://www.colinspear.com/book-notes/conjectures-refutations/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/conjectures-refutations/</guid>
-      <description>Popper - Conjectures and Refutations  Contrasts the Empiricists (the philosophers that saw truth as something stemming from natural observation) with the rationalists (those that believed truth is something to be found through intellectual intuition) His argument is that both of these camps are not really that different at all. They both believe truth to be something whole that can be obtained in full in one way or the other. &amp;ldquo;It is plain, just look at these facts!</description>
-    </item>
-    
-    <item>
       <title>2021-06-01</title>
       <link>https://www.colinspear.com/links/2021-06-01/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
@@ -119,6 +121,17 @@
       <guid>https://www.colinspear.com/links/2021-06-01/</guid>
       <description>2021-06-01 Reading
  The Honest Broker by Ted Gioia. And they do this for a very simple reason: their prestige is enhanced by making these connections. [&amp;hellip;] the Honest Broker plays the long-term game, mate. He&amp;rsquo;s taking about getting things done as an outsider in China in the nineties, but reputation economies tend to be a vital and underestimated resource in the West too. Thorstein Veblen&amp;rsquo;s Theory of the leisure class - an update This is Rob Henderson&amp;rsquo;s idea that Ellie status is conveyed by displaying a certain set of beliefs in the same way that one might wear a certain hat or handbag or sports car.</description>
+    </item>
+    
+    <item>
+      <title>Agglomeration economies and the internet</title>
+      <link>https://www.colinspear.com/thoughts-posts/agglomeration-economy-internet/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/thoughts-posts/agglomeration-economy-internet/</guid>
+      <description>Agglomeration economies and the internet Links
+ https://ideas.repec.org/a/eee/juecon/v73y2013i1p94-110.html  Motivating questions
+ What is the effect of the internet on agglomeration economies? How much of the benefits of colocation are ameliorated by the internet? What are the contours of the Internet&amp;rsquo;s effect on the benefits of colocation? Obviously, being in the same place is still important. In what ways can the internet allow people to capture these benefits and in what ways is it still limited?</description>
     </item>
     
     <item>
@@ -134,18 +147,6 @@
     </item>
     
     <item>
-      <title>Tristes Tropiques</title>
-      <link>https://www.colinspear.com/book-notes/triste-tropique/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/triste-tropique/</guid>
-      <description>Mankind has opted for monoculture
- From early in the book, perhaps from the introduction. I don&amp;rsquo;t recall precisely.
-Chapter 9   The ground that his observations cover is truly remarkable. In chapter 9, Guanabara, he goes from travelogue to France&amp;rsquo;s early colonial history in Brazil to urban design over the course of only a few paragraphs.
-  He speaks of the way that places have ceased to shock and surprise in the way they once did before the sustained contact between colonial and native cultures.</description>
-    </item>
-    
-    <item>
       <title>2021-05-25</title>
       <link>https://www.colinspear.com/links/2021-05-25/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
@@ -156,20 +157,40 @@ Chapter 9   The ground that his observations cover is truly remarkable. In chapt
     </item>
     
     <item>
+      <title>The value of activities with low economic return</title>
+      <link>https://www.colinspear.com/thoughts-posts/divergent-returns/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/thoughts-posts/divergent-returns/</guid>
+      <description>Inspired by an exchange between Rob Henderson and David Perell about the importance of &amp;ldquo;being able to get rich&amp;rdquo; as an incentive to draw overeducated people into the internet content production machine1 economy.
+Links  unbuilders The cost of running a restaurant  Motivating questions  What are some high value add activities / businesses / sectors where economic returns don&amp;rsquo;t seem to match social benefits? Where is the economic return to business far lower than the social benefit?</description>
+    </item>
+    
+    <item>
       <title>Confusion</title>
-      <link>https://www.colinspear.com/notes/confusion/</link>
+      <link>https://www.colinspear.com/thoughts-posts/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/confusion/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/confusion/</guid>
       <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
     </item>
     
     <item>
+      <title>Orchestration and Demonstration or How to not be an Awkward Host</title>
+      <link>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</guid>
+      <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
+I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
+    </item>
+    
+    <item>
       <title>Economics of anonymity in the creator economy</title>
-      <link>https://www.colinspear.com/notes/anonymity/</link>
+      <link>https://www.colinspear.com/thoughts-posts/anonymity/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/anonymity/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/anonymity/</guid>
       <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
  There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
     </item>
@@ -188,10 +209,10 @@ Articles
     
     <item>
       <title>Focus</title>
-      <link>https://www.colinspear.com/notes/focus/</link>
+      <link>https://www.colinspear.com/thoughts-posts/focus/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/focus/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/focus/</guid>
       <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
 Canonical answers:
  Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>
@@ -199,10 +220,10 @@ Canonical answers:
     
     <item>
       <title>Associative and non-associative learning</title>
-      <link>https://www.colinspear.com/notes/associative-non-associative/</link>
+      <link>https://www.colinspear.com/thoughts-posts/associative-non-associative/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/associative-non-associative/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/associative-non-associative/</guid>
       <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
  There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
 Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
@@ -220,88 +241,33 @@ Habituation is when repeated exposure to a stimulus decreases an organism&amp;rs
     </item>
     
     <item>
-      <title>Facebook: The Inside Story</title>
-      <link>https://www.colinspear.com/book-notes/facebook/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/facebook/</guid>
-      <description>Facebook Interesting that there is such a focus on the importance of and focus on privacy during the birth of the company. Is this propoganda, really how it was, or some combination?</description>
-    </item>
-    
-    <item>
-      <title>Truisms (1978-1983)</title>
-      <link>https://www.colinspear.com/book-notes/holzer-truisms/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/holzer-truisms/</guid>
-      <description>TRUISMS (1978-1983) JENNY HOLZER
-A LITTLE KNOWLEDGE CAN GO A LONG WAY
-A LOT OF PROFESSIONALS ARE CRACKPOTS
-A MAN CAN&amp;rsquo;T KNOW WHAT IT IS TO BE A MOTHER
-A NAME MEANS A LOT JUST BY ITSELF
-A POSITIVE ATTITUDE MEANS ALL THE DIFFERENCE IN THE WORLD
-A RELAXED MAN IS NOT NECESSARILY A BETTER MAN
-A SENSE OF TIMING IS THE MARK OF GENIUS
-A SINCERE EFFORT IS ALL YOU CAN ASK</description>
-    </item>
-    
-    <item>
-      <title>Identity goals</title>
-      <link>https://www.colinspear.com/goals-habits/identity-goals/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/goals-habits/identity-goals/</guid>
-      <description>Identity goals This is inspired by Atomic Habits. I wrote them when I read the book then forgot about them for some time. After a while I returned to reread them and found it to be a useful recentering device. So I&amp;rsquo;m keeping them for now.
-Goals:
- I want to be the type of person who is competent at statistics, machine learning, causal inference and software engineering I don&amp;rsquo;t drink more often than I do drink.</description>
-    </item>
-    
-    <item>
-      <title>Music: A Subversive History</title>
-      <link>https://www.colinspear.com/book-notes/music-subversive-history/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/music-subversive-history/</guid>
-      <description>Krause describes a memorable encounter with an elder of the Nez Perce tribe named Angus Wilson, who chided him one day: “You white people know nothing about music. But I’ll teach you something about it if you want.” The next morning, Krause found himself led to the bank of a stream in northeastern Oregon, where he was motioned to sit quietly on the ground. After a chilly wait, a breeze picked up, and suddenly his surroundings were filled with the sound of a pipe organ chord—a remarkable occurrence, since no instrument was in sight.</description>
-    </item>
-    
-    <item>
-      <title>Klara and the Sun</title>
-      <link>https://www.colinspear.com/book-notes/klara-and-the-sun/</link>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/klara-and-the-sun/</guid>
-      <description>Klara and the sun  If Klara is super intelligent, why doesn&amp;rsquo;t she know basic facts about the sum, solar system, planetary motion, etc? There is clearly some sort of some theology. Is it because the sun is all important to their existence that their creators programmed this strange theology in place of basic science? I realize now after having finished the book what an anthropocentric viewpoint the above comment takes.</description>
-    </item>
-    
-    <item>
       <title>Change git branch (master to main)</title>
-      <link>https://www.colinspear.com/posts/change-master-to-main/</link>
+      <link>https://www.colinspear.com/technical-posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/change-master-to-main/</guid>
+      <guid>https://www.colinspear.com/technical-posts/change-master-to-main/</guid>
       <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:
-❯ git status On branch main Your branch is up to date with &#39;origin/master&#39;. nothing to commit, working tree clean If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
+❯ git status On branch main Your branch is up to date with &amp;#39;origin/master&amp;#39;. nothing to commit, working tree clean If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
     </item>
     
     <item>
       <title>Flask wordcount app</title>
-      <link>https://www.colinspear.com/posts/simple_flask_app/</link>
+      <link>https://www.colinspear.com/technical-posts/simple_flask_app/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/simple_flask_app/</guid>
+      <guid>https://www.colinspear.com/technical-posts/simple_flask_app/</guid>
       <description>I made a simple flask app that takes a URL as input and returns a table and chart of the most used words on the site.
 Built with Flask using a Postgres backend. Uses beautiful soup to scrape and process html from given website. Implements a Redis task queue to handle requests. Uses Angular to poll the back end for completion and to display a word frequency chart using JavaScript and D3.</description>
     </item>
     
     <item>
       <title>Change your file permissions, baby!</title>
-      <link>https://www.colinspear.com/posts/chmod_codes/</link>
+      <link>https://www.colinspear.com/technical-posts/chmod_codes/</link>
       <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
       
-      <guid>https://www.colinspear.com/posts/chmod_codes/</guid>
+      <guid>https://www.colinspear.com/technical-posts/chmod_codes/</guid>
       <description>Knowing how to set file permissions is very useful (for a much more thorough primer than I provied here, see this article). Unfortunately, while this is very easy to do, it is even easier to forget the codes used to do so. So here&amp;rsquo;s how you do it!
 The easiest (shortest) way to change permissions is using octal syntax. Octal syntax goes like this:
 chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename Where &amp;lt;owner&amp;gt;, &amp;lt;group&amp;gt; and &amp;lt;others&amp;gt; stand for the octal numeral pertaining to that user or group.</description>
@@ -309,10 +275,10 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
     
     <item>
       <title>Move and rename all files in a folder</title>
-      <link>https://www.colinspear.com/posts/cl_move_and_rename_files/</link>
+      <link>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</link>
       <pubDate>Wed, 17 Feb 2021 12:49:31 -0800</pubDate>
       
-      <guid>https://www.colinspear.com/posts/cl_move_and_rename_files/</guid>
+      <guid>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</guid>
       <description>I wanted to move and rename a bunch of excel files in a folder. This is one way to do it from the command line, copying into a directory in the parent folder. I did it this way to be able to rm -r old_folder after copying my files to the new folder. You could modify it to rename them in place, but I&amp;rsquo;ve accidentally rm -rfed enough things to get nervous doing it that way.</description>
     </item>
     
@@ -323,47 +289,28 @@ chmod &amp;lt;owner&amp;gt;&amp;lt;group&amp;gt;&amp;lt;others&amp;gt; filename 
       
       <guid>https://www.colinspear.com/about/</guid>
       <description>Hello!
-My name is Colin. This is my playground. I share my writing, my notes and my intellectual wanderings here. I hope you can find something of interest amongst the many things that grab my attention. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at @colinspear.
-By training, I am an economist, a baker, an artist and a student of the Spanish language.</description>
+My name is Colin. I share my notes, thoughts and a record of my digital wanderings here. I hope you can find something of interest amongst the many things that grab my attention. If you do, I would love to hear from you. You can send me an email at colinspear@gmail.com or find me on Twitter at @colinspear.
+By training, I am an economist, a baker, a sculptor and a student of the Spanish language.</description>
     </item>
     
     <item>
       <title>Count files by type and directory</title>
-      <link>https://www.colinspear.com/posts/count-files-by-type-and-directory/</link>
+      <link>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/posts/count-files-by-type-and-directory/</guid>
+      <guid>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.colinspear.com/book-notes/a-mind-at-play/</link>
+      <link>https://www.colinspear.com/thoughts-posts/listening-vs-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/book-notes/a-mind-at-play/</guid>
-      <description>A Mind at Play Information is divorced from content. This was one of the fundamental insights leading up to Shannon&amp;rsquo;s work. Information is not about what you send, it&amp;rsquo;s simply about what you can send, or the set of things you can send. This is kind of amazing to me: developing the technologies that have given us so many platforms for expressing our weirdness and individuality was only possible by ignoring all of that stuff in the first place.</description>
+      <guid>https://www.colinspear.com/thoughts-posts/listening-vs-reading/</guid>
+      <description>I mostly listen to books these days. With a full time job and two toddlers, there just isn&amp;rsquo;t a lot of time to sit down. For a while I listened as fast as I could. I was in a real consume as much as possible sort of phase, wanting to be well read. Smart. Lately I&amp;rsquo;ve slowed down. I abandon lots of books too, looking for the one that really grabs me.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://www.colinspear.com/book-notes/da-vinci-isaacson/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/book-notes/da-vinci-isaacson/</guid>
-      <description>Introduction  That followed Leonardo&amp;rsquo;s injunction to begin any investigation by going to the source: he who can go to the fountain does not go to the water jar.
- Themes  Iteration and going deeper. The revisiting if the painting&amp;rsquo;s neck twenty years after the initial painting to correctly render the two sternocleidomastoid muscles after human dissection in 1510. Beginning from foundations. First you must paint the skeleton, then move outward.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.colinspear.com/notes/orchestration-and-demonstration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/notes/orchestration-and-demonstration/</guid>
-      <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
-I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
-    </item>
     
   </channel>
 </rss>

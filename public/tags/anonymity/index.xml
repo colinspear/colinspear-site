@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>anonymity on Colin Spear</title>
     <link>https://www.colinspear.com/tags/anonymity/</link>
     <description>Recent content in anonymity on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <copyright>Colin Spear</copyright>
     <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/anonymity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Economics of anonymity in the creator economy</title>
-      <link>https://www.colinspear.com/notes/anonymity/</link>
+      <link>https://www.colinspear.com/thoughts-posts/anonymity/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/notes/anonymity/</guid>
+      <guid>https://www.colinspear.com/thoughts-posts/anonymity/</guid>
       <description>What are the implications of trying to remain anonymous while trying to be part of the new creator economy?
  There is a new kind of creator economy that is quickly expanding and morphing and dividing and being discussed. Some folks that come to mind that are either creating or speaking about this that come to mind are Nadia Eghbal, David Perell, Anna Gat, Alex Danco, Liminal Warmth, critter I am thinking of some twitter accounts I follow The importance of reputation (Nadia Eghbal and David Perell talk a bit about this on his podcast) and the way production cadences interact with this.</description>
     </item>
