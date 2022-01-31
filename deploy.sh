@@ -1,4 +1,4 @@
-#! /usr/bin/env zsh
+#! /usr/bin/env sh
 
 # If a command fails then the deploy stops
 set -e
