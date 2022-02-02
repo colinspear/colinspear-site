@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.colinspear.com/tags/cheatsheet/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/notes/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/technical-posts/sed/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/sed/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/technical-posts/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/unix/</loc>
+    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.colinspear.com/links/2022-01-03/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +35,10 @@
     <loc>https://www.colinspear.com/tags/books/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/</loc>
-    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.colinspear.com/links/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/links/</loc>
-    <lastmod>2022-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/tags/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/links/2021-09-28/</loc>
@@ -60,9 +78,6 @@
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/information/</loc>
-    <lastmod>2021-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/tags/notes/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/science/</loc>
@@ -201,9 +216,6 @@
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/git/</loc>
-    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/technical-posts/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/flask/</loc>
