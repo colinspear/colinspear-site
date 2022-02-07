@@ -8,11 +8,56 @@
     <copyright>Colin Spear</copyright>
     <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>art</title>
+      <link>https://www.colinspear.com/tags/art/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>articles</title>
+      <link>https://www.colinspear.com/tags/articles/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid</title>
+      <link>https://www.colinspear.com/tags/covid/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>links</title>
       <link>https://www.colinspear.com/tags/links/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://www.colinspear.com/tags/music/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>https://www.colinspear.com/tags/podcasts/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/podcasts/</guid>
       <description></description>
     </item>
     
@@ -44,15 +89,6 @@
     </item>
     
     <item>
-      <title>music</title>
-      <link>https://www.colinspear.com/tags/music/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>vocation</title>
       <link>https://www.colinspear.com/tags/vocation/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
@@ -67,15 +103,6 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid</title>
-      <link>https://www.colinspear.com/tags/covid/</link>
-      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/covid/</guid>
       <description></description>
     </item>
     
@@ -193,33 +220,6 @@
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/remote-work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>art</title>
-      <link>https://www.colinspear.com/tags/art/</link>
-      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>articles</title>
-      <link>https://www.colinspear.com/tags/articles/</link>
-      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/articles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>podcasts</title>
-      <link>https://www.colinspear.com/tags/podcasts/</link>
-      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/podcasts/</guid>
       <description></description>
     </item>
     
