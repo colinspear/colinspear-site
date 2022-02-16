@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>art</title>
       <link>https://www.colinspear.com/tags/art/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/art/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>articles</title>
       <link>https://www.colinspear.com/tags/articles/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/articles/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>covid</title>
       <link>https://www.colinspear.com/tags/covid/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/covid/</guid>
       <description></description>
@@ -37,7 +37,7 @@
     <item>
       <title>links</title>
       <link>https://www.colinspear.com/tags/links/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/links/</guid>
       <description></description>
@@ -46,7 +46,7 @@
     <item>
       <title>music</title>
       <link>https://www.colinspear.com/tags/music/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/music/</guid>
       <description></description>
@@ -55,7 +55,7 @@
     <item>
       <title>podcasts</title>
       <link>https://www.colinspear.com/tags/podcasts/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/podcasts/</guid>
       <description></description>
@@ -67,6 +67,42 @@
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cheatsheet</title>
+      <link>https://www.colinspear.com/tags/cheatsheet/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://www.colinspear.com/tags/notes/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>https://www.colinspear.com/tags/sed/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://www.colinspear.com/tags/unix/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/unix/</guid>
       <description></description>
     </item>
     
@@ -112,15 +148,6 @@
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/information/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://www.colinspear.com/tags/notes/</link>
-      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/notes/</guid>
       <description></description>
     </item>
     
