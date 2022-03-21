@@ -6,7 +6,41 @@
     <description>Recent content in Technical-posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Colin Spear</copyright>
-    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>https://www.colinspear.com/technical-posts/bash/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/technical-posts/bash/</guid>
+      <description>At the moment, this is just a dumping ground for useful tidbits I find / need in my daily work. At some point I will get around to organizing and formalizing.
+Parameter Expansion Bash reference manual
+Slice a string
+a=&amp;#34;teleport&amp;#34; b=${a:4:7} echo $b &amp;gt; port Replace a portion of a string
+The pattern is ${parameter/pattern/string} to replace the first occurence of pattern with string or ${parameter//pattern/string} to replace all occurrences.</description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://www.colinspear.com/technical-posts/vim/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/technical-posts/vim/</guid>
+      <description>At the moment, this is just a dumping ground for useful tidbits I find / need in my daily work. At some point I will get around to organizing and formalizing.
+File formats (carriage returns) If you ever diff two files that look identical, but they display as completely different, you may be dealing with a file format issue. This may happen if you are sharing files between different OS. To display the file format of your current file type this:</description>
+    </item>
+    
+    <item>
+      <title>awk</title>
+      <link>https://www.colinspear.com/technical-posts/awk/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/technical-posts/awk/</guid>
+      <description>Basic syntax awk [ options ] script filenameWhere script is either a single awk command or file of awk commands. Awk commands look like this:
+TODOand filename can be omitted if you&amp;rsquo;re piping in standard input.
+Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; fileSelecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
+    </item>
+    
     <item>
       <title>Sed</title>
       <link>https://www.colinspear.com/technical-posts/sed/</link>

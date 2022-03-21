@@ -3,7 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.colinspear.com/links/2022-03-21/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/books/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/cognitive-bias/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/links/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/longtermism/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/music/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/philanthropy/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/ukraine/</loc>
+    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/bash/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/technical-posts/bash/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/cheatsheet/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/notes/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/technical-posts/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/unix/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/vim/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/technical-posts/vim/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.colinspear.com/links/2022-03-07/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/tags/data/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,12 +108,7 @@
   </url>
   
   <url>
-    <loc>https://www.colinspear.com/links/</loc>
-    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/</loc>
+    <loc>https://www.colinspear.com/tags/public-transit/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,11 +129,6 @@
   
   <url>
     <loc>https://www.colinspear.com/tags/data-engineering/</loc>
-    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/music/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,23 +188,18 @@
   </url>
   
   <url>
+    <loc>https://www.colinspear.com/tags/awk/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.colinspear.com/technical-posts/awk/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.colinspear.com/links/2022-01-31/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/books/</loc>
-    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/cheatsheet/</loc>
-    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/notes/</loc>
-    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -134,16 +209,6 @@
   
   <url>
     <loc>https://www.colinspear.com/tags/sed/</loc>
-    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/technical-posts/</loc>
-    <lastmod>2022-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/unix/</loc>
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -428,11 +493,6 @@
   </url>
   
   <url>
-    <loc>https://www.colinspear.com/tags/bash/</loc>
-    <lastmod>2021-02-24T08:28:54-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.colinspear.com/technical-posts/chmod_codes/</loc>
     <lastmod>2021-02-24T08:28:54-08:00</lastmod>
   </url>
@@ -455,11 +515,6 @@
   <url>
     <loc>https://www.colinspear.com/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.colinspear.com/tags/awk/</loc>
-    <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
