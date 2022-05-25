@@ -3,7 +3,7 @@ baseURL: 'https://www.colinspear.com'
 title: Colin Spear
 theme: PaperMod
 paginate: 10
-copyright: Colin Spear
+# copyright: Colin Spear
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -65,19 +65,19 @@ params:
         iconHeight: 35
 
     # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+    # profileMode:
+    #     enabled: false # needs to be explicitly set
+    #     title: ExampleSite
+    #     subtitle: "This is subtitle"
+    #     imageUrl: "<img location>"
+    #     imageWidth: 120
+    #     imageHeight: 120
+    #     imageTitle: my image
+    #     buttons:
+    #         - name: Posts
+    #           url: posts
+    #         - name: Tags
+    #           url: tags
 
     # home-info mode
     homeInfoParams:
@@ -145,9 +145,9 @@ menu:
           name: Notes
           url: /thoughts-posts/
           weight: 2
-        - identifier: people
-          name: People
-          url: /people/people/
+        - identifier: books
+          name: Books
+          url: /book-notes/
           weight: 3
         - identifier: tags
           name: Tags

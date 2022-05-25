@@ -5,8 +5,7 @@
     <link>https://www.colinspear.com/</link>
     <description>Recent content on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022-03-21</title>
       <link>https://www.colinspear.com/links/2022-03-21/</link>
@@ -94,9 +93,9 @@ Podcasts  Season Two, Episode Two of What had happened was has a gem of a sectio
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/technical-posts/awk/</guid>
-      <description>Basic syntax awk [ options ] script filenameWhere script is either a single awk command or file of awk commands. Awk commands look like this:
-TODOand filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; fileSelecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
+      <description>Basic syntax awk [ options ] script filename Where script is either a single awk command or file of awk commands. Awk commands look like this:
+TODO and filename can be omitted if you&amp;rsquo;re piping in standard input.
+Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; file Selecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
     </item>
     
     <item>
@@ -105,7 +104,7 @@ Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/links/2022-01-31/</guid>
-      <description>Articles  A complaint about Google ditching Pixel 3 support. I have a Pixel 3 and sympathize. Google? More like Boo-gle. 👎 As the author says: here I am, with another piece of premature junk, made by the company that pledges to “maximize the reuse of finite resources” and “enable others to do the same&amp;rdquo;.  Books  I&amp;rsquo;ve been listening to Ted Chiang&amp;rsquo;s collection of short stories, Story of Your Life and Others, on Audible.</description>
+      <description>Articles  A complaint about Google ditching Pixel 3 support. I have a Pixel 3 and sympathize. Google? More like Boo-gle. 👎 As the author says: here I am, with another piece of premature junk, made by the company that pledges to “maximize the reuse of finite resources” and “enable others to do the same&amp;quot;.  Books  I&amp;rsquo;ve been listening to Ted Chiang&amp;rsquo;s collection of short stories, Story of Your Life and Others, on Audible.</description>
     </item>
     
     <item>
@@ -115,8 +114,8 @@ Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if
       
       <guid>https://www.colinspear.com/technical-posts/sed/</guid>
       <description>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
-Basic syntax sed [ options ] script filenameWhere script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
-&amp;#39;command/pattern/replacement/command&amp;#39;and filename can be omitted if you&amp;rsquo;re piping in standard input.
+Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
+command/pattern/replacement/command and filename can be omitted if you&amp;rsquo;re piping in standard input.
 Commands  p: print s: substitute d: delete line  Options  -e: reads the following argument as a script (allows for multiple instructions to be passed at once) -n: don&amp;rsquo;t print to the terminal  Examples Print lines matching a pattern to stdout:</description>
     </item>
     
