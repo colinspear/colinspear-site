@@ -134,7 +134,7 @@ params:
 menu:
     main:
         - identifier: posts
-          name: Posts
+          name: Technical
           url: /technical-posts/
           weight: 2
         - identifier: links
