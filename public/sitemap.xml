@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.colinspear.com/books/</loc>
-    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.colinspear.com/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/command-line/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/git/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/shell/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/tags/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/technical-posts/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.colinspear.com/books/</loc>
     <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/books/english-patient/</loc>
@@ -32,9 +50,6 @@
     <loc>https://www.colinspear.com/tags/philanthropy/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/</loc>
-    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.colinspear.com/tags/ukraine/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,9 +63,6 @@
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/notes/</loc>
-    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/technical-posts/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/tags/unix/</loc>
@@ -350,9 +362,6 @@
     <loc>https://www.colinspear.com/technical-posts/change-master-to-main/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/git/</loc>
-    <lastmod>2021-03-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.colinspear.com/tags/flask/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -363,9 +372,6 @@
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/technical-posts/chmod_codes/</loc>
-    <lastmod>2021-02-24T08:28:54-08:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/tags/command-line/</loc>
     <lastmod>2021-02-24T08:28:54-08:00</lastmod>
   </url><url>
     <loc>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</loc>

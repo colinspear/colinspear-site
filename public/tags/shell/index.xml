@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shell on Colin Spear</title>
+    <link>https://www.colinspear.com/tags/shell/</link>
+    <description>Recent content in shell on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git status - fatal: cannot chdir</title>
+      <link>https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</guid>
+      <description>tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
+Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project&amp;rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.</description>
+    </item>
+    
+  </channel>
+</rss>

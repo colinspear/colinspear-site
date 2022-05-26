@@ -11,7 +11,7 @@
 <meta name=google-site-verification content="XYZabc">
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css integrity="sha256-7I2jZsovtkdTfMt6j2+ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as=style>
 <link rel=preload href=/logo-fill.png as=image>
 <link rel=icon href=https://www.colinspear.com/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://www.colinspear.com/favicon-16x16.png>
@@ -79,19 +79,33 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://www.colinspear.com>Home</a>&nbsp;»&nbsp;<a href=https://www.colinspear.com/tags/>Tags</a></div>
-<h1>git</h1>
+<h1>
+git
+</h1>
 </header>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>git status - fatal: cannot chdir
+</h2>
+</header>
+<div class=entry-content>
+<p>tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
+Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project’s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up....</p>
+</div>
+<footer class=entry-footer><span title="2022-05-26 00:00:00 +0000 UTC">May 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to git status - fatal: cannot chdir" href=https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/></a>
+</article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>Change git branch (master to main)
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Here’s another thing I’ve googled enough times to just put it somewhere I know.
 First, rename your local branch:
 ❯ git branch -m master main Then you can check that it worked:
 ❯ git status On branch main Your branch is up to date with 'origin/master'. nothing to commit, working tree clean If you don’t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo’s home page, click Settings > Branches and then click the edit button that looks like a little pencil)....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2021-03-17 00:00:00 +0000 UTC">March 17, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Change git branch (master to main)" href=https://www.colinspear.com/technical-posts/change-master-to-main/></a>
 </article>

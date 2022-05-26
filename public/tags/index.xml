@@ -5,7 +5,34 @@
     <link>https://www.colinspear.com/tags/</link>
     <description>Recent content in Tags on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>command-line</title>
+      <link>https://www.colinspear.com/tags/command-line/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://www.colinspear.com/tags/git/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://www.colinspear.com/tags/shell/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.colinspear.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>books</title>
       <link>https://www.colinspear.com/tags/books/</link>
@@ -574,15 +601,6 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://www.colinspear.com/tags/git/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>flask</title>
       <link>https://www.colinspear.com/tags/flask/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
@@ -597,15 +615,6 @@
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.colinspear.com/tags/web-dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>command-line</title>
-      <link>https://www.colinspear.com/tags/command-line/</link>
-      <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/command-line/</guid>
       <description></description>
     </item>
     
