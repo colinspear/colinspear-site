@@ -2,392 +2,380 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.colinspear.com/</loc>
+    <loc>//www.colinspear.com/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/command-line/</loc>
+    <loc>//www.colinspear.com/tags/command-line/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/git/</loc>
+    <loc>//www.colinspear.com/tags/git/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</loc>
+    <loc>//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/shell/</loc>
+    <loc>//www.colinspear.com/tags/shell/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/</loc>
+    <loc>//www.colinspear.com/tags/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/</loc>
+    <loc>//www.colinspear.com/technical-posts/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/</loc>
+    <loc>//www.colinspear.com/books/</loc>
     <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/english-patient/</loc>
+    <loc>//www.colinspear.com/books/english-patient/</loc>
     <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-03-21/</loc>
+    <loc>//www.colinspear.com/links/2022-03-21/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/books/</loc>
+    <loc>//www.colinspear.com/tags/books/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/cognitive-bias/</loc>
+    <loc>//www.colinspear.com/tags/cognitive-bias/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/</loc>
+    <loc>//www.colinspear.com/links/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/longtermism/</loc>
+    <loc>//www.colinspear.com/tags/longtermism/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/music/</loc>
+    <loc>//www.colinspear.com/tags/music/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/philanthropy/</loc>
+    <loc>//www.colinspear.com/tags/philanthropy/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/ukraine/</loc>
+    <loc>//www.colinspear.com/tags/ukraine/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/bash/</loc>
+    <loc>//www.colinspear.com/tags/bash/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/bash/</loc>
+    <loc>//www.colinspear.com/technical-posts/bash/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/cheatsheet/</loc>
+    <loc>//www.colinspear.com/tags/cheatsheet/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/notes/</loc>
+    <loc>//www.colinspear.com/tags/notes/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/unix/</loc>
+    <loc>//www.colinspear.com/tags/unix/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/vim/</loc>
+    <loc>//www.colinspear.com/tags/vim/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/vim/</loc>
+    <loc>//www.colinspear.com/technical-posts/vim/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-03-07/</loc>
+    <loc>//www.colinspear.com/links/2022-03-07/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/data/</loc>
+    <loc>//www.colinspear.com/tags/data/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/economics/</loc>
+    <loc>//www.colinspear.com/tags/economics/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/finance/</loc>
+    <loc>//www.colinspear.com/tags/finance/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/public-transit/</loc>
+    <loc>//www.colinspear.com/tags/public-transit/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/trade/</loc>
+    <loc>//www.colinspear.com/tags/trade/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-02-28/</loc>
+    <loc>//www.colinspear.com/links/2022-02-28/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/culture/</loc>
+    <loc>//www.colinspear.com/tags/culture/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/data-engineering/</loc>
+    <loc>//www.colinspear.com/tags/data-engineering/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/podcasts/</loc>
+    <loc>//www.colinspear.com/tags/podcasts/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-02-21/</loc>
+    <loc>//www.colinspear.com/links/2022-02-21/</loc>
     <lastmod>2022-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/apps/</loc>
+    <loc>//www.colinspear.com/tags/apps/</loc>
     <lastmod>2022-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/ideas/</loc>
+    <loc>//www.colinspear.com/tags/ideas/</loc>
     <lastmod>2022-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/tweets/</loc>
+    <loc>//www.colinspear.com/tags/tweets/</loc>
     <lastmod>2022-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-02-14/</loc>
+    <loc>//www.colinspear.com/links/2022-02-14/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/articles/</loc>
+    <loc>//www.colinspear.com/tags/articles/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/covid/</loc>
+    <loc>//www.colinspear.com/tags/covid/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/links/</loc>
+    <loc>//www.colinspear.com/tags/links/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-02-07/</loc>
+    <loc>//www.colinspear.com/links/2022-02-07/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/awk/</loc>
+    <loc>//www.colinspear.com/tags/awk/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/awk/</loc>
+    <loc>//www.colinspear.com/technical-posts/awk/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-01-31/</loc>
+    <loc>//www.colinspear.com/links/2022-01-31/</loc>
     <lastmod>2022-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/sed/</loc>
+    <loc>//www.colinspear.com/technical-posts/sed/</loc>
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/sed/</loc>
+    <loc>//www.colinspear.com/tags/sed/</loc>
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/story-of-our-life/</loc>
+    <loc>//www.colinspear.com/books/story-of-our-life/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2022-01-03/</loc>
+    <loc>//www.colinspear.com/links/2022-01-03/</loc>
     <lastmod>2022-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-09-28/</loc>
+    <loc>//www.colinspear.com/links/2021-09-28/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-09-12/</loc>
+    <loc>//www.colinspear.com/links/2021-09-12/</loc>
     <lastmod>2021-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/orwell-essays/</loc>
+    <loc>//www.colinspear.com/books/orwell-essays/</loc>
     <lastmod>2021-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-07-18/</loc>
+    <loc>//www.colinspear.com/links/2021-07-18/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-07-11/</loc>
+    <loc>//www.colinspear.com/links/2021-07-11/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-06-29/</loc>
+    <loc>//www.colinspear.com/links/2021-06-29/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/aging/</loc>
+    <loc>//www.colinspear.com/tags/aging/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/commiment/</loc>
+    <loc>//www.colinspear.com/tags/commiment/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/vocation/</loc>
+    <loc>//www.colinspear.com/tags/vocation/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/work/</loc>
+    <loc>//www.colinspear.com/tags/work/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/journal/</loc>
+    <loc>//www.colinspear.com/tags/journal/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/journal-magazine-list/</loc>
+    <loc>//www.colinspear.com/books/journal-magazine-list/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/list/</loc>
+    <loc>//www.colinspear.com/tags/list/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/magazine/</loc>
+    <loc>//www.colinspear.com/tags/magazine/</loc>
     <lastmod>2021-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-06-22/</loc>
+    <loc>//www.colinspear.com/links/2021-06-22/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/information/</loc>
+    <loc>//www.colinspear.com/tags/information/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/science/</loc>
+    <loc>//www.colinspear.com/tags/science/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-06-15/</loc>
+    <loc>//www.colinspear.com/links/2021-06-15/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/performance-ambivalence/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/performance-ambivalence/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/habits/</loc>
+    <loc>//www.colinspear.com/tags/habits/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/learning/</loc>
+    <loc>//www.colinspear.com/tags/philosophy/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/people/</loc>
+    <loc>//www.colinspear.com/tags/posts/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/people/people/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/people/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/tags/philosophy/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/tags/posts/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/links/2021-06-08/</loc>
+    <loc>//www.colinspear.com/links/2021-06-08/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/a-mind-at-play/</loc>
+    <loc>//www.colinspear.com/books/a-mind-at-play/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/conjectures-refutations/</loc>
+    <loc>//www.colinspear.com/books/conjectures-refutations/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/da-vinci-isaacson/</loc>
+    <loc>//www.colinspear.com/books/da-vinci-isaacson/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-06-01/</loc>
+    <loc>//www.colinspear.com/links/2021-06-01/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/agglomeration-economy-internet/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/agglomeration-economy-internet/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/anthropology/</loc>
+    <loc>//www.colinspear.com/tags/anthropology/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/internet-economics/</loc>
+    <loc>//www.colinspear.com/tags/internet-economics/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/memoir/</loc>
+    <loc>//www.colinspear.com/tags/memoir/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/nonfiction/</loc>
+    <loc>//www.colinspear.com/tags/nonfiction/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/place/</loc>
+    <loc>//www.colinspear.com/tags/place/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/people/quotes/</loc>
+    <loc>//www.colinspear.com/tags/remote-work/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/quotes/</loc>
+    <loc>//www.colinspear.com/tags/social-science/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/remote-work/</loc>
+    <loc>//www.colinspear.com/books/triste-tropique/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/social-science/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/books/triste-tropique/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.colinspear.com/links/2021-05-25/</loc>
+    <loc>//www.colinspear.com/links/2021-05-25/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/drafts/</loc>
+    <loc>//www.colinspear.com/tags/drafts/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/quality-if-life/</loc>
+    <loc>//www.colinspear.com/tags/quality-if-life/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/divergent-returns/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/divergent-returns/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/confusion/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/confusion/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/confusion/</loc>
+    <loc>//www.colinspear.com/tags/confusion/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/anonymity/</loc>
+    <loc>//www.colinspear.com/tags/anonymity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/creator-economy/</loc>
+    <loc>//www.colinspear.com/tags/creator-economy/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/anonymity/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/anonymity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/identity/</loc>
+    <loc>//www.colinspear.com/tags/identity/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/reputation/</loc>
+    <loc>//www.colinspear.com/tags/reputation/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-05-18/</loc>
+    <loc>//www.colinspear.com/links/2021-05-18/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/art/</loc>
+    <loc>//www.colinspear.com/tags/art/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/focus/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/focus/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/joke/</loc>
+    <loc>//www.colinspear.com/tags/joke/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/productivity/</loc>
+    <loc>//www.colinspear.com/tags/productivity/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/addiction/</loc>
+    <loc>//www.colinspear.com/tags/addiction/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/associative-non-associative/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/associative-non-associative/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/links/2021-05-10/</loc>
+    <loc>//www.colinspear.com/tags/learning/</loc>
+    <lastmod>2021-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/links/2021-05-10/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/reading/</loc>
+    <loc>//www.colinspear.com/tags/reading/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/holzer-truisms/</loc>
+    <loc>//www.colinspear.com/books/holzer-truisms/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/music-subversive-history/</loc>
+    <loc>//www.colinspear.com/books/music-subversive-history/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/ai/</loc>
+    <loc>//www.colinspear.com/tags/quotes/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/ai/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/fiction/</loc>
+    <loc>//www.colinspear.com/tags/fiction/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/books/klara-and-the-sun/</loc>
+    <loc>//www.colinspear.com/books/klara-and-the-sun/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/change-master-to-main/</loc>
+    <loc>//www.colinspear.com/technical-posts/change-master-to-main/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/flask/</loc>
+    <loc>//www.colinspear.com/tags/flask/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/simple_flask_app/</loc>
+    <loc>//www.colinspear.com/technical-posts/simple_flask_app/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/web-dev/</loc>
+    <loc>//www.colinspear.com/tags/web-dev/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/chmod_codes/</loc>
+    <loc>//www.colinspear.com/technical-posts/chmod_codes/</loc>
     <lastmod>2021-02-24T08:28:54-08:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/cl_move_and_rename_files/</loc>
+    <loc>//www.colinspear.com/technical-posts/cl_move_and_rename_files/</loc>
     <lastmod>2021-02-17T12:49:31-08:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/about/</loc>
+    <loc>//www.colinspear.com/about/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</loc>
+    <loc>//www.colinspear.com/technical-posts/count-files-by-type-and-directory/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/tags/grep/</loc>
+    <loc>//www.colinspear.com/tags/grep/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.colinspear.com/thoughts-posts/listening-vs-reading/</loc>
+    <loc>//www.colinspear.com/thoughts-posts/listening-vs-reading/</loc>
   </url><url>
-    <loc>https://www.colinspear.com/categories/</loc>
+    <loc>//www.colinspear.com/categories/</loc>
   </url>
 </urlset>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sed on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/sed/</link>
+    <link>//www.colinspear.com/tags/sed/</link>
     <description>Recent content in sed on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/sed/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/sed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sed</title>
-      <link>https://www.colinspear.com/technical-posts/sed/</link>
+      <link>//www.colinspear.com/technical-posts/sed/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/sed/</guid>
+      <guid>//www.colinspear.com/technical-posts/sed/</guid>
       <description>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
 Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
 command/pattern/replacement/command and filename can be omitted if you&amp;rsquo;re piping in standard input.

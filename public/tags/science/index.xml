@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>science on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/science/</link>
+    <link>//www.colinspear.com/tags/science/</link>
     <description>Recent content in science on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021-06-22</title>
-      <link>https://www.colinspear.com/links/2021-06-22/</link>
+      <link>//www.colinspear.com/links/2021-06-22/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/links/2021-06-22/</guid>
+      <guid>//www.colinspear.com/links/2021-06-22/</guid>
       <description>2021-06-22 Articles   This article on Patrick Collison, Tyler Cowen and Patrick Jay&amp;rsquo;s reflections on the Fast Grants program they started to fund COVID related research during the pandemic. This quote stands out:
  Scientists are in the paradoxical position of being deemed the very best people to fund in order to make important discoveries but not so trustworthy that they should be able to decide what work would actually make the most sense!</description>
     </item>

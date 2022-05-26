@@ -1,4 +1,4 @@
-baseURL: 'https://www.colinspear.com'
+baseURL: '//www.colinspear.com'
 # languageCode: en-us
 title: Colin Spear
 theme: PaperMod
@@ -24,6 +24,7 @@ ignoreFiles:
   - todo
   - notes
   - goals-habits
+  - people
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -80,9 +81,9 @@ params:
     #           url: tags
 
     # home-info mode
-    homeInfoParams:
-        Title: "Hi there" # \U0001F44B"
-        Content: Welcome to my garden
+    # homeInfoParams:
+    #     Title: "Hi there" # \U0001F44B"
+    #     Content: Welcome to my garden
 
     socialIcons:
         - name: twitter

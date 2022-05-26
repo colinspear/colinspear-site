@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tweets on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/tweets/</link>
+    <link>//www.colinspear.com/tags/tweets/</link>
     <description>Recent content in tweets on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/tweets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/tweets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022-02-21</title>
-      <link>https://www.colinspear.com/links/2022-02-21/</link>
+      <link>//www.colinspear.com/links/2022-02-21/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/links/2022-02-21/</guid>
+      <guid>//www.colinspear.com/links/2022-02-21/</guid>
       <description>Twitter   Tweets on underrated ideas by Ethan Mollick and Derek Thompson. Makes me want to think about the ideas that have had the biggest influence on my recent thinking/doing. The first ones that comes to mind are:
  Small, consistent effort is much more impactful than major, intermittent effort in the long run. Sunk cost fallacy. I&amp;rsquo;m not a huge fan of the simplistic version of this (never make decisions based on past investments), but find that it can be quite useful to deemphasize the past when making decisions about the future.</description>
     </item>
     
     <item>
       <title>Focus</title>
-      <link>https://www.colinspear.com/thoughts-posts/focus/</link>
+      <link>//www.colinspear.com/thoughts-posts/focus/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/thoughts-posts/focus/</guid>
+      <guid>//www.colinspear.com/thoughts-posts/focus/</guid>
       <description>Focus To what extent can we manufacture focus (asking for a friend :tongue_in_cheek_emoji:)
 Canonical answers:
  Develop habits (if you get used to doing the same thing every day out will get easier to do the same thing every day) Organize your physical environment to minimize distraction and promote concentration Minimize your ambition set (i.e. Don&amp;rsquo;t have to many goals) Take care of your mental and physical needs (sleep, exercise, etc)  My strategy:</description>

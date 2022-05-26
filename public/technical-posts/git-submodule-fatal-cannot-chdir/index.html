@@ -8,18 +8,18 @@
 <meta name=description content="tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
 Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project&rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.">
 <meta name=author content="Me">
-<link rel=canonical href=https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/>
+<link rel=canonical href=//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/>
 <meta name=google-site-verification content="XYZabc">
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css integrity="sha256-7I2jZsovtkdTfMt6j2+ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as=style>
 <link rel=preload href=/logo-fill.png as=image>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://www.colinspear.com/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://www.colinspear.com/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://www.colinspear.com/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://www.colinspear.com/apple-touch-icon.png>
-<link rel=mask-icon href=https://www.colinspear.com/safari-pinned-tab.svg>
+<link rel=icon href=//www.colinspear.com/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=//www.colinspear.com/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=//www.colinspear.com/favicon-32x32.png>
+<link rel=apple-touch-icon href=//www.colinspear.com/apple-touch-icon.png>
+<link rel=mask-icon href=//www.colinspear.com/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.0">
@@ -33,23 +33,23 @@ Background I use the Papermod Hugo theme for my personal website. One of the way
 <meta property="og:description" content="tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
 Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project&rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"><meta property="article:section" content="technical-posts">
+<meta property="og:url" content="//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"><meta property="article:section" content="technical-posts">
 <meta property="article:published_time" content="2022-05-26T00:00:00+00:00">
 <meta property="article:modified_time" content="2022-05-26T00:00:00+00:00"><meta property="og:site_name" content="Colin Spear">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="git status - fatal: cannot chdir">
 <meta name=twitter:description content="tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
 Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project&rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Technical-posts","item":"https://www.colinspear.com/technical-posts/"},{"@type":"ListItem","position":3,"name":"git status - fatal: cannot chdir","item":"https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"git status - fatal: cannot chdir","name":"git status - fatal: cannot chdir","description":"tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.\nBackground I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project\u0026rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.","keywords":["command line","shell","git"],"articleBody":"tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.\nBackground I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project’s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.\nNormally, with a submodule, you would just navigate to the directory containing the submodule and run your standard git pull commands to incorporate any changes to the remote. Unfortunately for me, when I got to my Papermod directory and ran git status to see where the repo was, I got a fatal: not a git repository error.\nThankfully, git gives you a bit of a breadcrumb trail to follow in it’s error code: a path. I checked the path and it wasn’t pointing to the right .git/module. After some minutes of head scratching, I realized there was an extra themes/ in the error that git threw. Then I remembered that I had moved my Papermod directory after realizing there was a redundant themes directory in its original location.\nIt turns out I had just copy pasted the Papermod instructions for adding the theme as a submodule without thinking about what directory I was in:\ngit submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod Note that themes/ in the final argument of the command. This assumes you are in your site’s main directory. I was already in the themes directory, so instead of installing the module at ./themes/Papermod, I installed it at ./themes/themes/Papermod.\nFix To fix this, I had to update all of the file references in all of the git config files that allow the main directory to talk to the submodule. That means updating four different config files1 with the changes that were made:\n1. .gitmodules You will find an entry that looks like this:\n[submodule \"themes/themes/PaperMod\"] path = themes/themes/PaperMod url = https://github.com/adityatelange/hugo-PaperMod.git Change the path and submodule lines to reflect your changes. In my case, I just had to delete the redundant themes/. Note that the submodule path (the part in quotes) is relative to your repo’s root directory.\n2. .git/config The entry looks quite similar to .gitmodules:\n[submodule \"themes/themes/PaperMod\"] url = https://github.com/adityatelange/hugo-PaperMod.git active = true Just change the submodule line to match the .gitmodules file.\n3. .git/modules//config SUBMODULE_PATH should correspond to the path entry in .gitmodules. For me, this is .git/modules/themes/Papermod/config. This file will have a [core]` section that looks like this:\n[core] repositoryformatversion = 0 filemode = true bare = false logallrefupdates = true ignorecase = true precomposeunicode = true worktree = ../../../../../themes/themes/PaperMod The last line (worktree) is the one we are interested in. This needs to point to your submodule’s root directory2.\n4. themes//.git Here you will find a line like this:\ngitdir: ../../../.git/modules/themes/themes/PaperMod Change this to point to the module directory in the root repo’s .git folder. Make sure your ../s take you to the root directory. Since I brought my submodule up a level, I had to remove one ../.\nAnd that’s it! Now when you run git status, you will hopefully see something like the following:\nOn branch master Your branch is up to date with 'origin/master'. nothing to commit, working tree clean Happy versioning!\n  I found these files with grep (the -r and I will search and ignore directories, respectively) ↩︎\n Note that if you are changing the hierarchy and not just the name, you will will have to change the relative directory refferences (i.e. the number of ../ you have) and not just the names. Since I moved my submodule up a directory, I had to remove a set of ../ as well as a themes/. ↩︎\n   ","wordCount":"628","inLanguage":"en","datePublished":"2022-05-26T00:00:00Z","dateModified":"2022-05-26T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"},"publisher":{"@type":"Organization","name":"Colin Spear","logo":{"@type":"ImageObject","url":"https://www.colinspear.com/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Technical-posts","item":"//www.colinspear.com/technical-posts/"},{"@type":"ListItem","position":3,"name":"git status - fatal: cannot chdir","item":"//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"git status - fatal: cannot chdir","name":"git status - fatal: cannot chdir","description":"tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.\nBackground I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project\u0026rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.","keywords":["command line","shell","git"],"articleBody":"tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.\nBackground I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project’s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.\nNormally, with a submodule, you would just navigate to the directory containing the submodule and run your standard git pull commands to incorporate any changes to the remote. Unfortunately for me, when I got to my Papermod directory and ran git status to see where the repo was, I got a fatal: not a git repository error.\nThankfully, git gives you a bit of a breadcrumb trail to follow in it’s error code: a path. I checked the path and it wasn’t pointing to the right .git/module. After some minutes of head scratching, I realized there was an extra themes/ in the error that git threw. Then I remembered that I had moved my Papermod directory after realizing there was a redundant themes directory in its original location.\nIt turns out I had just copy pasted the Papermod instructions for adding the theme as a submodule without thinking about what directory I was in:\ngit submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod Note that themes/ in the final argument of the command. This assumes you are in your site’s main directory. I was already in the themes directory, so instead of installing the module at ./themes/Papermod, I installed it at ./themes/themes/Papermod.\nFix To fix this, I had to update all of the file references in all of the git config files that allow the main directory to talk to the submodule. That means updating four different config files1 with the changes that were made:\n1. .gitmodules You will find an entry that looks like this:\n[submodule \"themes/themes/PaperMod\"] path = themes/themes/PaperMod url = https://github.com/adityatelange/hugo-PaperMod.git Change the path and submodule lines to reflect your changes. In my case, I just had to delete the redundant themes/. Note that the submodule path (the part in quotes) is relative to your repo’s root directory.\n2. .git/config The entry looks quite similar to .gitmodules:\n[submodule \"themes/themes/PaperMod\"] url = https://github.com/adityatelange/hugo-PaperMod.git active = true Just change the submodule line to match the .gitmodules file.\n3. .git/modules//config SUBMODULE_PATH should correspond to the path entry in .gitmodules. For me, this is .git/modules/themes/Papermod/config. This file will have a [core]` section that looks like this:\n[core] repositoryformatversion = 0 filemode = true bare = false logallrefupdates = true ignorecase = true precomposeunicode = true worktree = ../../../../../themes/themes/PaperMod The last line (worktree) is the one we are interested in. This needs to point to your submodule’s root directory2.\n4. themes//.git Here you will find a line like this:\ngitdir: ../../../.git/modules/themes/themes/PaperMod Change this to point to the module directory in the root repo’s .git folder. Make sure your ../s take you to the root directory. Since I brought my submodule up a level, I had to remove one ../.\nAnd that’s it! Now when you run git status, you will hopefully see something like the following:\nOn branch master Your branch is up to date with 'origin/master'. nothing to commit, working tree clean Happy versioning!\n  I found these files with grep (the -r and I will search and ignore directories, respectively) ↩︎\n Note that if you are changing the hierarchy and not just the name, you will will have to change the relative directory refferences (i.e. the number of ../ you have) and not just the names. Since I moved my submodule up a directory, I had to remove a set of ../ as well as a themes/. ↩︎\n   ","wordCount":"628","inLanguage":"en","datePublished":"2022-05-26T00:00:00Z","dateModified":"2022-05-26T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/"},"publisher":{"@type":"Organization","name":"Colin Spear","logo":{"@type":"ImageObject","url":"//www.colinspear.com/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
 <header class=header>
 <nav class=nav>
 <div class=logo>
-<a href=https://www.colinspear.com accesskey=h title="Colin Spear (Alt + H)">
-<img src=https://www.colinspear.com/logo-fill.png alt=logo aria-label=logo height=35>Colin Spear</a>
+<a href=//www.colinspear.com accesskey=h title="Colin Spear (Alt + H)">
+<img src=//www.colinspear.com/logo-fill.png alt=logo aria-label=logo height=35>Colin Spear</a>
 <span class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
@@ -57,27 +57,27 @@ Background I use the Papermod Hugo theme for my personal website. One of the way
 </div>
 <ul id=menu>
 <li>
-<a href=https://www.colinspear.com/links/ title=Links>
+<a href=//www.colinspear.com/links/ title=Links>
 <span>Links</span>
 </a>
 </li>
 <li>
-<a href=https://www.colinspear.com/thoughts-posts/ title=Notes>
+<a href=//www.colinspear.com/thoughts-posts/ title=Notes>
 <span>Notes</span>
 </a>
 </li>
 <li>
-<a href=https://www.colinspear.com/technical-posts/ title=Technical>
+<a href=//www.colinspear.com/technical-posts/ title=Technical>
 <span>Technical</span>
 </a>
 </li>
 <li>
-<a href=https://www.colinspear.com/books/ title=Books>
+<a href=//www.colinspear.com/books/ title=Books>
 <span>Books</span>
 </a>
 </li>
 <li>
-<a href=https://www.colinspear.com/tags title=Tags>
+<a href=//www.colinspear.com/tags title=Tags>
 <span>Tags</span>
 </a>
 </li>
@@ -87,7 +87,7 @@ Background I use the Papermod Hugo theme for my personal website. One of the way
 <main class=main>
 <article class=post-single>
 <header class=post-header>
-<div class=breadcrumbs><a href=https://www.colinspear.com>Home</a>&nbsp;»&nbsp;<a href=https://www.colinspear.com/technical-posts/>Technical-posts</a></div>
+<div class=breadcrumbs><a href=//www.colinspear.com>Home</a>&nbsp;»&nbsp;<a href=//www.colinspear.com/technical-posts/>Technical-posts</a></div>
 <h1 class=post-title>
 git status - fatal: cannot chdir
 </h1>
@@ -151,15 +151,15 @@ nothing to commit, working tree clean
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://www.colinspear.com/tags/command-line/>command-line</a></li>
-<li><a href=https://www.colinspear.com/tags/shell/>shell</a></li>
-<li><a href=https://www.colinspear.com/tags/git/>git</a></li>
+<li><a href=//www.colinspear.com/tags/command-line/>command-line</a></li>
+<li><a href=//www.colinspear.com/tags/shell/>shell</a></li>
+<li><a href=//www.colinspear.com/tags/git/>git</a></li>
 </ul>
 </footer>
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2022 <a href=https://www.colinspear.com>Colin Spear</a></span>
+<span>&copy; 2022 <a href=//www.colinspear.com>Colin Spear</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
