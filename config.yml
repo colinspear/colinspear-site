@@ -29,7 +29,7 @@ ignoreFiles:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Colin Spear
-    description: "A digital home for all I'd like to share"
+    description: "A digital home"
     keywords: [Blog, Portfolio, PaperMod]
     author: Me
     # author: ["Me", "You"] # multiple authors
@@ -42,14 +42,15 @@ params:
     ShowShareButtons: false
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
-    disableSpecial1stPost: True
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: true
     disableScrollToTop: false
     comments: false
     hidemeta: false
     hideSummary: false
     showtoc: false
     tocopen: false
+    mainSections: [links, technical-posts, books, thoughts-posts]
 
     # assets:
         # disableHLJS: true # to disable highlight.js
@@ -60,10 +61,10 @@ params:
         # apple_touch_icon: "<link / abs url>"
         # safari_pinned_tab: "<link / abs url>"
 
-    label:
-        # text: "Home"
-        icon: /logo-fill.png
-        iconHeight: 35
+    # label:
+    #     # text: "Home"
+    #     icon: /logo-fill.png
+    #     iconHeight: 35
 
     # profile-mode
     # profileMode:
@@ -81,9 +82,9 @@ params:
     #           url: tags
 
     # home-info mode
-    # homeInfoParams:
-    #     Title: "Hi there" # \U0001F44B"
-    #     Content: Welcome to my garden
+    homeInfoParams:
+        Title: "Hi there" # \U0001F44B"
+        Content: Welcome to my garden
 
     socialIcons:
         - name: twitter
@@ -153,7 +154,7 @@ menu:
         - identifier: tags
           name: Tags
           url: /tags
-          weight: 5
+          weight: 4
         # - identifier: about
         #   name: About
         #   url: /about
