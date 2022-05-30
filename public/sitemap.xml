@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//www.colinspear.com/links/2022-03-28/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/books/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/climate-change/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//www.colinspear.com/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/existential-risk/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/first-nations/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/future/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/links/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/parenting/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//www.colinspear.com/tags/</loc>
+    <lastmod>2022-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//www.colinspear.com/tags/command-line/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
@@ -15,9 +42,6 @@
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//www.colinspear.com/tags/shell/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//www.colinspear.com/tags/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//www.colinspear.com/technical-posts/</loc>
@@ -32,13 +56,7 @@
     <loc>//www.colinspear.com/links/2022-03-21/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//www.colinspear.com/tags/books/</loc>
-    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//www.colinspear.com/tags/cognitive-bias/</loc>
-    <lastmod>2022-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//www.colinspear.com/links/</loc>
     <lastmod>2022-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//www.colinspear.com/tags/longtermism/</loc>

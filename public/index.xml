@@ -5,7 +5,16 @@
     <link>//www.colinspear.com/</link>
     <description>Recent content on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-05-30</title>
+      <link>//www.colinspear.com/links/2022-03-28/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/links/2022-03-28/</guid>
+      <description>Podcasts On existential risk and climate change  80,000 hours: Toby Ord on existential risk Volts podcast  Elizabeth Popp Berman Noah Smith Paulina Jaramillo    These are all just loosely related, but I listened to them all around the same time and found it very interesting to hold the arguments and implications in my head together. Putting climate change in perspective (before the 80,000 hours podcast I had just default assumed climate change was a major existential risk) while still acknowledging the extremely destructive impacts of the warming that is likely to happen.</description>
+    </item>
+    
     <item>
       <title>git status - fatal: cannot chdir</title>
       <link>//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</link>
