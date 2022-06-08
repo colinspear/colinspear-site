@@ -14,8 +14,8 @@
       <guid>//www.colinspear.com/technical-posts/sed/</guid>
       <description>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
 Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
-command/pattern/replacement/command and filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands  p: print s: substitute d: delete line  Options  -e: reads the following argument as a script (allows for multiple instructions to be passed at once) -n: don&amp;rsquo;t print to the terminal  Examples Print lines matching a pattern to stdout:</description>
+action/pattern/replacement/flag Filename can be omitted if you&amp;rsquo;re piping in standard input.
+Actions  p: print s: substitute  s accepts the following flags which are appended to the end of the command (e.</description>
     </item>
     
   </channel>

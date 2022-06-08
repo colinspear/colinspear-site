@@ -5,7 +5,17 @@
     <link>//www.colinspear.com/tags/cheatsheet/</link>
     <description>Recent content in cheatsheet on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>//www.colinspear.com/technical-posts/git/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/git/</guid>
+      <description>Pull changes in from master that have happened since making changes on feature branch git checkout feature git rebase master Merge feature branch into master To merge a feature into master, first commit changes to your feature branch, then:
+git checkout master git pull origin master git merge feature git push origin master See history git log to see all. Include file if you only want to see history for that file: git log [filename]</description>
+    </item>
+    
     <item>
       <title>bash</title>
       <link>//www.colinspear.com/technical-posts/bash/</link>
@@ -48,8 +58,8 @@ Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if
       <guid>//www.colinspear.com/technical-posts/sed/</guid>
       <description>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
 Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
-command/pattern/replacement/command and filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands  p: print s: substitute d: delete line  Options  -e: reads the following argument as a script (allows for multiple instructions to be passed at once) -n: don&amp;rsquo;t print to the terminal  Examples Print lines matching a pattern to stdout:</description>
+action/pattern/replacement/flag Filename can be omitted if you&amp;rsquo;re piping in standard input.
+Actions  p: print s: substitute  s accepts the following flags which are appended to the end of the command (e.</description>
     </item>
     
   </channel>

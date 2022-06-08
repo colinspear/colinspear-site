@@ -17,6 +17,16 @@ Background I use the Papermod Hugo theme for my personal website. One of the way
     </item>
     
     <item>
+      <title>Git</title>
+      <link>//www.colinspear.com/technical-posts/git/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/git/</guid>
+      <description>Pull changes in from master that have happened since making changes on feature branch git checkout feature git rebase master Merge feature branch into master To merge a feature into master, first commit changes to your feature branch, then:
+git checkout master git pull origin master git merge feature git push origin master See history git log to see all. Include file if you only want to see history for that file: git log [filename]</description>
+    </item>
+    
+    <item>
       <title>Change git branch (master to main)</title>
       <link>//www.colinspear.com/technical-posts/change-master-to-main/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>

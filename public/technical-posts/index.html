@@ -93,6 +93,18 @@ Background I use the Papermod Hugo theme for my personal website. One of the way
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Git
+</h2>
+</header>
+<div class=entry-content>
+<p>Pull changes in from master that have happened since making changes on feature branch git checkout feature git rebase master Merge feature branch into master To merge a feature into master, first commit changes to your feature branch, then:
+git checkout master git pull origin master git merge feature git push origin master See history git log to see all. Include file if you only want to see history for that file: git log [filename]</p>
+</div>
+<footer class=entry-footer><span title="2022-03-22 00:00:00 +0000 UTC">March 22, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to Git" href=//www.colinspear.com/technical-posts/git/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>bash
 </h2>
 </header>
@@ -139,10 +151,10 @@ Commands Options Examples Length of the longest line in a file awk '{ if (length
 <div class=entry-content>
 <p>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
 Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
-command/pattern/replacement/command and filename can be omitted if you’re piping in standard input.
-Commands p: print s: substitute d: delete line Options -e: reads the following argument as a script (allows for multiple instructions to be passed at once) -n: don’t print to the terminal Examples Print lines matching a pattern to stdout:...</p>
+action/pattern/replacement/flag Filename can be omitted if you’re piping in standard input.
+Actions p: print s: substitute s accepts the following flags which are appended to the end of the command (e....</p>
 </div>
-<footer class=entry-footer><span title="2022-01-30 00:00:00 +0000 UTC">January 30, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
+<footer class=entry-footer><span title="2022-01-30 00:00:00 +0000 UTC">January 30, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Sed" href=//www.colinspear.com/technical-posts/sed/></a>
 </article>
 <article class=post-entry>
@@ -195,17 +207,11 @@ chmod &lt;owner>&lt;group>&lt;others> filename Where &lt;owner>, &lt;group> and 
 <footer class=entry-footer><span title="2021-02-17 12:49:31 -0800 PST">February 17, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Move and rename all files in a folder" href=//www.colinspear.com/technical-posts/cl_move_and_rename_files/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Count files by type and directory
-</h2>
-</header>
-<div class=entry-content>
-<p>Using the command line to count stuff</p>
-</div>
-<footer class=entry-footer><span title="2020-12-17 00:00:00 +0000 UTC">December 17, 2020</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Colin</footer>
-<a class=entry-link aria-label="post link to Count files by type and directory" href=//www.colinspear.com/technical-posts/count-files-by-type-and-directory/></a>
-</article>
+<footer class=page-footer>
+<nav class=pagination>
+<a class=next href=//www.colinspear.com/technical-posts/page/2/>Next »</a>
+</nav>
+</footer>
 </main>
 <footer class=footer>
 <span>&copy; 2022 <a href=//www.colinspear.com>Colin Spear</a></span>
