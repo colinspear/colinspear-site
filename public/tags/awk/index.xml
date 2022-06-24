@@ -12,9 +12,9 @@
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>//www.colinspear.com/technical-posts/awk/</guid>
-      <description>Basic syntax awk [ options ] script filename Where script is either a single awk command or file of awk commands. Awk commands look like this:
-TODO and filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; file Selecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
+      <description>Basic syntax awk [ options ] script filenameWhere script is either a single awk command or file of awk commands. Awk commands look like this:
+TODOand filename can be omitted if you&amp;rsquo;re piping in standard input.
+Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; fileSelecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
     </item>
     
     <item>
