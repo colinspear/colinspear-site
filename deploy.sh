@@ -9,13 +9,12 @@ rm -r public
 hugo --config config.yml # if using a theme, replace with `hugo -t <YOURTHEME>`
 cd public
 git add .
-
-# Commit changes.
 msg="rebuilding site $(date)"
+
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-git commit -m "$msg"
 
+git commit -m "$msg"
 git push origin main
 

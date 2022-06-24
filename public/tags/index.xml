@@ -2,539 +2,628 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/</link>
+    <link>//www.colinspear.com/tags/</link>
     <description>Recent content in Tags on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Mon, 21 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>books</title>
-      <link>https://www.colinspear.com/tags/books/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <link>//www.colinspear.com/tags/books/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/books/</guid>
+      <guid>//www.colinspear.com/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cognitive bias</title>
-      <link>https://www.colinspear.com/tags/cognitive-bias/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <title>conservation</title>
+      <link>//www.colinspear.com/tags/conservation/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/cognitive-bias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>longtermism</title>
-      <link>https://www.colinspear.com/tags/longtermism/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/longtermism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>https://www.colinspear.com/tags/music/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>philanthropy</title>
-      <link>https://www.colinspear.com/tags/philanthropy/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/philanthropy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ukraine</title>
-      <link>https://www.colinspear.com/tags/ukraine/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/ukraine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>https://www.colinspear.com/tags/bash/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cheatsheet</title>
-      <link>https://www.colinspear.com/tags/cheatsheet/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/cheatsheet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://www.colinspear.com/tags/notes/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unix</title>
-      <link>https://www.colinspear.com/tags/unix/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://www.colinspear.com/tags/vim/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data</title>
-      <link>https://www.colinspear.com/tags/data/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>economics</title>
-      <link>https://www.colinspear.com/tags/economics/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>finance</title>
-      <link>https://www.colinspear.com/tags/finance/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>public transit</title>
-      <link>https://www.colinspear.com/tags/public-transit/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/public-transit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trade</title>
-      <link>https://www.colinspear.com/tags/trade/</link>
-      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/trade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>culture</title>
-      <link>https://www.colinspear.com/tags/culture/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data engineering</title>
-      <link>https://www.colinspear.com/tags/data-engineering/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>podcasts</title>
-      <link>https://www.colinspear.com/tags/podcasts/</link>
-      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/podcasts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>apps</title>
-      <link>https://www.colinspear.com/tags/apps/</link>
-      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ideas</title>
-      <link>https://www.colinspear.com/tags/ideas/</link>
-      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/ideas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tweets</title>
-      <link>https://www.colinspear.com/tags/tweets/</link>
-      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/tweets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>art</title>
-      <link>https://www.colinspear.com/tags/art/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>articles</title>
-      <link>https://www.colinspear.com/tags/articles/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/articles/</guid>
+      <guid>//www.colinspear.com/tags/conservation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>covid</title>
-      <link>https://www.colinspear.com/tags/covid/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      <link>//www.colinspear.com/tags/covid/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/covid/</guid>
+      <guid>//www.colinspear.com/tags/covid/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>links</title>
-      <link>https://www.colinspear.com/tags/links/</link>
-      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      <title>culture</title>
+      <link>//www.colinspear.com/tags/culture/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/links/</guid>
+      <guid>//www.colinspear.com/tags/culture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>awk</title>
-      <link>https://www.colinspear.com/tags/awk/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <title>ecology</title>
+      <link>//www.colinspear.com/tags/ecology/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/awk/</guid>
+      <guid>//www.colinspear.com/tags/ecology/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>sed</title>
-      <link>https://www.colinspear.com/tags/sed/</link>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <title>farming</title>
+      <link>//www.colinspear.com/tags/farming/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/sed/</guid>
+      <guid>//www.colinspear.com/tags/farming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>aging</title>
-      <link>https://www.colinspear.com/tags/aging/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <title>localism</title>
+      <link>//www.colinspear.com/tags/localism/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/aging/</guid>
+      <guid>//www.colinspear.com/tags/localism/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>commiment</title>
-      <link>https://www.colinspear.com/tags/commiment/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <title>music</title>
+      <link>//www.colinspear.com/tags/music/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/commiment/</guid>
+      <guid>//www.colinspear.com/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>vocation</title>
-      <link>https://www.colinspear.com/tags/vocation/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <title>progress</title>
+      <link>//www.colinspear.com/tags/progress/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/vocation/</guid>
+      <guid>//www.colinspear.com/tags/progress/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>work</title>
-      <link>https://www.colinspear.com/tags/work/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <title>climate change</title>
+      <link>//www.colinspear.com/tags/climate-change/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/work/</guid>
+      <guid>//www.colinspear.com/tags/climate-change/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>information&#39;</title>
-      <link>https://www.colinspear.com/tags/information/</link>
-      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      <title>existential risk</title>
+      <link>//www.colinspear.com/tags/existential-risk/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/information/</guid>
+      <guid>//www.colinspear.com/tags/existential-risk/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>science</title>
-      <link>https://www.colinspear.com/tags/science/</link>
-      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      <title>first nations</title>
+      <link>//www.colinspear.com/tags/first-nations/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/science/</guid>
+      <guid>//www.colinspear.com/tags/first-nations/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>habits</title>
-      <link>https://www.colinspear.com/tags/habits/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <title>future</title>
+      <link>//www.colinspear.com/tags/future/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/habits/</guid>
+      <guid>//www.colinspear.com/tags/future/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>learning</title>
-      <link>https://www.colinspear.com/tags/learning/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <title>parenting</title>
+      <link>//www.colinspear.com/tags/parenting/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>people</title>
-      <link>https://www.colinspear.com/tags/people/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/people/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>philosophy</title>
-      <link>https://www.colinspear.com/tags/philosophy/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>posts</title>
-      <link>https://www.colinspear.com/tags/posts/</link>
-      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>internet economics</title>
-      <link>https://www.colinspear.com/tags/internet-economics/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/internet-economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>place</title>
-      <link>https://www.colinspear.com/tags/place/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/place/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>quotes</title>
-      <link>https://www.colinspear.com/tags/quotes/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/quotes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>remote work</title>
-      <link>https://www.colinspear.com/tags/remote-work/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/remote-work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>drafts</title>
-      <link>https://www.colinspear.com/tags/drafts/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/drafts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>quality if life</title>
-      <link>https://www.colinspear.com/tags/quality-if-life/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/quality-if-life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>confusion</title>
-      <link>https://www.colinspear.com/tags/confusion/</link>
-      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/confusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>anonymity</title>
-      <link>https://www.colinspear.com/tags/anonymity/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/anonymity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>creator economy</title>
-      <link>https://www.colinspear.com/tags/creator-economy/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/creator-economy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>identity</title>
-      <link>https://www.colinspear.com/tags/identity/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/identity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reputation</title>
-      <link>https://www.colinspear.com/tags/reputation/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/reputation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>joke</title>
-      <link>https://www.colinspear.com/tags/joke/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/joke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>https://www.colinspear.com/tags/productivity/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>addiction</title>
-      <link>https://www.colinspear.com/tags/addiction/</link>
-      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/addiction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reading</title>
-      <link>https://www.colinspear.com/tags/reading/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://www.colinspear.com/tags/git/</link>
-      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>flask</title>
-      <link>https://www.colinspear.com/tags/flask/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web-dev</title>
-      <link>https://www.colinspear.com/tags/web-dev/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.colinspear.com/tags/web-dev/</guid>
+      <guid>//www.colinspear.com/tags/parenting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>command-line</title>
-      <link>https://www.colinspear.com/tags/command-line/</link>
-      <pubDate>Wed, 24 Feb 2021 08:28:54 -0800</pubDate>
+      <link>//www.colinspear.com/tags/command-line/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/command-line/</guid>
+      <guid>//www.colinspear.com/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>//www.colinspear.com/tags/git/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>//www.colinspear.com/tags/shell/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cheatsheet</title>
+      <link>//www.colinspear.com/tags/cheatsheet/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>//www.colinspear.com/tags/notes/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cognitive bias</title>
+      <link>//www.colinspear.com/tags/cognitive-bias/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/cognitive-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>longtermism</title>
+      <link>//www.colinspear.com/tags/longtermism/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/longtermism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philanthropy</title>
+      <link>//www.colinspear.com/tags/philanthropy/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/philanthropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ukraine</title>
+      <link>//www.colinspear.com/tags/ukraine/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/ukraine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>//www.colinspear.com/tags/bash/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>//www.colinspear.com/tags/unix/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>//www.colinspear.com/tags/vim/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data</title>
+      <link>//www.colinspear.com/tags/data/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>economics</title>
+      <link>//www.colinspear.com/tags/economics/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finance</title>
+      <link>//www.colinspear.com/tags/finance/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public transit</title>
+      <link>//www.colinspear.com/tags/public-transit/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/public-transit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trade</title>
+      <link>//www.colinspear.com/tags/trade/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/trade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data engineering</title>
+      <link>//www.colinspear.com/tags/data-engineering/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>//www.colinspear.com/tags/podcasts/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apps</title>
+      <link>//www.colinspear.com/tags/apps/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ideas</title>
+      <link>//www.colinspear.com/tags/ideas/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tweets</title>
+      <link>//www.colinspear.com/tags/tweets/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/tweets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>articles</title>
+      <link>//www.colinspear.com/tags/articles/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>links</title>
+      <link>//www.colinspear.com/tags/links/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awk</title>
+      <link>//www.colinspear.com/tags/awk/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>//www.colinspear.com/tags/sed/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aging</title>
+      <link>//www.colinspear.com/tags/aging/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/aging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commiment</title>
+      <link>//www.colinspear.com/tags/commiment/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/commiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vocation</title>
+      <link>//www.colinspear.com/tags/vocation/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/vocation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>//www.colinspear.com/tags/work/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journal</title>
+      <link>//www.colinspear.com/tags/journal/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>list</title>
+      <link>//www.colinspear.com/tags/list/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magazine</title>
+      <link>//www.colinspear.com/tags/magazine/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/magazine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>information&#39;</title>
+      <link>//www.colinspear.com/tags/information/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>//www.colinspear.com/tags/science/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>habits</title>
+      <link>//www.colinspear.com/tags/habits/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>//www.colinspear.com/tags/philosophy/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>posts</title>
+      <link>//www.colinspear.com/tags/posts/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anthropology</title>
+      <link>//www.colinspear.com/tags/anthropology/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/anthropology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memoir</title>
+      <link>//www.colinspear.com/tags/memoir/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/memoir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nonfiction</title>
+      <link>//www.colinspear.com/tags/nonfiction/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/nonfiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social science</title>
+      <link>//www.colinspear.com/tags/social-science/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/social-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confusion</title>
+      <link>//www.colinspear.com/tags/confusion/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/confusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>art</title>
+      <link>//www.colinspear.com/tags/art/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joke</title>
+      <link>//www.colinspear.com/tags/joke/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/joke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>//www.colinspear.com/tags/productivity/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>addiction</title>
+      <link>//www.colinspear.com/tags/addiction/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/addiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>//www.colinspear.com/tags/learning/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>//www.colinspear.com/tags/reading/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quotes</title>
+      <link>//www.colinspear.com/tags/quotes/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/quotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>//www.colinspear.com/tags/ai/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fiction</title>
+      <link>//www.colinspear.com/tags/fiction/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>//www.colinspear.com/tags/flask/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-dev</title>
+      <link>//www.colinspear.com/tags/web-dev/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/tags/web-dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grep</title>
-      <link>https://www.colinspear.com/tags/grep/</link>
+      <link>//www.colinspear.com/tags/grep/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/tags/grep/</guid>
+      <guid>//www.colinspear.com/tags/grep/</guid>
       <description></description>
     </item>
     

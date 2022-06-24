@@ -1,12 +1,6 @@
-[submodule "themes/cactus"]
-	path = themes/cactus
-	url = git@github.com:colinspear/hugo-theme-cactus.git
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "content"]
 	path = content
 	url = git@github.com:colinspear/notes.git
-[submodule "themes/themes/PaperMod"]
-	path = themes/themes/PaperMod
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git

@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vim on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/vim/</link>
+    <link>//www.colinspear.com/tags/vim/</link>
     <description>Recent content in vim on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim</title>
-      <link>https://www.colinspear.com/technical-posts/vim/</link>
+      <link>//www.colinspear.com/technical-posts/vim/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/vim/</guid>
+      <guid>//www.colinspear.com/technical-posts/vim/</guid>
       <description>At the moment, this is just a dumping ground for useful tidbits I find / need in my daily work. At some point I will get around to organizing and formalizing.
 File formats (carriage returns) If you ever diff two files that look identical, but they display as completely different, you may be dealing with a file format issue. This may happen if you are sharing files between different OS. To display the file format of your current file type this:</description>
     </item>

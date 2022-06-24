@@ -2,36 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>work on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/work/</link>
+    <link>//www.colinspear.com/tags/work/</link>
     <description>Recent content in work on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021-06-29</title>
-      <link>https://www.colinspear.com/links/2021-06-29/</link>
+      <link>//www.colinspear.com/links/2021-06-29/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/links/2021-06-29/</guid>
+      <guid>//www.colinspear.com/links/2021-06-29/</guid>
       <description>2021-06-29 Articles   “Smoke a fuckin’ fatty, ya fuckin’ Nazi”
  What is nostalgia like, under such historical conditions? I fear any attempt at answering such a question, today, will necessarily come up short. Today this is how we experience nostalgia: we become anchored to an era, and when it dies, when it is subducted under the ground of time, and we are reminded of that every day in the way other people around us are now dressing and talking and being themselves, in some important sense we die too, and live out our days as ghosts.</description>
     </item>
     
     <item>
       <title>Confusion</title>
-      <link>https://www.colinspear.com/thoughts-posts/confusion/</link>
+      <link>//www.colinspear.com/thoughts-posts/confusion/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/thoughts-posts/confusion/</guid>
+      <guid>//www.colinspear.com/thoughts-posts/confusion/</guid>
       <description>Confusion I am working through a task at work of reproducing a dataset using a long SQL script consisting of separate chunks of data manipulation and manual edits (to the data table, not the code). As often happens, documentation is less than perfect and I am left to figure out much of what I am doing in my own. This naturally leads to some confusion - what should I be looking for, how do I find an issue to correct, how should I correct the issue when I find it etc.</description>
     </item>
     
     <item>
       <title>Orchestration and Demonstration or How to not be an Awkward Host</title>
-      <link>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</link>
+      <link>//www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</guid>
+      <guid>//www.colinspear.com/thoughts-posts/orchestration-and-demonstration/</guid>
       <description>I put the questions to some friends of mine gathered for a barbeque today: how do we know what is proper social etiquette. Or maybe, the less boozhy way to put it is, how do we know how to behave around others?
 I often feel this most acutely when having people over for a meal, when it comes time to eat. I have been running around - chopping, toasting, tasting, roasting - and all of a sudden it&amp;rsquo;s time to eat and everyone is milling about, chatting, drinking and (hopefully) enjoying themselves, just as guests should be.</description>
     </item>

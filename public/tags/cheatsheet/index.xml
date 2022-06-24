@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>cheatsheet on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/cheatsheet/</link>
+    <link>//www.colinspear.com/tags/cheatsheet/</link>
     <description>Recent content in cheatsheet on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>//www.colinspear.com/technical-posts/git/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/git/</guid>
+      <description>Pull changes in from master that have happened since making changes on feature branch git checkout feature git rebase master Merge feature branch into master To merge a feature into master, first commit changes to your feature branch, then:
+git checkout master git pull origin master git merge feature git push origin master See history git log to see all. Include file if you only want to see history for that file: git log [filename]</description>
+    </item>
+    
     <item>
       <title>bash</title>
-      <link>https://www.colinspear.com/technical-posts/bash/</link>
+      <link>//www.colinspear.com/technical-posts/bash/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/bash/</guid>
+      <guid>//www.colinspear.com/technical-posts/bash/</guid>
       <description>At the moment, this is just a dumping ground for useful tidbits I find / need in my daily work. At some point I will get around to organizing and formalizing.
 Parameter Expansion Bash reference manual
 Slice a string
@@ -22,35 +31,35 @@ The pattern is ${parameter/pattern/string} to replace the first occurence of pat
     
     <item>
       <title>vim</title>
-      <link>https://www.colinspear.com/technical-posts/vim/</link>
+      <link>//www.colinspear.com/technical-posts/vim/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/vim/</guid>
+      <guid>//www.colinspear.com/technical-posts/vim/</guid>
       <description>At the moment, this is just a dumping ground for useful tidbits I find / need in my daily work. At some point I will get around to organizing and formalizing.
 File formats (carriage returns) If you ever diff two files that look identical, but they display as completely different, you may be dealing with a file format issue. This may happen if you are sharing files between different OS. To display the file format of your current file type this:</description>
     </item>
     
     <item>
       <title>awk</title>
-      <link>https://www.colinspear.com/technical-posts/awk/</link>
+      <link>//www.colinspear.com/technical-posts/awk/</link>
       <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/awk/</guid>
-      <description>Basic syntax awk [ options ] script filenameWhere script is either a single awk command or file of awk commands. Awk commands look like this:
-TODOand filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; fileSelecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
+      <guid>//www.colinspear.com/technical-posts/awk/</guid>
+      <description>Basic syntax awk [ options ] script filename Where script is either a single awk command or file of awk commands. Awk commands look like this:
+TODO and filename can be omitted if you&amp;rsquo;re piping in standard input.
+Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; file Selecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
     </item>
     
     <item>
       <title>Sed</title>
-      <link>https://www.colinspear.com/technical-posts/sed/</link>
+      <link>//www.colinspear.com/technical-posts/sed/</link>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/sed/</guid>
+      <guid>//www.colinspear.com/technical-posts/sed/</guid>
       <description>This is an ongoing work in progress, please let me know if you have any suggestions/feedback.
-Basic syntax sed [ options ] script filenameWhere script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
-&amp;#39;command/pattern/replacement/command&amp;#39;and filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands  p: print s: substitute d: delete line  Options  -e: reads the following argument as a script (allows for multiple instructions to be passed at once) -n: don&amp;rsquo;t print to the terminal  Examples Print lines matching a pattern to stdout:</description>
+Basic syntax sed [ options ] script filename Where script is either a single sed command or file of sed commands (must use with -f option). Sed commands look like this:
+action/pattern/replacement/flag Filename can be omitted if you&amp;rsquo;re piping in standard input.
+Actions  p: print s: substitute  s accepts the following flags which are appended to the end of the command (e.</description>
     </item>
     
   </channel>

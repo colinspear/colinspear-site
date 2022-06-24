@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>grep on Colin Spear</title>
-    <link>https://www.colinspear.com/tags/grep/</link>
+    <link>//www.colinspear.com/tags/grep/</link>
     <description>Recent content in grep on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Colin Spear</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.colinspear.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/grep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Count files by type and directory</title>
-      <link>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</link>
+      <link>//www.colinspear.com/technical-posts/count-files-by-type-and-directory/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
+      <guid>//www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
       <description>Using the command line to count stuff</description>
     </item>
     

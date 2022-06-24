@@ -8,6 +8,8 @@ Todo:
 
 Complete
 
+- [x] A bit of restructuring. Drop "People", include "Books"
+- [x] Year in copyright
 - [x] set up domain (colinspear.com)
 - [x] Where and how to host?
 - [x] What is workflow between phone and website?
@@ -15,5 +17,6 @@ Complete
 - [x] Display most recent posts on landing page
 - [x] Tags not working
 - [x] Year in copyright
-- [x] Analytics (lightweight and preferably not Google)
+- [x] Analytics (set up google)
 - [x] A bit of restructuring. Drop "People", include "Books"
+

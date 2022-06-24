@@ -1,9 +1,9 @@
-baseURL: 'https://www.colinspear.com'
+baseURL: '//www.colinspear.com'
 # languageCode: en-us
 title: Colin Spear
 theme: PaperMod
 paginate: 10
-copyright: Colin Spear
+# copyright: Colin Spear
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -11,7 +11,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-# googleAnalytics: UA-123-45
+googleAnalytics: G-BFJ2WK0V8F
 
 minify:
     disableXML: true
@@ -24,11 +24,12 @@ ignoreFiles:
   - todo
   - notes
   - goals-habits
+  - people
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Colin Spear
-    description: "A digital home for all I'd like to share"
+    description: "A digital home"
     keywords: [Blog, Portfolio, PaperMod]
     author: Me
     # author: ["Me", "You"] # multiple authors
@@ -41,14 +42,15 @@ params:
     ShowShareButtons: false
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
-    disableSpecial1stPost: True
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: true
     disableScrollToTop: false
     comments: false
     hidemeta: false
     hideSummary: false
     showtoc: false
     tocopen: false
+    mainSections: [links, technical-posts, books, thoughts-posts]
 
     # assets:
         # disableHLJS: true # to disable highlight.js
@@ -59,25 +61,25 @@ params:
         # apple_touch_icon: "<link / abs url>"
         # safari_pinned_tab: "<link / abs url>"
 
-    label:
-        # text: "Home"
-        icon: /logo-fill.png
-        iconHeight: 35
+    # label:
+    #     # text: "Home"
+    #     icon: /logo-fill.png
+    #     iconHeight: 35
 
     # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+    # profileMode:
+    #     enabled: false # needs to be explicitly set
+    #     title: ExampleSite
+    #     subtitle: "This is subtitle"
+    #     imageUrl: "<img location>"
+    #     imageWidth: 120
+    #     imageHeight: 120
+    #     imageTitle: my image
+    #     buttons:
+    #         - name: Posts
+    #           url: posts
+    #         - name: Tags
+    #           url: tags
 
     # home-info mode
     homeInfoParams:
@@ -94,18 +96,18 @@ params:
         - name: email
           url: "colinspear@gmail.com"
 
-    analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+    #     bing:
+    #         SiteVerificationTag: "XYZabc"
+    #     yandex:
+    #         SiteVerificationTag: "XYZabc"
 
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
 
     # editPost:
     #     URL: "https://github.com/colinspear/colinspear-site/content"
@@ -114,27 +116,27 @@ params:
 
     # for search
 
-    outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
+    # outputs:
+    # home:
+        # - HTML
+        # - RSS
+        # - JSON # is necessary
+ 
     # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+    # fuseOpts:
+        # isCaseSensitive: false
+        # shouldSort: true
+        # location: 0
+        # distance: 1000
+        # threshold: 0.4
+        # minMatchCharLength: 0
+        # keys: ["title", "permalink", "summary", "content"]
 
         
 menu:
     main:
         - identifier: posts
-          name: Posts
+          name: Technical
           url: /technical-posts/
           weight: 2
         - identifier: links
@@ -145,18 +147,18 @@ menu:
           name: Notes
           url: /thoughts-posts/
           weight: 2
-        - identifier: people
-          name: People
-          url: /people/people/
+        - identifier: books
+          name: Books
+          url: /books/
           weight: 3
         - identifier: tags
           name: Tags
           url: /tags
-          weight: 5
-        - identifier: about
-          name: About
-          url: /about
           weight: 4
+        # - identifier: about
+        #   name: About
+        #   url: /about
+        #   weight: 4
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
