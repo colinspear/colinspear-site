@@ -1,30 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>awk on Colin Spear</title>
-    <link>//www.colinspear.com/tags/awk/</link>
-    <description>Recent content in awk on Colin Spear</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/awk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>awk</title>
-      <link>//www.colinspear.com/technical-posts/awk/</link>
-      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//www.colinspear.com/technical-posts/awk/</guid>
-      <description>Basic syntax awk [ options ] script filenameWhere script is either a single awk command or file of awk commands. Awk commands look like this:
-TODOand filename can be omitted if you&amp;rsquo;re piping in standard input.
-Commands Options Examples Length of the longest line in a file awk &amp;#39;{ if (length($0) &amp;gt; max) max = length($0) }; END { print max }&amp;#39; fileSelecting, filtering, and basic arithmetic Sum a field, specify delimiter awk -F &amp;#39;\t&amp;#39; &amp;#39;{print sum+=$1;} END {print sum}&amp;#39; file.</description>
-    </item>
-    
-    <item>
-      <title>Count files by type and directory</title>
-      <link>//www.colinspear.com/technical-posts/count-files-by-type-and-directory/</link>
-      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//www.colinspear.com/technical-posts/count-files-by-type-and-directory/</guid>
-      <description>Using the command line to count stuff</description>
-    </item>
-    
-  </channel>
-</rss>
