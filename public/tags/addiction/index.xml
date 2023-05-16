@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>addiction on Colin Spear</title>
+    <link>//www.colinspear.com/tags/addiction/</link>
+    <description>Recent content in addiction on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/addiction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Associative and non-associative learning</title>
+      <link>//www.colinspear.com/thoughts-posts/associative-non-associative/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/thoughts-posts/associative-non-associative/</guid>
+      <description>Associative and non-associative learning From the MIT Open Course Introduction to Psychology
+ There are two types of learning: associative learning and non-associative learning. Associative learning is when you learn something new about a new kind of stimulus (that is, an extra stimulus). Non-associative learning is when you&amp;rsquo;re not pairing a stimulus with a behavior. Non-associative learning can be either habituation or sensitization.
+Habituation is when repeated exposure to a stimulus decreases an organism&amp;rsquo;s responsiveness to the stimulus.</description>
+    </item>
+    
+  </channel>
+</rss>

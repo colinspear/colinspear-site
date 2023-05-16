@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on Colin Spear</title>
+    <link>//www.colinspear.com/tags/git/</link>
+    <description>Recent content in git on Colin Spear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git status - fatal: cannot chdir</title>
+      <link>//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</guid>
+      <description>tldr: If you make any changes to the file path of a git submodule, you need to also update all of your config files accordingly.
+Background I use the Papermod Hugo theme for my personal website. One of the ways to use Hugo themes is to install them as a submodule inside your project&amp;rsquo;s ./themes directory. I wanted to update the module today as there have been a number of changes since I set it up.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>//www.colinspear.com/technical-posts/git/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/git/</guid>
+      <description>Pull changes in from master that have happened since making changes on feature branch git checkout feature git rebase master Merge feature branch into master To merge a feature into master, first commit changes to your feature branch, then:
+git checkout master git pull origin master git merge feature git push origin master See history git log to see all. Include file if you only want to see history for that file: git log [filename]</description>
+    </item>
+    
+    <item>
+      <title>Change git branch (master to main)</title>
+      <link>//www.colinspear.com/technical-posts/change-master-to-main/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/change-master-to-main/</guid>
+      <description>Here&amp;rsquo;s another thing I&amp;rsquo;ve googled enough times to just put it somewhere I know.
+First, rename your local branch:
+❯ git branch -m master main Then you can check that it worked:
+❯ git status On branch main Your branch is up to date with &amp;#39;origin/master&amp;#39;. nothing to commit, working tree clean If you don&amp;rsquo;t have dependencies that might get screwed up by simply renaming your master branch, you can just navigate to your remote directory and change the name (if you use github, from the repo&amp;rsquo;s home page, click Settings &amp;gt; Branches and then click the edit button that looks like a little pencil).</description>
+    </item>
+    
+  </channel>
+</rss>
