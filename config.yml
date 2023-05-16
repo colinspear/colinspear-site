@@ -5,6 +5,7 @@ theme: PaperMod
 paginate: 10
 # copyright: Colin Spear
 
+enableGitInfo: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
