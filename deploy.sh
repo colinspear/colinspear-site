@@ -16,7 +16,7 @@ set -e
 # update website
 printf "\033[0;32mTearing down and rebuilding site...\033[0m\n"
 
-rm -r public
+rm -r public/*
 hugo --config config.yml # if using a theme, replace with `hugo -t <YOURTHEME>`
 cd public
 git add .
