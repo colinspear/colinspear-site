@@ -1,3 +1,6 @@
+{{ $date := .Date.Format "April 20, 1969" }}
+{{ $lastmod := .Lastmod.Format "April 20, 1969" }}
+
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
