@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//www.colinspear.com/links/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/links/2023-05-29/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/tags/music/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/tags/public-domain/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/tags/</loc>
+    <lastmod>2023-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//www.colinspear.com/books/2023-book-list/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url>
@@ -28,22 +53,7 @@
   </url>
   
   <url>
-    <loc>//www.colinspear.com/links/</loc>
-    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//www.colinspear.com/tags/mental-health/</loc>
-    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//www.colinspear.com/tags/music/</loc>
-    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//www.colinspear.com/tags/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -697,7 +707,19 @@
   </url>
   
   <url>
+    <loc>//www.colinspear.com/wisdom/matter/</loc>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/wisdom/playing-listening/</loc>
+  </url>
+  
+  <url>
     <loc>//www.colinspear.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>//www.colinspear.com/wisdom/</loc>
   </url>
   
 </urlset>
