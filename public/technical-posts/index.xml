@@ -5,7 +5,18 @@
     <link>//www.colinspear.com/technical-posts/</link>
     <description>Recent content in Technical-posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python sucks at basic data visualization</title>
+      <link>//www.colinspear.com/technical-posts/python-visualization-sucks/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/python-visualization-sucks/</guid>
+      <description>Yes, it&amp;rsquo;s hyperbolic, but it&amp;rsquo;s not wrong I recently saw the following tweet comparing the Canadian and US housing markets.
+   As an American Canadian permanent resident who experiences this phenomenon acutely, I was naturaly interested. What particularly got my attention was the claim in one of the comments that this was &amp;ldquo;70% Toronto and Vancouver&amp;rdquo;. I thought, &amp;ldquo;I wonder if I can verify that&amp;hellip;&amp;quot;.
+So I went to the Statistics Canada website and found the New housing price index which has monthly data on the cost of new housing going back to 1981 for 26 cities across the country.</description>
+    </item>
+    
     <item>
       <title>git status - fatal: cannot chdir</title>
       <link>//www.colinspear.com/technical-posts/git-submodule-fatal-cannot-chdir/</link>
