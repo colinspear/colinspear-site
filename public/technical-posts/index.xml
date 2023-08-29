@@ -5,7 +5,17 @@
     <link>//www.colinspear.com/technical-posts/</link>
     <description>Recent content in Technical-posts on Colin Spear</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.colinspear.com/technical-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Similar artist network</title>
+      <link>//www.colinspear.com/technical-posts/artist_graph/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//www.colinspear.com/technical-posts/artist_graph/</guid>
+      <description>Motivation If you are anything like me, you occasionally find yourself coming up for air after a long diversion clicking through artist biographies on Spotify. Often these biographies will list the artists other bands or people they have played with, and one thing leads to another and I have added twenty albums to my &amp;ldquo;new music&amp;rdquo; playlist folder.
+I found myself in this position one morning after listening to this episode of Casual Inference, a great podcast that has unfortunately gone radio silent of late.</description>
+    </item>
+    
     <item>
       <title>Python sucks at basic data visualization</title>
       <link>//www.colinspear.com/technical-posts/python-visualization-sucks/</link>
